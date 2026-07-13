@@ -30,6 +30,13 @@ CREATE TABLE IF NOT EXISTS auditoria (
   id INTEGER PRIMARY KEY, entidad TEXT NOT NULL, entidad_id INTEGER, accion TEXT NOT NULL,
   detalle TEXT NOT NULL, created_at TEXT NOT NULL
 );
+CREATE TABLE IF NOT EXISTS agenda (
+  id INTEGER PRIMARY KEY, expediente_id INTEGER, titulo TEXT NOT NULL,
+  fecha TEXT NOT NULL, hora TEXT NOT NULL DEFAULT '', tipo TEXT NOT NULL DEFAULT 'termino',
+  estado TEXT NOT NULL DEFAULT 'pendiente', notas TEXT NOT NULL DEFAULT '',
+  created_at TEXT NOT NULL, updated_at TEXT NOT NULL,
+  FOREIGN KEY(expediente_id) REFERENCES expedientes(id) ON DELETE SET NULL
+);
 `);
 
 function ensureColumn(table, column, definition) {

@@ -4,7 +4,7 @@ import db, { audit, now } from "../backend/db.js";
 
 test("la base contiene las entidades nucleares de SIJ-OL", () => {
   const names = db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all().map(x => x.name);
-  for (const expected of ["expedientes", "tesauro_documentos", "generaciones", "auditoria"]) assert.ok(names.includes(expected));
+  for (const expected of ["expedientes", "tesauro_documentos", "generaciones", "auditoria", "agenda"]) assert.ok(names.includes(expected));
 });
 
 test("las correcciones pueden conservar trazabilidad", () => {

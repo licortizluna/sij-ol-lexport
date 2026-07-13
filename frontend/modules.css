@@ -1,0 +1,13 @@
+.metrics { display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-bottom:26px; }
+.metric { background:#fff; border:1px solid var(--line); border-top:4px solid var(--gold); border-radius:8px; padding:18px; }
+.metric strong { display:block; font:32px Georgia,serif; color:var(--navy); }
+.metric span { color:#687078; font-size:13px; }
+.bar-row { display:grid; grid-template-columns:minmax(110px,1fr) 2fr 42px; gap:8px; align-items:center; margin:10px 0; font-size:13px; }
+.bar { height:9px; background:#eee6d6; border-radius:99px; overflow:hidden; }
+.bar i { display:block; height:100%; background:var(--gold); }
+.agenda-filters { display:flex; gap:8px; margin-bottom:12px; }
+.agenda-filters button { background:#fff; color:var(--navy); border:1px solid var(--line); }
+.agenda-filters button.active { background:var(--navy); color:#fff; }
+.status-cumplido { opacity:.62; }
+.status-cumplido h3 { text-decoration:line-through; }
+@media(max-width:850px) { .metrics { grid-template-columns:repeat(2,1fr); } }
