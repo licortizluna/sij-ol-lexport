@@ -1,0 +1,456 @@
+# ON-005
+# ONTOLOGÍA JURÍDICA DEL CORPUS JURIS ORTIZ
+## PRUEBA JURÍDICA Y EVIDENCIA
+
+Versión 1.0
+
+Clasificación:
+Documento Ontológico
+
+Jerarquía:
+Superior
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+La prueba constituye el puente entre la realidad y la decisión jurisdiccional.
+
+Los derechos no se reconocen únicamente porque existan.
+
+Deben acreditarse.
+
+El CORPUS JURIS ORTIZ reconoce que la prueba constituye un objeto jurídico autónomo, con existencia, atributos, relaciones y reglas propias.
+
+La presente Ontología define la naturaleza de la prueba dentro del sistema institucional.
+
+---
+
+# TÍTULO PRIMERO
+## DEFINICIÓN
+
+### Artículo 1
+
+La prueba es todo medio jurídicamente idóneo destinado a demostrar la existencia, inexistencia, modificación o extinción de hechos jurídicamente relevantes.
+
+---
+
+### Artículo 2
+
+La prueba constituye un Nodo Primario del Micelio Jurídico Ortiz.
+
+---
+
+### Artículo 3
+
+Toda prueba deberá relacionarse simultáneamente con:
+
+Hecho.
+
+↓
+
+Fuente.
+
+↓
+
+Objeto.
+
+↓
+
+Norma procesal.
+
+↓
+
+Valor probatorio.
+
+↓
+
+Consecuencia jurídica.
+
+---
+
+# TÍTULO SEGUNDO
+## NATURALEZA
+
+### Artículo 4
+
+La prueba no constituye el hecho.
+
+Tampoco constituye la verdad.
+
+Constituye el medio para aproximarse racionalmente a la verdad jurídica.
+
+---
+
+### Artículo 5
+
+El valor de la prueba dependerá de:
+
+Su autenticidad.
+
+Su integridad.
+
+Su pertinencia.
+
+Su conducencia.
+
+Su licitud.
+
+Su corroboración.
+
+Nunca únicamente de su denominación legal.
+
+---
+
+# TÍTULO TERCERO
+## CLASIFICACIÓN
+
+### Artículo 6
+
+El CORPUS reconocerá, entre otras:
+
+Documental pública.
+
+Documental privada.
+
+Confesional.
+
+Declaración de parte.
+
+Testimonial.
+
+Pericial.
+
+Inspección judicial.
+
+Presuncional.
+
+Instrumental de actuaciones.
+
+Prueba electrónica.
+
+Informes.
+
+Prueba superveniente.
+
+---
+
+### Artículo 7
+
+Cada categoría tendrá reglas propias de:
+
+Admisión.
+
+Preparación.
+
+Desahogo.
+
+Valoración.
+
+Impugnación.
+
+---
+
+# TÍTULO CUARTO
+## OBJETO
+
+### Artículo 8
+
+Toda prueba deberá responder:
+
+¿Qué hecho acredita?
+
+---
+
+### Artículo 9
+
+Una prueba sin objeto constituye una prueba estratégicamente deficiente.
+
+---
+
+### Artículo 10
+
+Todo hecho relevante deberá encontrarse relacionado con al menos un medio de prueba.
+
+---
+
+# TÍTULO QUINTO
+## ATRIBUTOS
+
+### Artículo 11
+
+Toda prueba deberá describirse mediante:
+
+Naturaleza.
+
+Fuente.
+
+Objeto.
+
+Momento procesal.
+
+Autenticidad.
+
+Integridad.
+
+Cadena documental.
+
+Valor probatorio.
+
+Relaciones.
+
+---
+
+### Artículo 12
+
+Toda modificación de estos atributos alterará su fuerza demostrativa.
+
+---
+
+# TÍTULO SEXTO
+## VALOR PROBATORIO
+
+### Artículo 13
+
+El valor de la prueba constituye un atributo ontológico independiente.
+
+---
+
+### Artículo 14
+
+El CORPUS distinguirá entre:
+
+Admisibilidad.
+
+Existencia.
+
+Autenticidad.
+
+Fuerza demostrativa.
+
+Suficiencia.
+
+Corroboración.
+
+---
+
+### Artículo 15
+
+Ninguna prueba hará prueba plena fuera de los supuestos expresamente previstos por la ley.
+
+---
+
+# TÍTULO SÉPTIMO
+## DOCUMENTALES
+
+### Artículo 16
+
+Toda documental deberá analizarse respecto de:
+
+Origen.
+
+Autor.
+
+Fecha.
+
+Contenido.
+
+Integridad.
+
+Cadena documental.
+
+Correspondencia con otros documentos.
+
+---
+
+### Artículo 17
+
+Las documentales privadas emitidas unilateralmente deberán someterse a un control reforzado de autenticidad y eficacia probatoria.
+
+---
+
+### Artículo 18
+
+Los estados de cuenta, registros administrativos, sistemas internos y reportes institucionales no acreditan por sí solos el acto jurídico que pretenden reflejar.
+
+Toda operación relevante deberá vincularse con su documento fuente.
+
+---
+
+# TÍTULO OCTAVO
+## PRUEBA ELECTRÓNICA
+
+### Artículo 19
+
+La prueba electrónica constituye un objeto jurídico autónomo.
+
+---
+
+### Artículo 20
+
+Su análisis comprenderá:
+
+Origen.
+
+Metadatos.
+
+Integridad.
+
+Cadena de custodia.
+
+Autenticidad.
+
+Correspondencia.
+
+---
+
+### Artículo 21
+
+Toda alteración potencial deberá documentarse expresamente.
+
+---
+
+# TÍTULO NOVENO
+## CORROBORACIÓN
+
+### Artículo 22
+
+El valor probatorio aumenta cuando un hecho es corroborado por múltiples medios independientes.
+
+---
+
+### Artículo 23
+
+El CORPUS procurará construir redes probatorias y evitar dependencias exclusivas de una sola prueba cuando existan alternativas razonables.
+
+---
+
+# TÍTULO DÉCIMO
+## IMPUGNACIÓN
+
+### Artículo 24
+
+Toda prueba podrá ser objeto de:
+
+Objeción.
+
+Tacha.
+
+Desconocimiento.
+
+Impugnación por falsedad.
+
+Cuestionamiento de autenticidad.
+
+Cuestionamiento de integridad.
+
+Cuestionamiento de eficacia probatoria.
+
+---
+
+### Artículo 25
+
+La impugnación deberá dirigirse al defecto específico identificado.
+
+Nunca formularse de manera genérica.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## RELACIONES ONTOLÓGICAS
+
+### Artículo 26
+
+Toda prueba podrá relacionarse con:
+
+Hechos.
+
+Personas.
+
+Actos jurídicos.
+
+Contratos.
+
+Obligaciones.
+
+Bienes.
+
+Procesos.
+
+Sentencias.
+
+Normas.
+
+Jurisprudencia.
+
+---
+
+### Artículo 27
+
+Todas estas relaciones integrarán el Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO DÉCIMO SEGUNDO
+## VALIDACIÓN
+
+### Artículo 28
+
+Antes de utilizar una prueba verificar:
+
+□ Objeto.
+
+□ Pertinencia.
+
+□ Licitud.
+
+□ Autenticidad.
+
+□ Integridad.
+
+□ Valor probatorio.
+
+□ Corroboración.
+
+□ Relación con los hechos.
+
+□ Riesgos de impugnación.
+
+---
+
+### Artículo 29
+
+Toda estrategia probatoria deberá diseñarse como un sistema y no como un conjunto aislado de medios de prueba.
+
+---
+
+# TÍTULO DÉCIMO TERCERO
+## PRINCIPIOS ONTOLÓGICOS
+
+### Artículo 30
+
+La prueba constituye el mecanismo mediante el cual los hechos ingresan al proceso y pueden transformarse en verdad jurídica.
+
+Su valor no depende de su cantidad, sino de su calidad, coherencia, corroboración y capacidad para demostrar los hechos controvertidos conforme al derecho aplicable.
+
+---
+
+# AXIOMA ONTOLÓGICO
+
+No existe hecho jurídicamente relevante sin prueba, ni prueba jurídicamente útil sin un hecho concreto que pretenda acreditar.
+
+---
+
+# CLÁUSULA ONTOLÓGICA
+
+El CORPUS JURIS ORTIZ reconoce a la prueba como el eje de conexión entre la realidad, el proceso y la decisión jurisdiccional.
+
+Toda prueba deberá integrarse al Micelio Jurídico Ortiz como un nodo dinámico, vinculado con hechos, normas, personas, actos jurídicos, obligaciones y estrategias procesales.
+
+La finalidad del análisis ontológico de la prueba es garantizar que toda conclusión jurídica institucional descanse sobre evidencia verificable, suficiente, pertinente y técnicamente valorada, preservando el estándar constitucional de excelencia del CORPUS.

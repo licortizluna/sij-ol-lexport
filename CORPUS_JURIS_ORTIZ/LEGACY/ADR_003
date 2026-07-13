@@ -1,0 +1,250 @@
+# ADR-003
+# ARCHITECTURE DECISION RECORD
+## Ninguna Jurisprudencia Podrá Utilizarse sin Auditoría Integral
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La jurisprudencia constituye una de las principales fuentes de autoridad argumentativa dentro del sistema jurídico mexicano.
+
+Sin embargo, la práctica profesional demuestra que con frecuencia se presentan errores como:
+
+• Jurisprudencias inexistentes.
+
+• Registros digitales incorrectos.
+
+• Rubros incompletos.
+
+• Criterios derogados.
+
+• Tesis aisladas presentadas como jurisprudencia.
+
+• Jurisprudencias citadas únicamente por su rubro.
+
+• Interpretaciones que el criterio realmente no sostiene.
+
+• Precedentes aplicables a supuestos jurídicos distintos.
+
+Estos errores afectan directamente la credibilidad técnica del litigio y disminuyen significativamente la fuerza persuasiva de la argumentación.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Ninguna jurisprudencia, tesis, precedente obligatorio o criterio orientador podrá incorporarse a un documento institucional sin haber sido previamente auditado en su totalidad.**
+
+La auditoría comprenderá obligatoriamente:
+
+Registro digital.
+
+Rubro.
+
+Texto íntegro.
+
+Órgano emisor.
+
+Naturaleza del criterio.
+
+Materia.
+
+Vigencia.
+
+Supuesto jurídico.
+
+Aplicabilidad al caso concreto.
+
+---
+
+# FUNDAMENTO
+
+La autoridad de un precedente no deriva de su popularidad.
+
+Deriva de su autenticidad, vigencia y correspondencia con el supuesto jurídico debatido.
+
+El valor de una jurisprudencia únicamente existe cuando el razonamiento contenido en ella realmente resuelve el problema jurídico que se pretende fundamentar.
+
+---
+
+# ALCANCE
+
+Esta decisión comprende:
+
+Jurisprudencias obligatorias.
+
+Tesis de jurisprudencia.
+
+Tesis aisladas.
+
+Precedentes de la Suprema Corte.
+
+Precedentes de Plenos Regionales.
+
+Precedentes de Tribunales Colegiados.
+
+Criterios administrativos cuando sean jurídicamente relevantes.
+
+Criterios internacionales aplicables.
+
+Sentencias paradigmáticas utilizadas como apoyo argumentativo.
+
+---
+
+# REGLAS DERIVADAS
+
+Queda prohibido:
+
+Citar únicamente el rubro.
+
+Copiar jurisprudencias de escritos anteriores sin verificarlas nuevamente.
+
+Utilizar compilaciones de terceros como única fuente.
+
+Modificar el texto del precedente.
+
+Extraer conclusiones que el criterio no sostiene.
+
+Presentar criterios orientadores como si fueran obligatorios.
+
+Citar registros digitales sin comprobarlos.
+
+---
+
+# CONSECUENCIAS
+
+Toda jurisprudencia deberá responder:
+
+¿Existe?
+
+¿Está vigente?
+
+¿Qué órgano la emitió?
+
+¿Qué problema jurídico resolvió?
+
+¿Ese problema coincide realmente con el litigio?
+
+¿Por qué fortalece esta teoría del caso?
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Mayor precisión técnica.
+
+Mayor credibilidad institucional.
+
+Disminución de errores argumentativos.
+
+Mayor resistencia frente a recursos.
+
+Mayor fortaleza constitucional.
+
+Uniformidad metodológica.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+PR-012.
+
+PR-013.
+
+PR-014.
+
+PR-015.
+
+PR-016.
+
+PR-018.
+
+PR-019.
+
+MOAJ-007.
+
+MOAJ-010.
+
+Toda producción documental del CORPUS.
+
+---
+
+# RIESGOS
+
+Incrementa el tiempo destinado a la investigación.
+
+No obstante, reduce significativamente el riesgo de utilizar precedentes incorrectos o inaplicables.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ Existe el registro digital.
+
+□ El rubro coincide exactamente.
+
+□ El texto fue leído íntegramente.
+
+□ El órgano emisor es correcto.
+
+□ Se verificó su vigencia.
+
+□ Se verificó su naturaleza obligatoria u orientadora.
+
+□ El supuesto jurídico coincide con el litigio.
+
+□ El razonamiento utilizado corresponde exactamente al contenido del precedente.
+
+---
+
+# AXIOMA
+
+La fuerza de una jurisprudencia no proviene de ser citada.
+
+Proviene de haber sido comprendida.
+
+---
+
+# RELACIÓN CON OTROS ADR
+
+Este ADR complementa:
+
+ADR-001 — Las prestaciones constituyen el punto de partida del litigio.
+
+ADR-002 — Ninguna norma podrá utilizarse sin verificación integral.
+
+En conjunto establecen que ninguna conclusión jurídica podrá construirse sin una arquitectura normativa y jurisprudencial previamente auditada.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+La auditoría jurisprudencial constituye un requisito permanente del CORPUS JURIS ORTIZ.
+
+Ningún documento institucional podrá certificarse cuando contenga una sola jurisprudencia cuya existencia, contenido, vigencia, alcance o aplicabilidad no hayan sido plenamente verificados.
+
+Toda referencia jurisprudencial deberá ser reproducible, auditable y verificable por cualquier operador jurídico, garantizando que el razonamiento institucional se sustente exclusivamente en precedentes auténticos, correctamente interpretados y verdaderamente aplicables al caso concreto.
+
+Esta decisión adquiere carácter permanente y únicamente podrá modificarse mediante un nuevo Architecture Decision Record aprobado por el CORPUS JURIS ORTIZ.

@@ -1,0 +1,231 @@
+# BP-014 – PROEMIOS PROCESALES
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para la construcción de todos los proemios procesales generados por el SIJ-OL.
+
+Ningún documento procesal será generado redactando libremente el proemio.
+
+El Motor Jurídico deberá construirlo utilizando las reglas contenidas en este documento.
+
+---
+
+# Filosofía Institucional
+
+El proemio constituye la identificación jurídica de la promoción.
+
+Debe contener únicamente los elementos necesarios para:
+
+- identificar al promovente;
+- acreditar su personalidad;
+- señalar domicilio procesal;
+- señalar correo electrónico;
+- autorizar abogados patronos;
+- autorizar personas para oír y recibir notificaciones;
+- concluir con la comparecencia.
+
+El ejercicio de la acción siempre iniciará inmediatamente después del proemio.
+
+---
+
+# Orden Obligatorio
+
+Todo proemio deberá construirse en el siguiente orden:
+
+I. Nombre del promovente.
+
+II. Carácter con el que comparece.
+
+III. Domicilio procesal.
+
+IV. Correo electrónico.
+
+V. Autorización de abogados patronos.
+
+VI. Personas autorizadas.
+
+VII. Comparecencia.
+
+---
+
+# Modelo Institucional para Demandas Iniciales
+
+> **[NOMBRE DEL ACTOR]**, por mi propio derecho, señalando como domicilio para oír y recibir todo tipo de notificaciones el ubicado en calle Náinari número 1518 Poniente, entre Aguascalientes y Bacatete, de la colonia Cuauhtémoc, de Ciudad Obregón, Sonora; señalando como correo electrónico para recibir notificaciones electrónicas el siguiente: **notificacionesjudicialesjaol@gmail.com**; y autorizando como mis abogados patronos en los más amplios términos de los numerales 71, 72 y 174 del Código de Procedimientos Civiles para el Estado de Sonora, a los Licenciados en Derecho **José Alonso Ortiz Luna**, con cédula profesional número **4951089**, con folio de registro de cédula profesional en el Registro Único Electrónico de Títulos y Cédulas Profesionales del Poder Judicial del Estado de Sonora número **RUETYCP/3584**, y **Jorge Alberto Vargas Juárez**, con cédula profesional número **12891857**; y, en los términos del último numeral aludido, a los C.C. **Aldo Gerson Rascón Iribarren, María del Rosario Campoy Díaz y Karla Fabiola Gálvez Higuera**; ante Usted, con el debido respeto, comparezco a efecto de exponer:
+
+---
+
+# Continuación Obligatoria para Demandas
+
+Inmediatamente después del proemio el sistema continuará con el siguiente formato:
+
+> Que por medio del presente escrito vengo a demandar, en la vía **[VÍA]**, en ejercicio de la acción **[ACCIÓN]**, a **[NOMBRE DEL DEMANDADO]**, quien tiene su domicilio para ser emplazado en **[DOMICILIO DEL DEMANDADO]**, a quien reclamo las siguientes:
+
+---
+
+# Modelo para Escritos de Trámite
+
+Cuando la personalidad ya se encuentre reconocida en autos, el sistema utilizará:
+
+> **[NOMBRE DEL PROMOVENTE]**, promoviendo con la personalidad que tengo debidamente acreditada y reconocida en autos del expediente al rubro citado, ante Usted, con el debido respeto comparezco para exponer:
+
+En este tipo de promociones el sistema no volverá a:
+
+- señalar domicilio;
+- autorizar abogados patronos;
+- autorizar personas;
+- señalar correo electrónico;
+
+salvo instrucción expresa del usuario.
+
+---
+
+# Modelo para Contestación de Demanda
+
+> **[NOMBRE DEL DEMANDADO]**, por mi propio derecho (o con la personalidad que corresponda), señalando como domicilio para oír y recibir notificaciones **[DOMICILIO]**, señalando como correo electrónico **[CORREO]**, autorizando como abogados patronos a **[ABOGADOS]**, y como personas autorizadas a **[PERSONAS]**, ante Usted, con el debido respeto comparezco para exponer:
+
+---
+
+# Modelo para Recursos
+
+> **[PROMOVENTE]**, con la personalidad que tengo debidamente acreditada y reconocida en autos, ante Usted, con el debido respeto comparezco para exponer:
+
+---
+
+# Modelo para Incidentes
+
+> **[PROMOVENTE]**, promoviendo con la personalidad que tengo debidamente acreditada y reconocida en autos del expediente citado al rubro, ante Usted, con el debido respeto comparezco para exponer:
+
+---
+
+# Modelo para Juicio de Amparo
+
+El Motor Jurídico construirá el proemio considerando:
+
+- Quejoso.
+- Autoridad responsable.
+- Tercero interesado.
+- Representante legal.
+- Autorizados.
+- Domicilio procesal.
+- Correo electrónico.
+
+---
+
+# Variables
+
+NOMBRE_PROMOVENTE
+
+CARACTER
+
+DOMICILIO_PROCESAL
+
+CORREO_PROCESAL
+
+ABOGADOS_PATRONOS
+
+PERSONAS_AUTORIZADAS
+
+VIA
+
+ACCION
+
+NOMBRE_DEMANDADO
+
+DOMICILIO_DEMANDADO
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+En demandas iniciales deberá utilizarse como domicilio procesal institucional:
+
+> Calle Náinari número 1518 Poniente, entre Aguascalientes y Bacatete, colonia Cuauhtémoc, de Ciudad Obregón, Sonora.
+
+---
+
+## Regla 2
+
+El correo electrónico institucional para recibir notificaciones será:
+
+> **notificacionesjudicialesjaol@gmail.com**
+
+---
+
+## Regla 3
+
+Los abogados patronos institucionales serán:
+
+**José Alonso Ortiz Luna**
+
+- Cédula Profesional: 4951089.
+- Registro RUETYCP: RUETYCP/3584.
+
+**Jorge Alberto Vargas Juárez**
+
+- Cédula Profesional: 12891857.
+
+---
+
+## Regla 4
+
+Las personas autorizadas institucionales serán:
+
+- Aldo Gerson Rascón Iribarren.
+- María del Rosario Campoy Díaz.
+- Karla Fabiola Gálvez Higuera.
+
+---
+
+## Regla 5
+
+El sistema deberá permitir agregar abogados patronos y personas autorizadas adicionales para cada expediente sin modificar el catálogo institucional.
+
+---
+
+## Regla 6
+
+Queda prohibido que el documento final contenga expresiones como:
+
+- "conforme a la plantilla institucional";
+- "abogados registrados en el sistema";
+- "según la configuración del despacho";
+- cualquier otra referencia interna del SIJ-OL.
+
+El documento final siempre contendrá los nombres reales y los datos completos de las personas autorizadas.
+
+---
+
+## Regla 7
+
+El sistema deberá permitir parametrizar el domicilio procesal y el correo electrónico cuando el usuario así lo indique para un expediente específico, conservando como valores predeterminados los institucionales.
+
+---
+
+# Uso por el SIJ-OL
+
+El Motor Jurídico utilizará este módulo para construir automáticamente el proemio correspondiente a cada tipo de promoción procesal.
+
+La selección del modelo dependerá de:
+
+- tipo de documento;
+- etapa procesal;
+- personalidad del promovente;
+- vía;
+- materia;
+- representación.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de Proemios Procesales, adoptando el modelo oficial del despacho Ortiz Luna como estándar para la generación automática de documentos.

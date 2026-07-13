@@ -1,0 +1,492 @@
+# ON-004
+# ONTOLOGÍA JURÍDICA DEL CORPUS JURIS ORTIZ
+## OBLIGACIONES Y RELACIONES OBLIGACIONALES
+
+Versión 1.0
+
+Clasificación:
+Documento Ontológico
+
+Jerarquía:
+Superior
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+Las obligaciones constituyen el mecanismo mediante el cual el Derecho organiza las relaciones patrimoniales y personales entre los sujetos jurídicos.
+
+Toda controversia civil, mercantil o familiar supone, expresa o implícitamente, la existencia, modificación, transmisión, incumplimiento o extinción de una obligación.
+
+La presente Ontología establece la naturaleza de las obligaciones dentro del CORPUS JURIS ORTIZ.
+
+---
+
+# TÍTULO PRIMERO
+## DEFINICIÓN
+
+### Artículo 1
+
+La obligación es el vínculo jurídico que constriñe al deudor a realizar una prestación en favor del acreedor, quien posee el derecho correlativo de exigir su cumplimiento.
+
+---
+
+### Artículo 2
+
+Toda obligación constituye un Nodo Primario del Micelio Jurídico Ortiz.
+
+---
+
+### Artículo 3
+
+Toda obligación deberá vincularse simultáneamente con:
+
+Acreedor.
+
+↓
+
+Deudor.
+
+↓
+
+Fuente.
+
+↓
+
+Prestación.
+
+↓
+
+Garantías.
+
+↓
+
+Modo de cumplimiento.
+
+↓
+
+Modo de extinción.
+
+---
+
+# TÍTULO SEGUNDO
+## FUENTES
+
+### Artículo 4
+
+Toda obligación deberá clasificarse conforme a su fuente.
+
+Entre otras:
+
+Contrato.
+
+Declaración unilateral de voluntad.
+
+Ley.
+
+Responsabilidad civil.
+
+Enriquecimiento ilegítimo.
+
+Gestión de negocios.
+
+Pago de lo indebido.
+
+Resolución judicial.
+
+Hechos jurídicos previstos por la ley.
+
+---
+
+### Artículo 5
+
+La fuente determinará el régimen jurídico aplicable.
+
+Nunca deberá confundirse la obligación con el documento que la contiene.
+
+---
+
+# TÍTULO TERCERO
+## ELEMENTOS
+
+### Artículo 6
+
+Toda obligación estará integrada por:
+
+Sujetos.
+
+Objeto.
+
+Prestación.
+
+Vínculo jurídico.
+
+Fuente.
+
+Garantía.
+
+Exigibilidad.
+
+---
+
+### Artículo 7
+
+La ausencia de cualquiera de estos elementos deberá analizarse expresamente.
+
+---
+
+# TÍTULO CUARTO
+## LA PRESTACIÓN
+
+### Artículo 8
+
+Toda prestación deberá clasificarse como obligación de:
+
+Dar.
+
+Hacer.
+
+No hacer.
+
+Tolerar.
+
+---
+
+### Artículo 9
+
+Cada categoría genera consecuencias jurídicas distintas respecto de:
+
+Cumplimiento.
+
+Incumplimiento.
+
+Prueba.
+
+Ejecución.
+
+Daños y perjuicios.
+
+---
+
+# TÍTULO QUINTO
+## ATRIBUTOS
+
+### Artículo 10
+
+Toda obligación deberá describirse mediante:
+
+Fuente.
+
+Objeto.
+
+Monto cuando exista.
+
+Plazo.
+
+Condición.
+
+Modalidad.
+
+Garantías.
+
+Estado de cumplimiento.
+
+Historial.
+
+---
+
+### Artículo 11
+
+La obligación constituye una relación dinámica.
+
+Nunca un dato estático.
+
+---
+
+# TÍTULO SEXTO
+## CUMPLIMIENTO
+
+### Artículo 12
+
+El cumplimiento constituye un evento ontológico independiente.
+
+---
+
+### Artículo 13
+
+El cumplimiento deberá documentarse mediante evidencia suficiente.
+
+Nunca presumirse.
+
+---
+
+### Artículo 14
+
+Todo cumplimiento modificará el estado del Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO SÉPTIMO
+## INCUMPLIMIENTO
+
+### Artículo 15
+
+El incumplimiento constituye un evento jurídico autónomo.
+
+---
+
+### Artículo 16
+
+Todo incumplimiento deberá clasificarse respecto de:
+
+Objeto.
+
+Gravedad.
+
+Duración.
+
+Imputabilidad.
+
+Consecuencias.
+
+---
+
+### Artículo 17
+
+No todo incumplimiento produce idénticos efectos jurídicos.
+
+---
+
+# TÍTULO OCTAVO
+## GARANTÍAS
+
+### Artículo 18
+
+Toda obligación podrá encontrarse garantizada mediante:
+
+Hipoteca.
+
+Prenda.
+
+Fianza.
+
+Obligado solidario.
+
+Aval.
+
+Garantía legal.
+
+Garantía convencional.
+
+Seguro.
+
+Otras previstas por la ley.
+
+---
+
+### Artículo 19
+
+La garantía constituye un nodo independiente relacionado con la obligación.
+
+Nunca deberá confundirse con ésta.
+
+---
+
+# TÍTULO NOVENO
+## EXTINCIÓN
+
+### Artículo 20
+
+Las obligaciones podrán extinguirse, entre otros supuestos, por:
+
+Pago.
+
+Dación en pago.
+
+Novación.
+
+Compensación.
+
+Confusión.
+
+Remisión.
+
+Prescripción.
+
+Resolución.
+
+Rescisión.
+
+Imposibilidad jurídica.
+
+Pérdida de la cosa cuando proceda.
+
+Otros medios previstos por la ley.
+
+---
+
+### Artículo 21
+
+La extinción de la obligación deberá distinguirse de:
+
+La cancelación registral.
+
+La cancelación administrativa.
+
+La actualización contable.
+
+La actualización informática.
+
+Cuando procedan, deberán solicitarse todas las consecuencias jurídicas derivadas de la extinción.
+
+---
+
+# TÍTULO DÉCIMO
+## OBLIGACIONES COMPLEJAS
+
+### Artículo 22
+
+El CORPUS distinguirá entre:
+
+Obligaciones simples.
+
+Alternativas.
+
+Facultativas.
+
+Mancomunadas.
+
+Solidarias.
+
+Divisibles.
+
+Indivisibles.
+
+Condicionales.
+
+A plazo.
+
+De tracto sucesivo.
+
+Instantáneas.
+
+---
+
+### Artículo 23
+
+Cada modalidad exige un tratamiento jurídico específico.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## RELACIONES ONTOLÓGICAS
+
+### Artículo 24
+
+Toda obligación podrá relacionarse con:
+
+Personas.
+
+Actos jurídicos.
+
+Contratos.
+
+Bienes.
+
+Hipotecas.
+
+Pruebas.
+
+Sentencias.
+
+Procesos.
+
+Autoridades.
+
+Registros.
+
+Sistemas administrativos.
+
+---
+
+### Artículo 25
+
+Todas estas relaciones deberán integrarse al Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO DÉCIMO SEGUNDO
+## VALIDACIÓN
+
+### Artículo 26
+
+Antes de construir cualquier estrategia verificar:
+
+□ Fuente de la obligación.
+
+□ Sujetos.
+
+□ Prestación.
+
+□ Garantías.
+
+□ Estado de cumplimiento.
+
+□ Forma de extinción.
+
+□ Acciones disponibles.
+
+□ Prueba.
+
+□ Riesgos.
+
+---
+
+### Artículo 27
+
+Ninguna obligación podrá analizarse aisladamente.
+
+Siempre deberá reconstruirse toda la relación obligacional.
+
+---
+
+# TÍTULO DÉCIMO TERCERO
+## PRINCIPIOS ONTOLÓGICOS
+
+### Artículo 28
+
+Toda obligación genera necesariamente un derecho correlativo.
+
+---
+
+### Artículo 29
+
+Toda modificación de la obligación deberá reflejarse en todos los nodos relacionados.
+
+---
+
+### Artículo 30
+
+La obligación constituye el eje estructural del Derecho Patrimonial y el principal vínculo entre los sujetos, los actos jurídicos, los bienes, las garantías y los procesos judiciales.
+
+---
+
+# AXIOMA ONTOLÓGICO
+
+Ningún litigio obligacional podrá comprenderse mientras no se reconstruya íntegramente la vida de la obligación: su nacimiento, evolución, modificaciones, garantías, incumplimientos, formas de extinción y consecuencias jurídicas.
+
+---
+
+# CLÁUSULA ONTOLÓGICA
+
+El CORPUS JURIS ORTIZ reconoce a la obligación como el principal mecanismo de articulación del Derecho Privado.
+
+Toda estrategia institucional deberá analizar la obligación como un sistema evolutivo compuesto por sujetos, actos jurídicos, prestaciones, garantías, pruebas, registros, procesos y consecuencias patrimoniales.
+
+La finalidad del análisis ontológico consiste en comprender no sólo la existencia de la obligación, sino la totalidad de sus relaciones presentes y futuras dentro del Micelio Jurídico Ortiz, permitiendo construir estrategias procesales completas, ejecutables y técnicamente consistentes.

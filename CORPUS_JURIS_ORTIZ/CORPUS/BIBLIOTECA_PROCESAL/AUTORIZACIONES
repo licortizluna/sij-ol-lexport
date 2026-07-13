@@ -1,0 +1,216 @@
+# BP-004 – AUTORIZACIONES
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente oficial para la autorización de abogados, profesionistas, pasantes, personas autorizadas, recepción de notificaciones y acceso a expedientes electrónicos.
+
+Todo documento generado por el SIJ-OL deberá utilizar exclusivamente los modelos contenidos en este archivo.
+
+Queda prohibido generar modelos distintos dentro de los Activos Sustantivos o Procesales.
+
+---
+
+# Clasificación
+
+A-001
+Autorización completa en demanda inicial.
+
+A-002
+Autorización en contestación.
+
+A-003
+Escrito de trámite.
+
+A-004
+Ampliación de autorizados.
+
+A-005
+Revocación de autorizaciones.
+
+A-006
+Sustitución de autorizados.
+
+A-007
+Acceso a expediente electrónico.
+
+A-008
+Correo electrónico procesal.
+
+---
+
+# Modelo A-001
+## Demanda Inicial
+
+Autorizo en términos de las disposiciones legales aplicables a los Licenciados contenidos en la plantilla institucional vigente del despacho, para que conjunta o separadamente ejerzan todas las facultades permitidas por la legislación procesal correspondiente.
+
+Asimismo autorizo a las personas contenidas en la plantilla institucional para oír y recibir notificaciones, documentos y valores, consultar expedientes, obtener copias e imponerse de autos en los términos permitidos por la ley.
+
+---
+
+# Modelo A-002
+## Contestación
+
+Ratifico las autorizaciones previamente conferidas a los profesionistas y personas autorizadas contenidas en autos.
+
+---
+
+# Modelo A-003
+## Promoción de trámite
+
+Toda vez que los abogados y personas autorizadas ya fueron reconocidos mediante acuerdo firme dentro del presente expediente, solicito continúen ejerciendo las facultades previamente conferidas.
+
+---
+
+# Modelo A-004
+## Ampliación
+
+Vengo a ampliar las autorizaciones concedidas para incluir además a:
+
+_____________________________________________________
+
+Permaneciendo vigentes todas las autorizaciones anteriormente otorgadas.
+
+---
+
+# Modelo A-005
+## Revocación
+
+Revoco expresamente la autorización conferida a:
+
+_____________________________________________________
+
+Subsistiendo todas las demás autorizaciones previamente otorgadas.
+
+---
+
+# Modelo A-006
+## Sustitución
+
+Dejo sin efectos la autorización conferida a:
+
+_____________________________________________________
+
+y en su lugar autorizo a:
+
+_____________________________________________________
+
+---
+
+# Modelo A-007
+## Expediente electrónico
+
+Solicito se autorice el acceso al expediente electrónico mediante el usuario:
+
+**LICORTIZLUNA**
+
+para efectos de consulta, presentación de promociones y recepción de notificaciones electrónicas cuando legalmente proceda.
+
+---
+
+# Modelo A-008
+## Correo electrónico procesal
+
+Se señala como correo electrónico procesal el correspondiente al despacho, para los efectos permitidos por la legislación aplicable.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Las autorizaciones completas únicamente aparecerán en:
+
+- demanda inicial;
+- contestación inicial;
+- primer escrito cuando legalmente corresponda.
+
+---
+
+## Regla 2
+
+En promociones de trámite deberá utilizarse el Modelo A-003.
+
+---
+
+## Regla 3
+
+No deberán volver a autorizarse abogados cuando ya exista acuerdo judicial que los tenga por reconocidos.
+
+---
+
+## Regla 4
+
+Toda ampliación, sustitución o revocación deberá realizarse expresamente.
+
+---
+
+## Regla 5
+
+En todos los juicios de amparo deberá solicitarse, cuando resulte procedente, acceso al expediente electrónico mediante el usuario:
+
+**LICORTIZLUNA**
+
+---
+
+## Regla 6
+
+La plantilla institucional de abogados autorizados constituye un documento independiente del presente módulo.
+
+Este archivo únicamente contiene los modelos de redacción.
+
+---
+
+# Validaciones del SIJ-OL
+
+Antes de generar un documento el sistema deberá verificar:
+
+□ Si ya existe autorización reconocida.
+
+□ Si el escrito es de trámite.
+
+□ Si procede reiterar autorizaciones.
+
+□ Si existe cambio de abogados.
+
+□ Si procede solicitar expediente electrónico.
+
+□ Si el asunto corresponde a un juicio de amparo.
+
+---
+
+# Variables Institucionales
+
+PLANTILLA_ABOGADOS
+
+PLANTILLA_PERSONAS_AUTORIZADAS
+
+CORREO_PROCESAL
+
+USUARIO_EXPEDIENTE_ELECTRONICO
+
+TIPO_DE_PROMOCION
+
+---
+
+# Uso por el SIJ-OL
+
+El motor documental utilizará este módulo para determinar automáticamente:
+
+- cuándo insertar autorizaciones completas;
+- cuándo utilizar el proemio corto;
+- cuándo omitir autorizaciones repetidas;
+- cuándo solicitar expediente electrónico.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de autorizaciones procesales.

@@ -1,0 +1,236 @@
+# BP-003 – DOMICILIOS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente oficial para el manejo de domicilios dentro del SIJ-OL.
+
+Todos los escritos generados por el sistema deberán obtener los modelos de este documento.
+
+Queda prohibido incorporar modelos distintos dentro de los Activos Sustantivos o Procesales.
+
+---
+
+# Clasificación
+
+El sistema reconoce los siguientes tipos de domicilio:
+
+D-001
+Domicilio procesal.
+
+D-002
+Domicilio para emplazamiento.
+
+D-003
+Domicilio convencional.
+
+D-004
+Domicilio contractual.
+
+D-005
+Domicilio registral.
+
+D-006
+Domicilio laboral.
+
+D-007
+Domicilio fiscal.
+
+D-008
+Domicilio del inmueble.
+
+D-009
+Domicilio de autoridad.
+
+---
+
+# Modelo D-001
+## Domicilio Procesal Institucional
+
+Señalo como domicilio para oír y recibir toda clase de notificaciones, documentos y valores el ubicado en:
+
+**Calle Náinari número 1518 Poniente, entre Aguascalientes y Bacatete, colonia Cuauhtémoc, Ciudad Obregón, Sonora.**
+
+---
+
+# Modelo D-002
+## Domicilio ya reconocido en autos
+
+Toda vez que el domicilio procesal ya obra reconocido dentro del expediente, solicito continúen practicándose en él todas las notificaciones personales que legalmente procedan.
+
+---
+
+# Modelo D-003
+## Cambio de domicilio procesal
+
+Vengo a señalar como nuevo domicilio procesal el ubicado en:
+
+____________________________________________
+
+dejando sin efectos el señalado con anterioridad.
+
+---
+
+# Modelo D-004
+## Domicilio para emplazamiento de persona física
+
+La parte demandada puede ser emplazada legalmente en:
+
+____________________________________________
+
+---
+
+# Modelo D-005
+## Domicilio para emplazamiento de persona moral
+
+La persona moral demandada deberá ser emplazada por conducto de su representante legal en el domicilio ubicado en:
+
+____________________________________________
+
+---
+
+# Modelo D-006
+## Domicilio para emplazamiento de autoridad
+
+La autoridad demandada deberá ser legalmente notificada en:
+
+____________________________________________
+
+---
+
+# Modelo D-007
+## Domicilio contractual
+
+Las partes señalaron como domicilio convencional el siguiente:
+
+____________________________________________
+
+---
+
+# Modelo D-008
+## Domicilio registral
+
+Del Certificado de Información Registral se desprende que el inmueble se ubica en:
+
+____________________________________________
+
+---
+
+# Modelo D-009
+## Domicilio del inmueble
+
+El inmueble objeto del litigio se encuentra ubicado en:
+
+____________________________________________
+
+---
+
+# Modelo D-010
+## Domicilio institucional del INFONAVIT
+
+Salvo instrucción expresa del abogado responsable, en todas las demandas promovidas contra el Instituto del Fondo Nacional de la Vivienda para los Trabajadores deberá utilizarse como domicilio para emplazamiento:
+
+**Calle 5 de Febrero número 275 Norte, colonia Centro, Ciudad Obregón, Sonora.**
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Todo domicilio deberá verificarse antes de elaborar cualquier documento.
+
+---
+
+## Regla 2
+
+El sistema deberá identificar el origen del domicilio:
+
+- contrato;
+- escritura;
+- certificado registral;
+- INE;
+- autoridad;
+- investigación;
+- manifestación del cliente.
+
+---
+
+## Regla 3
+
+Cuando existan domicilios distintos, el sistema deberá advertir al abogado y solicitar la selección del jurídicamente procedente.
+
+---
+
+## Regla 4
+
+Cuando el domicilio derive de un Certificado de Información Registral, deberá conservarse dicha referencia en el expediente.
+
+---
+
+## Regla 5
+
+Cuando ya exista domicilio procesal reconocido en autos, no deberá volver a señalarse salvo modificación expresa.
+
+---
+
+## Regla 6
+
+En asuntos con varios demandados el sistema deberá permitir asignar un domicilio independiente para cada uno.
+
+---
+
+## Validaciones del SIJ-OL
+
+Antes de generar el documento deberá verificarse:
+
+□ Existe domicilio procesal.
+
+□ Existe domicilio para emplazamiento.
+
+□ El domicilio corresponde a la persona correcta.
+
+□ La fuente del domicilio quedó registrada.
+
+□ Existe congruencia con la competencia territorial.
+
+---
+
+# Variables Institucionales
+
+DOM_PROCESAL
+
+DOM_EMPLAZAMIENTO
+
+DOM_AUTORIDAD
+
+DOM_REGISTRAL
+
+DOM_CONTRACTUAL
+
+DOM_INMUEBLE
+
+FUENTE_DOMICILIO
+
+---
+
+# Uso por el SIJ-OL
+
+El motor documental utilizará este módulo para completar automáticamente todos los domicilios de los escritos.
+
+Los domicilios particulares de un expediente se almacenarán únicamente en la base de datos del caso.
+
+Este módulo contendrá exclusivamente los modelos institucionales.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de domicilios.

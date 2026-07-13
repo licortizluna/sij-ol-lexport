@@ -1,0 +1,380 @@
+# PR-002
+# PROTOCOLO OPERATIVO DEL CORPUS JURIS ORTIZ
+## Auditoría Documental Integral y Reconstrucción del Expediente
+
+Versión 1.0
+
+Clasificación:
+Protocolo Operativo
+
+Jerarquía:
+Operativa Obligatoria
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+El expediente constituye la memoria documental del litigio.
+
+Sin embargo, un expediente nunca debe asumirse como completo, ordenado, auténtico o cronológicamente correcto.
+
+La Auditoría Documental tiene por finalidad reconstruir científicamente la totalidad del expediente, detectar inconsistencias y garantizar que toda decisión posterior descanse sobre una base documental íntegra y verificable.
+
+---
+
+# TÍTULO PRIMERO
+## OBJETO
+
+### Artículo 1
+
+El presente protocolo tiene por objeto auditar íntegramente el expediente recibido.
+
+---
+
+### Artículo 2
+
+Toda auditoría documental deberá preceder al análisis jurídico.
+
+---
+
+### Artículo 3
+
+Queda prohibido elaborar estrategias mientras existan inconsistencias documentales relevantes.
+
+---
+
+# TÍTULO SEGUNDO
+## INVENTARIO
+
+### Artículo 4
+
+Todo documento será clasificado conforme a:
+
+Naturaleza.
+
+Origen.
+
+Fecha.
+
+Autor.
+
+Relación jurídica.
+
+Proceso relacionado.
+
+Estado físico o digital.
+
+---
+
+### Artículo 5
+
+Todo documento conservará su identificador institucional.
+
+Ejemplo:
+
+DOC-001
+
+DOC-002
+
+DOC-003
+
+...
+
+---
+
+# TÍTULO TERCERO
+## AUTENTICIDAD
+
+### Artículo 6
+
+Todo documento será sometido a control de autenticidad.
+
+---
+
+### Artículo 7
+
+Se verificará:
+
+Autor.
+
+Firma.
+
+Sellos.
+
+Folios.
+
+Cadena documental.
+
+Metadatos cuando existan.
+
+Correspondencia con otros documentos.
+
+---
+
+### Artículo 8
+
+Toda duda razonable deberá documentarse.
+
+Nunca ignorarse.
+
+---
+
+# TÍTULO CUARTO
+## INTEGRIDAD
+
+### Artículo 9
+
+El CORPUS verificará que ningún documento presente:
+
+Páginas faltantes.
+
+Anexos omitidos.
+
+Alteraciones visibles.
+
+Incongruencias materiales.
+
+Versiones incompatibles.
+
+---
+
+### Artículo 10
+
+Toda alteración potencial constituirá un riesgo documental.
+
+---
+
+# TÍTULO QUINTO
+## CORRESPONDENCIA
+
+### Artículo 11
+
+Todo documento deberá relacionarse con:
+
+Hechos.
+
+Actos jurídicos.
+
+Pruebas.
+
+Sujetos.
+
+Obligaciones.
+
+Procesos.
+
+Registros.
+
+---
+
+### Artículo 12
+
+Todo documento aislado será objeto de investigación adicional.
+
+---
+
+# TÍTULO SEXTO
+## CRONOLOGÍA DOCUMENTAL
+
+### Artículo 13
+
+Todos los documentos serán ubicados cronológicamente.
+
+---
+
+### Artículo 14
+
+Cuando existan discrepancias temporales deberán clasificarse como:
+
+Error material.
+
+Error documental.
+
+Información insuficiente.
+
+Contradicción.
+
+Posible alteración.
+
+---
+
+### Artículo 15
+
+Toda cronología deberá reconstruirse utilizando la evidencia documental más confiable.
+
+---
+
+# TÍTULO SÉPTIMO
+## DOCUMENTOS FALTANTES
+
+### Artículo 16
+
+El CORPUS identificará:
+
+Documentos indispensables.
+
+Documentos convenientes.
+
+Documentos complementarios.
+
+Documentos prescindibles.
+
+---
+
+### Artículo 17
+
+Para cada documento faltante deberá establecerse:
+
+Forma de obtención.
+
+Responsable.
+
+Prioridad.
+
+Riesgo derivado de su ausencia.
+
+---
+
+# TÍTULO OCTAVO
+## CONTROL DE VERSIONES
+
+### Artículo 18
+
+Cuando existan múltiples versiones del mismo documento deberán conservarse todas.
+
+---
+
+### Artículo 19
+
+Nunca se eliminará una versión anterior.
+
+---
+
+### Artículo 20
+
+La versión vigente deberá justificarse documentalmente.
+
+---
+
+# TÍTULO NOVENO
+## MATRIZ DOCUMENTAL
+
+### Artículo 21
+
+La auditoría generará una Matriz Oficial.
+
+DOCUMENTO
+
+↓
+
+HECHOS RELACIONADOS
+
+↓
+
+ACTO JURÍDICO
+
+↓
+
+PRUEBA
+
+↓
+
+RIESGO
+
+↓
+
+OBSERVACIONES
+
+↓
+
+ESTADO
+
+---
+
+### Artículo 22
+
+Toda modificación actualizará automáticamente esta matriz.
+
+---
+
+# TÍTULO DÉCIMO
+## PRODUCTOS OBLIGATORIOS
+
+### Artículo 23
+
+Al concluir deberán existir:
+
+Inventario documental definitivo.
+
+Cronología documental.
+
+Mapa documental.
+
+Cadena documental.
+
+Lista de inconsistencias.
+
+Lista de documentos faltantes.
+
+Mapa de riesgos documentales.
+
+---
+
+### Artículo 24
+
+Estos productos constituirán la entrada obligatoria del PR-003.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## AUDITORÍA
+
+### Artículo 25
+
+Antes de concluir verificar:
+
+□ Todos los documentos fueron clasificados.
+
+□ Todos fueron ubicados cronológicamente.
+
+□ Se verificó su autenticidad.
+
+□ Se verificó su integridad.
+
+□ Se identificaron documentos faltantes.
+
+□ Se identificaron contradicciones.
+
+□ Se construyó la matriz documental.
+
+□ El expediente puede reconstruirse íntegramente.
+
+---
+
+### Artículo 26
+
+Toda inconsistencia impedirá cerrar la auditoría.
+
+---
+
+# AXIOMA
+
+El expediente no es la verdad.
+
+Es únicamente el conjunto de documentos que deberán demostrarla.
+
+---
+
+# CLÁUSULA OPERATIVA
+
+El CORPUS JURIS ORTIZ reconoce que la Auditoría Documental constituye el principal mecanismo para preservar la integridad del expediente.
+
+Toda estrategia jurídica deberá construirse únicamente sobre documentos previamente auditados respecto de su autenticidad, integridad, correspondencia y contexto.
+
+La calidad del litigio dependerá directamente de la calidad de esta auditoría documental.

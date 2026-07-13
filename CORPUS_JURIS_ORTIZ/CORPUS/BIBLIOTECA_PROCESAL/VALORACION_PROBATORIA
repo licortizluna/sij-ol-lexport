@@ -1,0 +1,335 @@
+# MJ-002 – VALORACIÓN PROBATORIA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la metodología institucional para la valoración de los medios de prueba dentro del SIJ-OL.
+
+Su finalidad consiste en que el sistema no únicamente ofrezca pruebas, sino que determine previamente:
+
+- qué valor probatorio poseen;
+- qué hechos acreditan;
+- cuáles son insuficientes;
+- cuáles se contradicen;
+- cuáles requieren corroboración.
+
+El SIJ-OL no calificará las pruebas como "buenas" o "malas".
+
+Determinará únicamente su fuerza demostrativa conforme a la legislación, la lógica y la experiencia.
+
+---
+
+# Filosofía Institucional
+
+No existe prueba importante.
+
+Existe hecho importante.
+
+Las pruebas sólo tienen valor en la medida en que permiten demostrar un hecho jurídicamente relevante.
+
+---
+
+# Principios Rectores
+
+Toda valoración deberá observar:
+
+- Legalidad.
+
+- Licitud.
+
+- Pertinencia.
+
+- Idoneidad.
+
+- Utilidad.
+
+- Necesidad.
+
+- Contradicción.
+
+- Sana crítica.
+
+- Lógica.
+
+- Máximas de la experiencia.
+
+---
+
+# Orden Obligatorio
+
+Toda valoración seguirá la siguiente secuencia:
+
+HECHO
+
+↓
+
+PRUEBA
+
+↓
+
+AUTENTICIDAD
+
+↓
+
+PERTINENCIA
+
+↓
+
+IDONEIDAD
+
+↓
+
+FUERZA DEMOSTRATIVA
+
+↓
+
+HECHO ACREDITADO
+
+↓
+
+CONSECUENCIA JURÍDICA
+
+---
+
+# Clasificación
+
+VP-001
+
+Documental pública.
+
+---
+
+VP-002
+
+Documental privada.
+
+---
+
+VP-003
+
+Documental electrónica.
+
+---
+
+VP-004
+
+Confesional.
+
+---
+
+VP-005
+
+Declaración de parte.
+
+---
+
+VP-006
+
+Testimonial.
+
+---
+
+VP-007
+
+Pericial.
+
+---
+
+VP-008
+
+Inspección judicial.
+
+---
+
+VP-009
+
+Informes.
+
+---
+
+VP-010
+
+Presuncional.
+
+---
+
+VP-011
+
+Instrumental de actuaciones.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Toda prueba deberá acreditar al menos un hecho.
+
+---
+
+## Regla 2
+
+Un hecho podrá acreditarse mediante varias pruebas.
+
+---
+
+## Regla 3
+
+Cuando varias pruebas acrediten exactamente el mismo hecho, el sistema identificará posibles redundancias.
+
+---
+
+## Regla 4
+
+Cuando exista contradicción entre pruebas, el sistema elaborará una matriz de conflicto probatorio.
+
+---
+
+## Regla 5
+
+La ausencia de prueba directa no implica necesariamente la improcedencia de la acción.
+
+El sistema analizará:
+
+- presunciones;
+
+- indicios;
+
+- hechos notorios;
+
+- carga dinámica de la prueba;
+
+- hechos negativos.
+
+---
+
+# Hechos negativos
+
+Cuando un hecho sea negativo, el sistema analizará previamente:
+
+¿Existe inversión de la carga de la prueba?
+
+¿Quién afirma el hecho positivo contrario?
+
+¿La ley exige acreditar el hecho negativo?
+
+---
+
+# Fuerza Probatoria
+
+Cada prueba recibirá una evaluación metodológica:
+
+Muy Alta.
+
+Alta.
+
+Media.
+
+Limitada.
+
+Complementaria.
+
+Insuficiente.
+
+La clasificación será exclusivamente interna y nunca aparecerá en el documento final.
+
+---
+
+# Matriz Probatoria
+
+Cada expediente deberá generar automáticamente:
+
+| Hecho | Prueba | Fuerza | Riesgo | Observaciones |
+
+---
+
+# Corroboración
+
+El sistema verificará:
+
+□ Existe corroboración independiente.
+
+□ Existe contradicción.
+
+□ Existe vacío probatorio.
+
+□ Existe exceso de prueba.
+
+□ Existe prueba innecesaria.
+
+---
+
+# Reglas Especiales
+
+En procedimientos civiles y familiares el sistema deberá recordar que:
+
+- no todo hecho requiere prueba documental;
+
+- los hechos negativos suelen desplazar la carga probatoria;
+
+- la confesional no sustituye la prueba documental;
+
+- la testimonial no sustituye un documento público.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Todo hecho tiene soporte.
+
+□ Toda prueba tiene objeto.
+
+□ No existen pruebas huérfanas.
+
+□ No existen hechos sin acreditar.
+
+□ Se detectaron contradicciones.
+
+□ Se identificó la carga probatoria.
+
+---
+
+# Variables
+
+HECHO
+
+PRUEBA
+
+FUERZA_PROBATORIA
+
+RIESGO
+
+CONTRADICCION
+
+CARGA_DE_LA_PRUEBA
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será utilizado por el Motor Jurídico para construir la matriz de valoración probatoria antes de elaborar:
+
+- alegatos;
+
+- sentencia predictiva;
+
+- recursos;
+
+- conceptos de violación;
+
+- agravios.
+
+El sistema utilizará esta valoración para identificar fortalezas y debilidades del caso antes de emitir cualquier recomendación jurídica.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de valoración probatoria.

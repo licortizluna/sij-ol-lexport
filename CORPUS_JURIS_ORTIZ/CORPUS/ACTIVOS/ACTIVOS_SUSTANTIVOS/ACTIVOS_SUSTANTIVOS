@@ -1,0 +1,210 @@
+# ACTIVOS SUSTANTIVOS
+
+Versión: 1.0.0
+
+---
+
+# Objetivo
+
+Los Activos Sustantivos representan instituciones jurídicas completas.
+
+Cada activo deberá contener el conocimiento necesario para resolver un problema jurídico específico desde el análisis inicial hasta la ejecución total de la sentencia.
+
+Cada activo deberá poder reutilizarse indefinidamente.
+
+---
+
+# Definición
+
+Un Activo Sustantivo es una unidad de conocimiento jurídico especializada.
+
+Cada activo corresponde a una acción, institución o procedimiento material.
+
+Ejemplos:
+
+- Prescripción negativa.
+- Liberación por fallecimiento.
+- Liberación por incapacidad total permanente.
+- Cancelación de hipoteca.
+- Prescripción adquisitiva.
+- Inmatriculación.
+- Acción Pro Forma.
+- Sucesiones.
+- Divorcios.
+- Concubinato.
+
+---
+
+# Objetivos
+
+Cada activo deberá permitir:
+
+- analizar un asunto;
+- determinar la estrategia jurídica;
+- generar documentos;
+- producir escritos procesales;
+- controlar la ejecución;
+- incorporar experiencia institucional.
+
+---
+
+# Estructura obligatoria
+
+Todo Activo Sustantivo deberá contener exactamente la siguiente estructura:
+
+ACTIVO/
+
+README.md
+
+ACTIVO.md
+
+VERSION.md
+
+CONOCIMIENTO/
+
+DOCUMENTOS/
+
+PLANTILLAS/
+
+CASOS/
+
+CHECKLIST/
+
+REFERENCIAS.md
+
+LECCIONES_APRENDIDAS.md
+
+---
+
+# Contenido mínimo
+
+## ACTIVO.md
+
+Descripción general del activo.
+
+Objeto.
+
+Procedencia.
+
+Resultados esperados.
+
+---
+
+## VERSION.md
+
+Versión.
+
+Fecha.
+
+Responsable.
+
+Cambios.
+
+Estado.
+
+---
+
+## CONOCIMIENTO
+
+Legislación.
+
+Jurisprudencia.
+
+Doctrina.
+
+Criterios internos.
+
+Glosario.
+
+---
+
+## DOCUMENTOS
+
+Documentos completos listos para generar versiones Word.
+
+---
+
+## PLANTILLAS
+
+Fragmentos reutilizables.
+
+Nunca contendrán datos particulares.
+
+---
+
+## CASOS
+
+Contendrá únicamente referencias a casos utilizados para validar el activo.
+
+Los expedientes completos vivirán en:
+
+CORPUS/07_CASOS/
+
+---
+
+## CHECKLIST
+
+Lista obligatoria de revisión previa a la generación de documentos.
+
+---
+
+## REFERENCIAS
+
+Bibliografía.
+
+Legislación.
+
+Jurisprudencia.
+
+Fuentes doctrinales.
+
+---
+
+## LECCIONES APRENDIDAS
+
+Registro de mejoras provenientes de casos reales.
+
+No sustituye al control de versiones.
+
+---
+
+# Reglas
+
+Todo activo deberá:
+
+- respetar las REGLAS_INSTITUCIONALES.md;
+- ser independiente de cualquier expediente;
+- utilizar únicamente legislación vigente;
+- utilizar únicamente jurisprudencia verificada;
+- evitar duplicar información existente en otros activos;
+- mantener congruencia entre conocimiento, plantillas y documentos.
+
+---
+
+# Productos
+
+Cada Activo Sustantivo deberá poder generar, según corresponda:
+
+- demanda;
+- contestación;
+- reconvención;
+- incidentes;
+- alegatos;
+- apelación;
+- amparo;
+- escritos de ejecución;
+- convenios;
+- dictámenes;
+- opiniones jurídicas.
+
+---
+
+# Criterio de terminación
+
+Un Activo Sustantivo se considerará terminado cuando:
+
+- su documentación esté completa;
+- las plantillas estén validadas;
+- exista al menos un caso real exitosamente desarrollado;
+- el checklist se encuentre completo;
+- la versión sea declarada PRODUCCIÓN en VERSIONES.md.

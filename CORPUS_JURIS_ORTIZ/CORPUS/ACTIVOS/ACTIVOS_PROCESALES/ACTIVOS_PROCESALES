@@ -1,0 +1,212 @@
+# ACTIVOS PROCESALES
+
+Versión: 1.0.0
+
+---
+
+# Objetivo
+
+Los Activos Procesales contienen herramientas jurídicas reutilizables que pueden utilizarse en cualquier materia del derecho.
+
+Su finalidad es estandarizar la actuación procesal del despacho, evitando duplicidad de criterios y asegurando uniformidad técnica.
+
+---
+
+# Definición
+
+Un Activo Procesal desarrolla una institución procesal y no una acción sustantiva.
+
+Su utilización depende de la etapa procesal y no de la materia.
+
+Ejemplos:
+
+- Demanda.
+- Contestación.
+- Reconvención.
+- Ofrecimiento de pruebas.
+- Desahogo de prevención.
+- Incidentes.
+- Alegatos.
+- Apelación.
+- Amparo.
+- Ejecución de sentencia.
+- Tercerías.
+- Medios de apremio.
+
+---
+
+# Objetivos
+
+Cada Activo Procesal deberá permitir:
+
+- estandarizar escritos;
+- unificar criterios procesales;
+- disminuir errores;
+- reutilizar modelos institucionales;
+- acelerar la producción documental.
+
+---
+
+# Estructura obligatoria
+
+Todo Activo Procesal deberá contener exactamente la siguiente estructura:
+
+ACTIVO/
+
+README.md
+
+ACTIVO.md
+
+VERSION.md
+
+CONOCIMIENTO/
+
+DOCUMENTOS/
+
+PLANTILLAS/
+
+CHECKLIST/
+
+REFERENCIAS.md
+
+LECCIONES_APRENDIDAS.md
+
+---
+
+# Contenido mínimo
+
+## ACTIVO.md
+
+Descripción.
+
+Objeto.
+
+Momento procesal en que procede.
+
+Fundamento.
+
+Resultados esperados.
+
+---
+
+## VERSION.md
+
+Versión.
+
+Fecha.
+
+Estado.
+
+Cambios.
+
+Responsable.
+
+---
+
+## CONOCIMIENTO
+
+Legislación.
+
+Jurisprudencia.
+
+Doctrina.
+
+Criterios internos.
+
+Glosario.
+
+---
+
+## DOCUMENTOS
+
+Documentos completos listos para convertirse en Word.
+
+---
+
+## PLANTILLAS
+
+Fragmentos reutilizables.
+
+No contendrán datos de expedientes.
+
+---
+
+## CHECKLIST
+
+Lista de revisión obligatoria antes de emitir un documento.
+
+---
+
+## REFERENCIAS
+
+Legislación.
+
+Jurisprudencia.
+
+Bibliografía.
+
+Fuentes institucionales.
+
+---
+
+## LECCIONES APRENDIDAS
+
+Registro de mejoras derivadas de casos reales.
+
+---
+
+# Reglas
+
+Todo Activo Procesal deberá:
+
+- respetar REGLAS_INSTITUCIONALES.md;
+- utilizar únicamente legislación vigente;
+- utilizar únicamente jurisprudencia previamente verificada;
+- ser compatible con todos los Activos Sustantivos;
+- evitar duplicidad de contenido.
+
+---
+
+# Compatibilidad
+
+Un Activo Procesal podrá ser utilizado por cualquier Activo Sustantivo.
+
+Ejemplo:
+
+AP-004 Ofrecimiento de Pruebas
+
+podrá utilizarse en:
+
+- Prescripción Negativa.
+- Acción Pro Forma.
+- Sucesiones.
+- Divorcios.
+- Concubinato.
+- Mercantil.
+- Arrendamiento.
+- Responsabilidad Civil.
+
+---
+
+# Productos
+
+Dependiendo del activo, podrá generar:
+
+- escritos iniciales;
+- promociones de trámite;
+- recursos;
+- incidentes;
+- alegatos;
+- escritos de ejecución;
+- escritos constitucionales.
+
+---
+
+# Criterio de terminación
+
+Un Activo Procesal se considerará terminado cuando:
+
+- su contenido jurídico esté validado;
+- exista al menos un documento institucional aprobado;
+- el checklist esté completo;
+- la versión sea declarada PRODUCCIÓN en VERSIONES.md.

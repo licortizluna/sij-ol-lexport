@@ -1,0 +1,401 @@
+# ON-002
+# ONTOLOGÍA JURÍDICA DEL CORPUS JURIS ORTIZ
+## ACTOS JURÍDICOS
+
+Versión 1.0
+
+Clasificación:
+Documento Ontológico
+
+Jerarquía:
+Superior
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+Todo litigio civil gira, directa o indirectamente, alrededor de uno o varios actos jurídicos.
+
+El acto jurídico constituye el mecanismo mediante el cual la voluntad produce consecuencias reconocidas por el orden jurídico.
+
+La presente Ontología establece la naturaleza, estructura, atributos y relaciones de los actos jurídicos dentro del CORPUS JURIS ORTIZ.
+
+---
+
+# TÍTULO PRIMERO
+## DEFINICIÓN
+
+### Artículo 1
+
+Acto jurídico es toda manifestación de voluntad destinada a producir consecuencias jurídicas reconocidas por el ordenamiento aplicable.
+
+---
+
+### Artículo 2
+
+Todo acto jurídico constituye un Nodo Primario del Micelio Jurídico Ortiz.
+
+---
+
+### Artículo 3
+
+Todo litigio deberá identificar expresamente el acto jurídico del cual derivan los derechos y obligaciones controvertidos.
+
+---
+
+# TÍTULO SEGUNDO
+## CLASIFICACIÓN
+
+### Artículo 4
+
+Los actos jurídicos podrán clasificarse como:
+
+Unilaterales.
+
+Bilaterales.
+
+Plurilaterales.
+
+Gratuitos.
+
+Onerosos.
+
+Conmutativos.
+
+Aleatorios.
+
+Instantáneos.
+
+De tracto sucesivo.
+
+Principales.
+
+Accesorios.
+
+Declarativos.
+
+Constitutivos.
+
+Traslativos.
+
+Extintivos.
+
+Modificativos.
+
+---
+
+### Artículo 5
+
+La clasificación determinará el régimen jurídico aplicable.
+
+---
+
+# TÍTULO TERCERO
+## ELEMENTOS
+
+### Artículo 6
+
+Todo acto jurídico deberá analizarse respecto de:
+
+Sujetos.
+
+Consentimiento.
+
+Objeto.
+
+Finalidad.
+
+Forma.
+
+Capacidad.
+
+Licitud.
+
+Representación.
+
+Solemnidades.
+
+---
+
+### Artículo 7
+
+Cada elemento deberá verificarse documentalmente cuando resulte jurídicamente relevante.
+
+---
+
+# TÍTULO CUARTO
+## EXISTENCIA
+
+### Artículo 8
+
+Antes de analizar la validez deberá determinarse la existencia del acto.
+
+---
+
+### Artículo 9
+
+No podrá discutirse la nulidad de un acto cuya existencia no haya sido previamente acreditada.
+
+---
+
+# TÍTULO QUINTO
+## VALIDEZ
+
+### Artículo 10
+
+Todo acto existente deberá someterse al control de validez.
+
+---
+
+### Artículo 11
+
+El análisis comprenderá:
+
+Consentimiento.
+
+Capacidad.
+
+Objeto.
+
+Forma.
+
+Licitud.
+
+Representación.
+
+Requisitos especiales previstos por la ley.
+
+---
+
+# TÍTULO SEXTO
+## EFICACIA
+
+### Artículo 12
+
+La existencia y validez del acto no garantizan automáticamente su eficacia.
+
+---
+
+### Artículo 13
+
+La eficacia dependerá además de:
+
+Inscripción cuando proceda.
+
+Notificación cuando proceda.
+
+Condiciones.
+
+Plazos.
+
+Cumplimiento.
+
+Oponibilidad.
+
+---
+
+# TÍTULO SÉPTIMO
+## DOCUMENTACIÓN
+
+### Artículo 14
+
+Todo acto jurídico deberá vincularse con su documentación soporte.
+
+Entre otros:
+
+Contrato.
+
+Escritura pública.
+
+Convenio.
+
+Resolución.
+
+Acta.
+
+Recibo.
+
+Documento electrónico.
+
+---
+
+### Artículo 15
+
+El documento constituye evidencia del acto.
+
+No necesariamente el acto mismo.
+
+---
+
+# TÍTULO OCTAVO
+## RELACIONES ONTOLÓGICAS
+
+### Artículo 16
+
+Todo acto jurídico podrá generar:
+
+Derechos.
+
+Obligaciones.
+
+Garantías.
+
+Gravámenes.
+
+Acciones.
+
+Excepciones.
+
+Responsabilidades.
+
+Registros.
+
+---
+
+### Artículo 17
+
+Estas relaciones deberán integrarse al Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO NOVENO
+## VICIOS
+
+### Artículo 18
+
+Todo acto podrá presentar:
+
+Vicios de existencia.
+
+Vicios de consentimiento.
+
+Vicios de capacidad.
+
+Vicios de objeto.
+
+Vicios de forma.
+
+Vicios de representación.
+
+Vicios de licitud.
+
+---
+
+### Artículo 19
+
+Cada vicio producirá consecuencias jurídicas distintas.
+
+---
+
+# TÍTULO DÉCIMO
+## EXTINCIÓN
+
+### Artículo 20
+
+Todo acto jurídico podrá extinguirse por:
+
+Cumplimiento.
+
+Rescisión.
+
+Resolución.
+
+Nulidad.
+
+Revocación.
+
+Prescripción cuando corresponda.
+
+Caducidad cuando proceda.
+
+Confusión.
+
+Compensación.
+
+Novación.
+
+Condición resolutoria.
+
+Otros medios previstos por la ley.
+
+---
+
+### Artículo 21
+
+La forma de extinción deberá analizarse conforme al régimen jurídico específico.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## VALIDACIÓN
+
+### Artículo 22
+
+Antes de utilizar un acto jurídico como fundamento verificar:
+
+□ Existencia.
+
+□ Validez.
+
+□ Eficacia.
+
+□ Documentación soporte.
+
+□ Fecha.
+
+□ Partes.
+
+□ Representación.
+
+□ Inscripción cuando proceda.
+
+□ Consecuencias jurídicas.
+
+---
+
+### Artículo 23
+
+Ningún razonamiento podrá construirse sobre un acto cuya naturaleza no haya sido previamente determinada.
+
+---
+
+# TÍTULO DÉCIMO SEGUNDO
+## PRINCIPIOS ONTOLÓGICOS
+
+### Artículo 24
+
+Todo derecho deriva directa o indirectamente de un acto jurídico o de un hecho jurídico reconocido por la ley.
+
+---
+
+### Artículo 25
+
+Todo acto jurídico modifica el estado del Micelio Jurídico Ortiz al crear, transmitir, modificar, extinguir o reconocer relaciones jurídicas.
+
+---
+
+### Artículo 26
+
+La correcta identificación del acto jurídico constituye el punto de partida para determinar la acción procedente, la prueba necesaria, la competencia, la estrategia y las prestaciones.
+
+---
+
+# AXIOMA ONTOLÓGICO
+
+Ninguna consecuencia jurídica puede comprenderse sin identificar previamente el acto jurídico que le dio origen.
+
+---
+
+# CLÁUSULA ONTOLÓGICA
+
+El CORPUS JURIS ORTIZ reconoce al acto jurídico como la unidad estructural básica del Derecho Privado.
+
+Toda obligación, derecho real, garantía, contrato, inscripción registral, litigio, sentencia o ejecución deberá poder rastrear su origen hasta uno o varios actos jurídicos plenamente identificados, clasificados, documentados y relacionados dentro del Micelio Jurídico Ortiz.
+
+La correcta ontología del acto jurídico constituye condición indispensable para la validez del razonamiento institucional.

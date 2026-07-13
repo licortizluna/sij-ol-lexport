@@ -1,0 +1,353 @@
+# BP-016 – ARGUMENTACIÓN JURÍDICA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la metodología oficial del SIJ-OL para construir la argumentación jurídica de cualquier documento.
+
+Su finalidad consiste en transformar hechos y normas en razonamientos jurídicos sólidos, persuasivos y verificables.
+
+El sistema nunca deberá limitarse a citar artículos o jurisprudencias.
+
+Toda afirmación deberá estar debidamente razonada.
+
+---
+
+# Filosofía institucional
+
+El SIJ-OL argumenta.
+
+No recita leyes.
+
+No copia jurisprudencias.
+
+No reproduce formatos.
+
+Construye razonamientos.
+
+---
+
+# Definición
+
+Argumentar consiste en demostrar por qué una determinada consecuencia jurídica debe producirse a partir de:
+
+• hechos;
+
+• pruebas;
+
+• normas;
+
+• jurisprudencia;
+
+• principios;
+
+• interpretación jurídica.
+
+---
+
+# Orden obligatorio
+
+Todo argumento seguirá el siguiente flujo:
+
+HECHO
+
+↓
+
+PRUEBA
+
+↓
+
+NORMA
+
+↓
+
+INTERPRETACIÓN
+
+↓
+
+JURISPRUDENCIA
+
+↓
+
+APLICACIÓN
+
+↓
+
+CONCLUSIÓN
+
+---
+
+# Estructura institucional
+
+Cada argumento deberá contener:
+
+I. Premisa fáctica.
+
+II. Premisa normativa.
+
+III. Interpretación.
+
+IV. Aplicación.
+
+V. Conclusión.
+
+---
+
+# Regla Fundamental
+
+Toda afirmación deberá responder:
+
+¿Qué hecho quedó acreditado?
+
+↓
+
+¿Qué prueba lo demuestra?
+
+↓
+
+¿Qué norma regula ese hecho?
+
+↓
+
+¿Cómo debe interpretarse?
+
+↓
+
+¿Qué jurisprudencia fortalece esa interpretación?
+
+↓
+
+¿Por qué procede la consecuencia solicitada?
+
+---
+
+# Clasificación
+
+AR-001
+
+Argumento legal.
+
+---
+
+AR-002
+
+Argumento jurisprudencial.
+
+---
+
+AR-003
+
+Argumento constitucional.
+
+---
+
+AR-004
+
+Argumento convencional.
+
+---
+
+AR-005
+
+Argumento contractual.
+
+---
+
+AR-006
+
+Argumento sistemático.
+
+---
+
+AR-007
+
+Argumento teleológico.
+
+---
+
+AR-008
+
+Argumento histórico.
+
+---
+
+AR-009
+
+Argumento lógico.
+
+---
+
+AR-010
+
+Argumento probatorio.
+
+---
+
+# Modelo institucional
+
+Se acreditó que:
+
+________________________________
+
+Tal circunstancia quedó demostrada mediante:
+
+________________________________
+
+Dicho supuesto se encuentra regulado por:
+
+________________________________
+
+La interpretación correcta consiste en:
+
+________________________________
+
+Este criterio ha sido sostenido por:
+
+________________________________
+
+En consecuencia:
+
+________________________________
+
+---
+
+# Reglas institucionales
+
+## Regla 1
+
+Nunca iniciar un argumento con la norma.
+
+Siempre iniciar con el hecho.
+
+---
+
+## Regla 2
+
+No utilizar jurisprudencia sin explicar su aplicación.
+
+---
+
+## Regla 3
+
+Cada argumento deberá desarrollar una sola conclusión.
+
+---
+
+## Regla 4
+
+Los argumentos deberán ser independientes.
+
+---
+
+## Regla 5
+
+El sistema evitará:
+
+• argumentos circulares;
+
+• afirmaciones dogmáticas;
+
+• conclusiones sin premisas;
+
+• citas innecesarias.
+
+---
+
+## Regla 6
+
+Cuando existan varios argumentos posibles el sistema los ordenará conforme a su fuerza jurídica.
+
+---
+
+# Intensidad argumentativa
+
+Nivel 1
+
+Fundamento legal.
+
+Nivel 2
+
+Legal + Jurisprudencia.
+
+Nivel 3
+
+Constitucional.
+
+Nivel 4
+
+Convencional.
+
+Nivel 5
+
+Control difuso.
+
+Nivel 6
+
+Control de convencionalidad.
+
+---
+
+# Matriz Argumentativa
+
+Cada argumento deberá quedar relacionado con:
+
+| Argumento | Hecho | Prueba | Norma | Jurisprudencia | Prestación |
+
+---
+
+# Validaciones SIJ-OL
+
+□ Todo argumento inicia con un hecho.
+
+□ Existe prueba.
+
+□ Existe norma.
+
+□ Existe interpretación.
+
+□ Existe aplicación.
+
+□ Existe conclusión.
+
+□ No existen contradicciones.
+
+□ La conclusión deriva lógicamente de las premisas.
+
+---
+
+# Variables
+
+HECHO
+
+PRUEBA
+
+NORMA
+
+JURISPRUDENCIA
+
+INTERPRETACION
+
+CONCLUSION
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será utilizado por el Motor Jurídico para construir todos los razonamientos del sistema.
+
+No generará texto mediante plantillas rígidas.
+
+Construirá cada argumento aplicando la metodología institucional definida en este documento.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de argumentación jurídica.

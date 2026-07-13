@@ -1,0 +1,87 @@
+# BACKLOG
+## Evolución del CORPUS JURIS ORTIZ
+
+Versión: 1.0.0
+
+Estado: VIGENTE
+
+---
+
+# Objeto
+
+El Backlog constituye el registro oficial de todas las propuestas de mejora del CORPUS JURIS ORTIZ.
+
+Su finalidad es preservar las ideas de evolución sin comprometer la estabilidad de la versión vigente.
+
+---
+
+# Regla General
+
+Toda propuesta que implique:
+
+- modificación estructural;
+- incorporación de nuevas categorías;
+- creación de nuevas familias;
+- cambios metodológicos;
+- cambios arquitectónicos;
+- nuevas funcionalidades del SOJ;
+
+deberá registrarse previamente en este documento.
+
+Mientras permanezca registrada en el Backlog no formará parte del CORPUS vigente.
+
+---
+
+# Estructura de una propuesta
+
+Cada propuesta deberá contener como mínimo:
+
+• Identificador
+
+• Título
+
+• Descripción
+
+• Justificación
+
+• Impacto esperado
+
+• Prioridad
+
+• Estado
+
+• Versión objetivo
+
+---
+
+# Estados
+
+Las propuestas podrán encontrarse en alguno de los siguientes estados:
+
+- Registrada
+- En análisis
+- Aprobada
+- Rechazada
+- Implementada
+
+---
+
+# Registro de propuestas
+
+Actualmente no existen propuestas pendientes.
+
+---
+
+# Principio de estabilidad
+
+La existencia de una propuesta en este documento no modifica el funcionamiento del CORPUS.
+
+Las modificaciones únicamente producirán efectos cuando sean incorporadas expresamente a una nueva versión.
+
+---
+
+# Axioma
+
+La innovación debe conservarse.
+
+La estabilidad debe protegerse.

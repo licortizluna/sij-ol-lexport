@@ -1,0 +1,379 @@
+# ADR-007
+# ARCHITECTURE DECISION RECORD
+## El Expediente Constituye una Base de Conocimiento y No un Conjunto de Documentos
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La práctica jurídica tradicional administra expedientes como colecciones de documentos.
+
+Se organizan mediante carpetas.
+
+Se clasifican por fechas.
+
+Se identifican mediante números de expediente.
+
+El análisis institucional desarrollado durante la construcción del CORPUS JURIS ORTIZ demuestra que este modelo resulta insuficiente para generar conocimiento reutilizable.
+
+Un expediente no contiene únicamente documentos.
+
+Contiene:
+
+Hechos.
+
+Sujetos.
+
+Actos jurídicos.
+
+Relaciones.
+
+Normas.
+
+Jurisprudencia.
+
+Pruebas.
+
+Cronologías.
+
+Prestaciones.
+
+Riesgos.
+
+Estrategias.
+
+Errores.
+
+Aprendizajes.
+
+Todo ello constituye información estructurada.
+
+---
+
+# PROBLEMA
+
+Cuando el expediente se trata únicamente como un archivo documental:
+
+• El conocimiento queda oculto.
+
+• No puede reutilizarse.
+
+• No puede relacionarse con otros asuntos.
+
+• Se duplica investigación.
+
+• Se repiten errores.
+
+• Cada litigio comienza prácticamente desde cero.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Todo expediente constituye una Base de Conocimiento Jurídico (BKJ) y no una colección de documentos.**
+
+Los documentos únicamente representan una de las múltiples fuentes de información del expediente.
+
+---
+
+# MODELO DE DATOS
+
+Cada expediente será entendido como un grafo jurídico compuesto por nodos y relaciones.
+
+Los nodos podrán representar, entre otros:
+
+Sujetos.
+
+Hechos.
+
+Documentos.
+
+Pruebas.
+
+Contratos.
+
+Prestaciones.
+
+Normas.
+
+Jurisprudencia.
+
+Riesgos.
+
+Autoridades.
+
+Procesos.
+
+Bienes.
+
+Derechos.
+
+Obligaciones.
+
+Resoluciones.
+
+Aprendizajes.
+
+---
+
+# RELACIONES
+
+Entre los nodos existirán relaciones tales como:
+
+Acredita.
+
+Contradice.
+
+Modifica.
+
+Deriva.
+
+Ejecuta.
+
+Produce.
+
+Depende de.
+
+Interpreta.
+
+Cancela.
+
+Inscribe.
+
+Obliga.
+
+Autoriza.
+
+Limita.
+
+Sustituye.
+
+Complementa.
+
+---
+
+# FUNDAMENTO
+
+El conocimiento jurídico no reside en los documentos.
+
+Reside en las relaciones existentes entre la información contenida en ellos.
+
+Por ello:
+
+Dos expedientes distintos pueden compartir hechos.
+
+Normas.
+
+Jurisprudencia.
+
+Problemas jurídicos.
+
+Estrategias.
+
+Errores.
+
+Aprendizajes.
+
+Sin necesidad de compartir documentos.
+
+---
+
+# CONSECUENCIAS
+
+A partir de este ADR:
+
+Toda información será estructurada.
+
+Todo dato será reutilizable.
+
+Toda relación será trazable.
+
+Todo aprendizaje será incorporable al Micelio Jurídico.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Eliminación de trabajo repetitivo.
+
+Mayor velocidad de investigación.
+
+Mejor calidad estratégica.
+
+Reutilización inteligente del conocimiento.
+
+Aprendizaje institucional permanente.
+
+Escalabilidad del CORPUS.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+MJO.
+
+MOAJ.
+
+Todos los Protocolos PR.
+
+Todos los CIJ.
+
+Todos los Manuales.
+
+Todos los ST.
+
+Toda la arquitectura de Base44.
+
+Todo el sistema de inteligencia institucional.
+
+---
+
+# EJEMPLO
+
+Un juicio de cancelación de hipoteca no será almacenado únicamente como:
+
+"Expediente 234/2026"
+
+Sino como una red que relaciona:
+
+Cliente.
+
+↓
+
+Contrato.
+
+↓
+
+Crédito.
+
+↓
+
+Hipoteca.
+
+↓
+
+Prescripción.
+
+↓
+
+INFONAVIT.
+
+↓
+
+Estado de cuenta.
+
+↓
+
+Objeción documental.
+
+↓
+
+Jurisprudencia.
+
+↓
+
+Prestaciones.
+
+↓
+
+Sentencia.
+
+↓
+
+Cancelación registral.
+
+↓
+
+Actualización administrativa.
+
+↓
+
+Aprendizaje institucional.
+
+---
+
+# RIESGOS
+
+Mayor complejidad inicial.
+
+Necesidad de una arquitectura tecnológica robusta.
+
+Necesidad de disciplina metodológica.
+
+Los beneficios superan ampliamente dichos costos.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ El expediente fue estructurado.
+
+□ Los nodos fueron identificados.
+
+□ Las relaciones fueron documentadas.
+
+□ Los documentos fueron convertidos en conocimiento.
+
+□ El expediente puede reutilizarse parcialmente en otros litigios.
+
+□ El aprendizaje fue incorporado al Micelio.
+
+---
+
+# AXIOMA
+
+El expediente no es un archivo.
+
+Es un organismo vivo de conocimiento jurídico.
+
+---
+
+# RELACIÓN CON OTROS ADR
+
+Este ADR desarrolla y fortalece:
+
+ADR-001
+Las prestaciones son el origen del litigio.
+
+ADR-005
+La ejecución constituye el objetivo del litigio.
+
+ADR-006
+Todo litigio se construye mediante ingeniería inversa.
+
+ADR-007 convierte toda esa arquitectura en una Base de Conocimiento reutilizable.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+El CORPUS JURIS ORTIZ abandona definitivamente el paradigma documental tradicional.
+
+A partir de este Architecture Decision Record, todo expediente será tratado como una Base de Conocimiento Jurídico estructurada mediante nodos, relaciones y metadatos, susceptible de auditoría, aprendizaje, reutilización y evolución permanente.
+
+Los documentos dejarán de ser el centro del expediente y pasarán a ser únicamente evidencia de los objetos jurídicos que integran el sistema de conocimiento institucional.
+
+Esta decisión adquiere carácter transversal, permanente y obligatorio para toda la arquitectura presente y futura del CORPUS JURIS ORTIZ, y únicamente podrá modificarse mediante un nuevo Architecture Decision Record aprobado conforme a las reglas institucionales.

@@ -1,0 +1,365 @@
+# AJ-002 – CANCELACIÓN DE HIPOTECA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este Activo Jurídico constituye la metodología institucional para el análisis, preparación, tramitación, obtención y ejecución de la cancelación de gravámenes hipotecarios.
+
+Su finalidad consiste en lograr la liberación jurídica, registral y administrativa del inmueble cuando la obligación garantizada haya desaparecido por cualquiera de las causas previstas por la legislación.
+
+---
+
+# Alcance
+
+Será aplicable cuando la hipoteca deba cancelarse por:
+
+- Pago.
+- Prescripción negativa.
+- Prescripción de la acción hipotecaria.
+- Novación.
+- Remisión.
+- Confusión.
+- Compensación.
+- Dación en pago.
+- Cumplimiento de condición resolutoria.
+- Resolución judicial.
+- Nulidad.
+- Seguro de vida.
+- Seguro por incapacidad permanente.
+- Extinción de la obligación principal.
+- Cualquier otra causa legal.
+
+---
+
+# Objetivo Procesal
+
+Obtener sentencia o resolución que produzca:
+
+- cancelación del gravamen;
+
+- cancelación registral;
+
+- actualización de antecedentes registrales;
+
+- actualización administrativa;
+
+- plena libertad jurídica del inmueble.
+
+---
+
+# Elementos Jurídicos
+
+El sistema verificará:
+
+□ Existencia de la hipoteca.
+
+□ Existencia de la obligación principal.
+
+□ Causa de extinción.
+
+□ Vigencia registral.
+
+□ Acreedor hipotecario.
+
+□ Titular registral.
+
+□ Inscripciones posteriores.
+
+□ Embargos.
+
+□ Cesiones.
+
+□ Subrogaciones.
+
+□ Gravámenes adicionales.
+
+---
+
+# Causas de Cancelación
+
+CH-001
+
+Pago total.
+
+---
+
+CH-002
+
+Prescripción.
+
+---
+
+CH-003
+
+Sentencia.
+
+---
+
+CH-004
+
+Convenio.
+
+---
+
+CH-005
+
+Seguro.
+
+---
+
+CH-006
+
+Caducidad.
+
+---
+
+CH-007
+
+Nulidad.
+
+---
+
+CH-008
+
+Extinción de obligación.
+
+---
+
+# Documentación Base
+
+Como regla general el sistema analizará:
+
+- escritura constitutiva;
+
+- escritura de cancelación, si existe;
+
+- certificado de información registral vigente;
+
+- historial registral;
+
+- sentencia;
+
+- convenio;
+
+- documentos del acreedor;
+
+- documentación del cliente.
+
+---
+
+# Reglas Especiales INFONAVIT
+
+Cuando el acreedor sea INFONAVIT el sistema verificará adicionalmente:
+
+□ Estado del crédito.
+
+□ Registros administrativos.
+
+□ Sistemas contables.
+
+□ Sistemas de cobranza.
+
+□ Seguro aplicado.
+
+□ Créditos relacionados.
+
+□ Coacreditados.
+
+□ Restricciones para nuevo crédito.
+
+---
+
+## Regla Institucional 1
+
+La cancelación registral deberá solicitarse conjuntamente con la actualización integral de los sistemas administrativos del Instituto cuando ello derive de la causa de extinción.
+
+---
+
+## Regla Institucional 2
+
+La sentencia deberá producir efectos tanto frente al Registro Público como frente a las bases de datos institucionales del acreedor.
+
+---
+
+# Prestaciones Base
+
+Como regla general el sistema analizará:
+
+P-001
+
+Declaración de extinción.
+
+---
+
+P-002
+
+Cancelación de hipoteca.
+
+---
+
+P-003
+
+Cancelación registral.
+
+---
+
+P-004
+
+Expedición de oficios.
+
+---
+
+P-005
+
+Actualización administrativa.
+
+---
+
+P-006
+
+Constancias.
+
+---
+
+P-007
+
+Abstención de futuras reclamaciones relacionadas con la obligación extinguida.
+
+---
+
+# Riesgos Procesales
+
+El sistema analizará:
+
+- gravámenes posteriores;
+
+- embargos;
+
+- cesiones del crédito;
+
+- inexistencia de título;
+
+- inconsistencias registrales;
+
+- errores en folios;
+
+- identidad del inmueble;
+
+- identidad de las partes.
+
+---
+
+# Estrategia Institucional
+
+Antes de generar cualquier demanda el sistema elaborará:
+
+1. Diagnóstico registral.
+
+2. Diagnóstico jurídico.
+
+3. Diagnóstico administrativo.
+
+4. Riesgos.
+
+5. Estrategia recomendada.
+
+6. Acciones complementarias.
+
+---
+
+# Productos Generados
+
+Este Activo permitirá generar automáticamente:
+
+- demanda;
+
+- incidentes;
+
+- recursos;
+
+- escritos de ejecución;
+
+- oficios al Registro Público;
+
+- oficios a INFONAVIT;
+
+- matrices registrales;
+
+- cronologías.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Hipoteca existente.
+
+□ Causa de cancelación acreditada.
+
+□ Certificado registral vigente.
+
+□ Prestaciones completas.
+
+□ Efectos administrativos considerados.
+
+□ Estrategia validada.
+
+□ Riesgos documentados.
+
+---
+
+# Variables
+
+TIPO_CANCELACION
+
+CAUSA_EXTINCION
+
+HIPOTECA
+
+REGISTRO
+
+OFICIOS
+
+RIESGO
+
+ESTRATEGIA
+
+---
+
+# Dependencias
+
+Este Activo depende de:
+
+- Biblioteca Procesal (BP).
+
+- Metodología Jurídica (MJ).
+
+- AJ-001 Prescripción Negativa, cuando la cancelación derive de una sentencia declarativa de prescripción.
+
+---
+
+# Uso por el SIJ-OL
+
+Este Activo será utilizado para construir toda la estrategia procesal y de ejecución relacionada con la cancelación de hipotecas.
+
+El sistema no permitirá concluir un expediente hasta verificar que la cancelación haya producido efectos:
+
+- jurídicos;
+
+- registrales;
+
+- administrativos;
+
+- materiales.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del Activo Jurídico institucional para la cancelación de hipotecas.

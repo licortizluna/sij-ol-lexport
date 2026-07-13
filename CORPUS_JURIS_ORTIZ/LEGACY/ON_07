@@ -1,0 +1,455 @@
+# ON-007
+# ONTOLOGÍA JURÍDICA DEL CORPUS JURIS ORTIZ
+## DOCUMENTOS JURÍDICOS Y EVIDENCIA DOCUMENTAL
+
+Versión 1.0
+
+Clasificación:
+Documento Ontológico
+
+Jerarquía:
+Superior
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+El documento constituye el principal vehículo de conservación, transmisión y acreditación del conocimiento jurídico.
+
+Sin embargo, un documento no equivale necesariamente a un acto jurídico, a un hecho jurídico ni a una prueba plena.
+
+La presente Ontología establece la naturaleza jurídica del documento dentro del CORPUS JURIS ORTIZ y regula sus atributos, relaciones y valor epistemológico.
+
+---
+
+# TÍTULO PRIMERO
+## DEFINICIÓN
+
+### Artículo 1
+
+Documento jurídico es todo soporte material o electrónico capaz de contener información jurídicamente relevante.
+
+---
+
+### Artículo 2
+
+Todo documento constituye un Nodo Primario del Micelio Jurídico Ortiz.
+
+---
+
+### Artículo 3
+
+Todo documento deberá relacionarse con:
+
+Autor.
+
+↓
+
+Fecha.
+
+↓
+
+Origen.
+
+↓
+
+Acto jurídico relacionado.
+
+↓
+
+Hechos.
+
+↓
+
+Prueba.
+
+↓
+
+Proceso.
+
+↓
+
+Valor jurídico.
+
+↓
+
+Valor probatorio.
+
+---
+
+# TÍTULO SEGUNDO
+## NATURALEZA
+
+### Artículo 4
+
+El documento constituye un continente.
+
+No necesariamente el contenido jurídico.
+
+---
+
+### Artículo 5
+
+El CORPUS distinguirá siempre entre:
+
+Documento.
+
+Información.
+
+Hecho.
+
+Acto jurídico.
+
+Prueba.
+
+Consecuencia jurídica.
+
+Nunca deberán confundirse.
+
+---
+
+# TÍTULO TERCERO
+## CLASIFICACIÓN
+
+### Artículo 6
+
+Los documentos podrán clasificarse como:
+
+Documentales públicas.
+
+Documentales privadas.
+
+Documentos electrónicos.
+
+Documentos notariales.
+
+Documentos registrales.
+
+Documentos administrativos.
+
+Documentos judiciales.
+
+Documentos contables.
+
+Documentos contractuales.
+
+Documentos técnicos.
+
+Documentos periciales.
+
+---
+
+### Artículo 7
+
+Cada categoría tendrá un régimen propio de autenticidad y eficacia.
+
+---
+
+# TÍTULO CUARTO
+## ATRIBUTOS
+
+### Artículo 8
+
+Todo documento deberá describirse mediante:
+
+Origen.
+
+Autor.
+
+Fecha.
+
+Integridad.
+
+Autenticidad.
+
+Versión.
+
+Cadena documental.
+
+Estado.
+
+Relaciones.
+
+---
+
+### Artículo 9
+
+Todo atributo deberá verificarse cuando resulte jurídicamente relevante.
+
+---
+
+# TÍTULO QUINTO
+## AUTENTICIDAD
+
+### Artículo 10
+
+La autenticidad constituye un atributo independiente.
+
+---
+
+### Artículo 11
+
+La autenticidad no implica automáticamente:
+
+Veracidad.
+
+Licitud.
+
+Valor probatorio.
+
+Fuerza demostrativa.
+
+---
+
+### Artículo 12
+
+Todo documento auténtico podrá contener información incorrecta.
+
+---
+
+# TÍTULO SEXTO
+## DOCUMENTOS UNILATERALES
+
+### Artículo 13
+
+Todo documento elaborado unilateralmente deberá analizarse con especial rigor.
+
+---
+
+### Artículo 14
+
+Los estados de cuenta, reportes internos, sistemas administrativos, historiales electrónicos y registros contables constituyen documentos susceptibles de impugnación respecto de:
+
+Contenido.
+
+Origen.
+
+Operaciones registradas.
+
+Correspondencia documental.
+
+Valor probatorio.
+
+---
+
+### Artículo 15
+
+El documento unilateral no sustituye el documento fuente del acto jurídico que pretende demostrar.
+
+---
+
+# TÍTULO SÉPTIMO
+## CADENA DOCUMENTAL
+
+### Artículo 16
+
+Todo documento deberá vincularse con los documentos que expliquen:
+
+Su origen.
+
+Su evolución.
+
+Sus modificaciones.
+
+Sus consecuencias.
+
+---
+
+### Artículo 17
+
+La ruptura de la cadena documental constituye un riesgo jurídico.
+
+---
+
+# TÍTULO OCTAVO
+## VALOR PROBATORIO
+
+### Artículo 18
+
+Todo documento deberá analizarse respecto de:
+
+Admisibilidad.
+
+Autenticidad.
+
+Integridad.
+
+Pertinencia.
+
+Conducencia.
+
+Fuerza demostrativa.
+
+Corroboración.
+
+---
+
+### Artículo 19
+
+El valor probatorio nunca dependerá exclusivamente de la existencia física del documento.
+
+---
+
+# TÍTULO NOVENO
+## RELACIONES ONTOLÓGICAS
+
+### Artículo 20
+
+Todo documento podrá relacionarse con:
+
+Personas.
+
+Actos jurídicos.
+
+Contratos.
+
+Bienes.
+
+Obligaciones.
+
+Pruebas.
+
+Procesos.
+
+Sentencias.
+
+Registros.
+
+Autoridades.
+
+---
+
+### Artículo 21
+
+Estas relaciones integrarán el Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO DÉCIMO
+## CICLO DE VIDA
+
+### Artículo 22
+
+Todo documento recorrerá un ciclo de vida.
+
+Creación.
+
+↓
+
+Utilización.
+
+↓
+
+Modificación cuando proceda.
+
+↓
+
+Archivo.
+
+↓
+
+Conservación.
+
+↓
+
+Valor histórico.
+
+---
+
+### Artículo 23
+
+Toda modificación deberá conservar trazabilidad.
+
+Nunca destruir la historia documental.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## VALIDACIÓN
+
+### Artículo 24
+
+Antes de utilizar un documento verificar:
+
+□ Autor.
+
+□ Fecha.
+
+□ Integridad.
+
+□ Autenticidad.
+
+□ Cadena documental.
+
+□ Correspondencia con otros documentos.
+
+□ Valor jurídico.
+
+□ Valor probatorio.
+
+□ Riesgos de impugnación.
+
+---
+
+### Artículo 25
+
+Ningún documento deberá utilizarse aisladamente cuando existan otros documentos relacionados que permitan comprender su verdadero alcance.
+
+---
+
+# TÍTULO DÉCIMO SEGUNDO
+## PRINCIPIOS ONTOLÓGICOS
+
+### Artículo 26
+
+Todo documento constituye evidencia potencial.
+
+No necesariamente evidencia suficiente.
+
+---
+
+### Artículo 27
+
+Todo documento deberá interpretarse dentro de su contexto jurídico.
+
+Nunca aisladamente.
+
+---
+
+### Artículo 28
+
+La existencia del documento no acredita automáticamente el hecho jurídico contenido en él.
+
+---
+
+### Artículo 29
+
+La fuerza demostrativa dependerá del conjunto de relaciones documentales existentes dentro del Micelio Jurídico Ortiz.
+
+---
+
+### Artículo 30
+
+El documento constituye la memoria jurídica del sistema y uno de los principales mecanismos de preservación del patrimonio intelectual institucional.
+
+---
+
+# AXIOMA ONTOLÓGICO
+
+Un documento nunca habla por sí solo.
+
+Su verdadero significado surge únicamente cuando se analiza conjuntamente con su origen, contexto, relaciones, prueba, normas aplicables y función dentro del sistema jurídico.
+
+---
+
+# CLÁUSULA ONTOLÓGICA
+
+El CORPUS JURIS ORTIZ reconoce al documento jurídico como un objeto complejo cuya utilidad depende de la autenticidad, integridad, contexto, relaciones y fuerza demostrativa que posea dentro del Micelio Jurídico Ortiz.
+
+Toda estrategia institucional deberá analizar los documentos como elementos dinámicos de una red probatoria y nunca como piezas aisladas de información.

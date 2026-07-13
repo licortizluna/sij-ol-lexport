@@ -1,0 +1,196 @@
+# ADR-001
+# ARCHITECTURE DECISION RECORD
+## Las Prestaciones Constituyen el Punto de Partida de Todo Litigio
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La práctica jurídica tradicional enseña que la demanda debe comenzar identificando los hechos.
+
+Posteriormente se buscan normas.
+
+Después pruebas.
+
+Finalmente se redactan las prestaciones.
+
+El análisis realizado durante el desarrollo del Método Ortiz demostró que este orden produce múltiples deficiencias:
+
+• Prestaciones incompletas.
+
+• Prestaciones incompatibles.
+
+• Omisión de efectos registrales.
+
+• Omisión de consecuencias administrativas.
+
+• Omisión de ejecución.
+
+• Prueba innecesaria.
+
+• Hechos irrelevantes.
+
+• Demandas difíciles de ejecutar.
+
+Se determinó que el verdadero objeto del litigio no son los hechos.
+
+Es la satisfacción del derecho material del cliente.
+
+Por ello, el diseño del litigio debe comenzar identificando exactamente qué resultado jurídico se pretende obtener.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Toda construcción jurídica comenzará diseñando las prestaciones y nunca los hechos.**
+
+Una vez definidas las prestaciones se determinarán:
+
+1. Los actos materiales necesarios para ejecutarlas.
+
+2. Las consecuencias administrativas.
+
+3. Las consecuencias registrales.
+
+4. Los hechos necesarios.
+
+5. Las pruebas necesarias.
+
+6. Las normas aplicables.
+
+7. La jurisprudencia pertinente.
+
+8. La estrategia procesal.
+
+---
+
+# FUNDAMENTO
+
+Las prestaciones:
+
+Delimitan la litis.
+
+Determinan la competencia.
+
+Condicionan la congruencia.
+
+Determinan la carga probatoria.
+
+Orientan la teoría del caso.
+
+Definen la sentencia esperada.
+
+Permiten diseñar la ejecución.
+
+Ningún otro elemento posee ese nivel de influencia sobre el litigio.
+
+---
+
+# CONSECUENCIAS
+
+A partir de este ADR quedan prohibidas las siguientes prácticas:
+
+Redactar hechos antes de conocer las prestaciones.
+
+Ofrecer pruebas antes de conocer las prestaciones.
+
+Elegir la vía antes de conocer las prestaciones.
+
+Diseñar estrategia antes de conocer las prestaciones.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Mayor claridad.
+
+Demandas completas.
+
+Sentencias ejecutables.
+
+Menor número de omisiones.
+
+Mejor ingeniería probatoria.
+
+Mejor teoría del caso.
+
+Mayor eficiencia institucional.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+MOAJ.
+
+PR.
+
+ST.
+
+CIJ.
+
+LGJ.
+
+Toda producción documental futura.
+
+---
+
+# RIESGOS
+
+Puede resultar contraintuitivo para operadores jurídicos acostumbrados al método tradicional.
+
+El CORPUS deberá verificar permanentemente que esta regla sea observada.
+
+---
+
+# CUMPLIMIENTO
+
+Todo documento institucional será auditado para verificar que:
+
+□ Las prestaciones fueron diseñadas primero.
+
+□ Los hechos derivan de ellas.
+
+□ Las pruebas derivan de los hechos.
+
+□ La estrategia deriva de las prestaciones.
+
+---
+
+# AXIOMA
+
+El litigio no comienza preguntando:
+
+¿Qué ocurrió?
+
+Comienza preguntando:
+
+¿Qué resolución necesita obtener el cliente?
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+Este ADR adquiere carácter permanente y obligatorio para todo el CORPUS JURIS ORTIZ.
+
+Ningún protocolo, estándar, criterio institucional o documento procesal podrá apartarse de esta decisión sin la emisión de un nuevo Architecture Decision Record que expresamente la modifique o sustituya.

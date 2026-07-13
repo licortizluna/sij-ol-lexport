@@ -1,0 +1,356 @@
+    # AJ-001 – PRESCRIPCIÓN NEGATIVA DE CRÉDITOS HIPOTECARIOS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este Activo Jurídico constituye la metodología institucional del SIJ-OL para el análisis, preparación, redacción, seguimiento y ejecución de acciones de prescripción negativa (prescripción extintiva) de créditos hipotecarios.
+
+Este documento concentra el conocimiento estratégico desarrollado por el despacho y constituye uno de los activos jurídicos de mayor valor del CORPUS JURIS ORTIZ.
+
+---
+
+# Alcance
+
+Será aplicable a créditos otorgados por:
+
+- INFONAVIT.
+- Instituciones bancarias.
+- SOFOLES.
+- SOFOMES.
+- Particulares.
+- Acreedores hipotecarios en general.
+
+El sistema deberá parametrizar los requisitos específicos conforme a la legislación aplicable.
+
+---
+
+# Objetivo Procesal
+
+Obtener sentencia que declare:
+
+- prescrita la acción hipotecaria;
+
+- prescrita la acción personal cuando proceda;
+
+- extinguida la obligación exigible por prescripción;
+
+- cancelado el gravamen hipotecario;
+
+- cancelados los registros administrativos derivados del crédito;
+
+- restituidos plenamente los derechos del acreditado.
+
+---
+
+# Prestaciones Base
+
+Como regla institucional el sistema analizará, entre otras:
+
+P-001
+
+Declaración de prescripción.
+
+---
+
+P-002
+
+Cancelación de hipoteca.
+
+---
+
+P-003
+
+Cancelación registral.
+
+---
+
+P-004
+
+Cancelación del crédito en sistemas administrativos.
+
+---
+
+P-005
+
+Cese definitivo de actos de cobranza.
+
+---
+
+P-006
+
+Abstención de futuras acciones de cobro.
+
+---
+
+P-007
+
+Expedición de constancias.
+
+---
+
+P-008
+
+Actualización de bases de datos.
+
+---
+
+P-009
+
+Liberación de restricciones para nuevos créditos cuando legalmente proceda.
+
+---
+
+# Elementos Jurídicos
+
+El sistema deberá verificar:
+
+□ Fecha de exigibilidad.
+
+□ Plazo de prescripción.
+
+□ Legislación aplicable.
+
+□ Régimen transitorio.
+
+□ Interrupciones.
+
+□ Suspensiones.
+
+□ Reconocimiento de adeudo.
+
+□ Demandas previas.
+
+□ Convenios.
+
+□ Pagos posteriores.
+
+□ Actos interruptivos.
+
+---
+
+# Matriz Cronológica
+
+Todo expediente deberá generar automáticamente:
+
+| Evento | Fecha | Efecto Jurídico | Documento Soporte |
+
+---
+
+# Documentación Base
+
+Como regla general el sistema analizará:
+
+- escritura pública;
+
+- certificado de información registral;
+
+- documentos de identidad;
+
+- historial procesal;
+
+- actuaciones judiciales;
+
+- documentos registrales;
+
+- documentación aportada por el cliente.
+
+El sistema no presumirá indispensable el estado de cuenta histórico cuando la estrategia jurídica permita sostener que la carga probatoria corresponde a la demandada.
+
+---
+
+# Reglas Institucionales INFONAVIT
+
+En asuntos promovidos contra INFONAVIT el sistema observará los siguientes criterios institucionales:
+
+## Regla 1
+
+No solicitar información que ya obre en la escritura pública o en el Certificado de Información Registral.
+
+---
+
+## Regla 2
+
+Cuando el hecho relevante sea negativo, analizar previamente la distribución de la carga probatoria antes de requerir estados de cuenta históricos.
+
+---
+
+## Regla 3
+
+Solicitar, cuando proceda, que al contestar la demanda el Instituto informe sobre los registros administrativos relacionados con el crédito.
+
+---
+
+## Regla 4
+
+Las prestaciones deberán contemplar tanto los efectos registrales como los efectos administrativos derivados de la sentencia.
+
+---
+
+## Regla 5
+
+La estrategia deberá considerar la desvinculación integral del acreditado respecto del crédito prescrito.
+
+---
+
+# Riesgos Procesales
+
+El sistema analizará:
+
+- interrupción de la prescripción;
+
+- suspensión;
+
+- reconocimiento expreso;
+
+- pagos posteriores;
+
+- convenios modificatorios;
+
+- cesiones del crédito;
+
+- ejecución previa;
+
+- demandas anteriores;
+
+- inconsistencias cronológicas.
+
+---
+
+# Estrategia Institucional
+
+El Motor Jurídico deberá elaborar un informe previo que contenga:
+
+1. Línea de tiempo.
+
+2. Hecho generador de la exigibilidad.
+
+3. Fecha de inicio del plazo.
+
+4. Fecha de conclusión del plazo.
+
+5. Posibles actos interruptivos.
+
+6. Riesgos identificados.
+
+7. Estrategia recomendada.
+
+8. Nivel de solidez jurídica.
+
+---
+
+# Productos Generados
+
+Este Activo permitirá construir automáticamente:
+
+- demanda inicial;
+
+- ampliaciones;
+
+- contestaciones;
+
+- recursos;
+
+- alegatos;
+
+- ejecución;
+
+- escritos de trámite;
+
+- matrices jurídicas;
+
+- matrices probatorias;
+
+- cronologías.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Competencia correcta.
+
+□ Vía correcta.
+
+□ Plazo verificado.
+
+□ Legislación vigente.
+
+□ Régimen transitorio revisado.
+
+□ Actos interruptivos analizados.
+
+□ Prestaciones completas.
+
+□ Estrategia validada.
+
+□ Riesgos documentados.
+
+---
+
+# Variables
+
+FECHA_EXIGIBILIDAD
+
+PLAZO_PRESCRIPCION
+
+INTERRUPCIONES
+
+SUSPENSIONES
+
+RECONOCIMIENTO
+
+RIESGO
+
+ESTRATEGIA
+
+SOLIDEZ
+
+---
+
+# Dependencias
+
+Este Activo depende de:
+
+- BP-005 Competencia.
+
+- BP-006 Vía.
+
+- BP-007 Legitimación.
+
+- BP-008 Prestaciones.
+
+- BP-009 Hechos.
+
+- BP-010 Pruebas.
+
+- BP-011 Derecho.
+
+- BP-012 Petitorios.
+
+- BP-013 Ejecución.
+
+- MJ-001 Interpretación Jurídica.
+
+- MJ-002 Valoración Probatoria.
+
+- MJ-003 Hermenéutica Jurídica.
+
+---
+
+# Uso por el SIJ-OL
+
+Este Activo Jurídico constituye el modelo institucional para todos los asuntos de prescripción negativa de créditos hipotecarios.
+
+Ninguna demanda será generada sin que previamente se hayan validado la cronología, el plazo de prescripción, la legislación aplicable, los posibles actos interruptivos y la congruencia entre las prestaciones reclamadas y los efectos registrales y administrativos pretendidos.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del primer Activo Jurídico Sustantivo del CORPUS JURIS ORTIZ.

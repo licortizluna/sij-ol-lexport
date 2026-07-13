@@ -1,0 +1,382 @@
+# ADR-009
+# ARCHITECTURE DECISION RECORD
+## Ningún Escrito Será Reutilizado; Únicamente se Reutilizará Conocimiento Estructurado
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La práctica jurídica tradicional ha evolucionado mediante la reutilización de formatos.
+
+Se copian demandas.
+
+Se copian contratos.
+
+Se copian recursos.
+
+Se sustituyen nombres, fechas y cantidades.
+
+Posteriormente se agregan algunos argumentos nuevos.
+
+Este método produce múltiples problemas:
+
+• Errores de copia.
+
+• Datos residuales.
+
+• Fundamentos obsoletos.
+
+• Jurisprudencia desactualizada.
+
+• Prestaciones incompatibles.
+
+• Argumentación contradictoria.
+
+• Omisiones procesales.
+
+• Repetición de errores históricos.
+
+El análisis desarrollado durante la creación del CORPUS JURIS ORTIZ demuestra que los formatos no constituyen conocimiento.
+
+Constituyen únicamente una manifestación circunstancial del conocimiento aplicado a un caso específico.
+
+---
+
+# PROBLEMA
+
+Cuando un despacho reutiliza escritos:
+
+Reutiliza también sus errores.
+
+Reutiliza sus omisiones.
+
+Reutiliza criterios ya superados.
+
+Reutiliza hechos irrelevantes.
+
+Reutiliza estructuras que quizá no resultan óptimas para el nuevo caso.
+
+En consecuencia:
+
+Cada copia disminuye progresivamente la calidad técnica del sistema.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Ningún documento procesal, contrato, escrito, formato o modelo será reutilizado como punto de partida de un nuevo trabajo jurídico.**
+
+Lo único reutilizable será el conocimiento previamente estructurado.
+
+---
+
+# PRINCIPIO RECTOR
+
+Los documentos son productos finales.
+
+Nunca insumos.
+
+Los insumos serán exclusivamente:
+
+Reglas.
+
+Patrones.
+
+Protocolos.
+
+Heurísticas.
+
+Matrices.
+
+Decisiones arquitectónicas.
+
+Modelos jurídicos.
+
+Relaciones.
+
+Ontologías.
+
+Criterios institucionales.
+
+Conocimiento validado.
+
+---
+
+# MODELO DE PRODUCCIÓN
+
+Todo documento institucional deberá generarse nuevamente a partir de:
+
+Micelio Jurídico Ortiz.
+
+↓
+
+ADR.
+
+↓
+
+Protocolos PR.
+
+↓
+
+MOAJ.
+
+↓
+
+CIJ.
+
+↓
+
+ST.
+
+↓
+
+LGJ.
+
+↓
+
+Matriz del caso concreto.
+
+↓
+
+Documento final.
+
+Nunca a partir de otro escrito.
+
+---
+
+# FUNDAMENTO
+
+Cada litigio posee:
+
+Hechos distintos.
+
+Pruebas distintas.
+
+Sujetos distintos.
+
+Cronologías distintas.
+
+Riesgos distintos.
+
+Objetivos distintos.
+
+Por ello:
+
+Aunque dos demandas pertenezcan a la misma acción jurídica, representan problemas diferentes.
+
+Lo reutilizable es el conocimiento.
+
+No la redacción.
+
+---
+
+# REGLAS DERIVADAS
+
+Queda prohibido:
+
+Copiar demandas anteriores.
+
+Copiar contratos anteriores.
+
+Copiar recursos anteriores.
+
+Copiar conceptos de violación.
+
+Copiar agravios.
+
+Copiar capítulos de pruebas.
+
+Copiar hechos.
+
+Copiar prestaciones.
+
+---
+
+# EXCEPCIÓN
+
+Podrán reutilizarse únicamente:
+
+Cláusulas institucionales.
+
+Textos normativos oficiales.
+
+Transcripciones de jurisprudencia.
+
+Definiciones técnicas.
+
+Plantillas estructurales.
+
+Siempre que permanezcan vigentes y hayan sido previamente auditadas.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Eliminación de errores heredados.
+
+Mayor precisión técnica.
+
+Actualización permanente.
+
+Documentos completamente coherentes.
+
+Reducción de inconsistencias.
+
+Escalabilidad del conocimiento.
+
+Uniformidad metodológica.
+
+---
+
+# IMPACTO
+
+Este ADR modifica:
+
+Toda la producción documental.
+
+Todos los Protocolos PR.
+
+Todos los ST.
+
+Todos los CIJ.
+
+Todos los Manuales.
+
+Toda la arquitectura Base44.
+
+Todo el sistema documental del CORPUS.
+
+---
+
+# EJEMPLO
+
+Incorrecto:
+
+Demanda anterior
+
+↓
+
+Copiar
+
+↓
+
+Editar
+
+↓
+
+Nueva demanda
+
+Modelo institucional:
+
+Conocimiento estructurado
+
+↓
+
+Prestaciones
+
+↓
+
+Teoría del caso
+
+↓
+
+Ingeniería probatoria
+
+↓
+
+Ingeniería normativa
+
+↓
+
+Ingeniería jurisprudencial
+
+↓
+
+Auditoría
+
+↓
+
+Documento nuevo
+
+---
+
+# RIESGOS
+
+Mayor tiempo de elaboración durante la fase inicial.
+
+Sin embargo:
+
+Disminución drástica de errores acumulativos.
+
+Incremento permanente de calidad.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ El documento fue generado desde el conocimiento estructurado.
+
+□ No deriva de otro escrito.
+
+□ Toda fundamentación fue actualizada.
+
+□ Toda jurisprudencia fue auditada nuevamente.
+
+□ Toda estrategia fue diseñada específicamente para el caso.
+
+□ No existen residuos documentales provenientes de litigios anteriores.
+
+---
+
+# AXIOMA
+
+Los formatos envejecen.
+
+El conocimiento evoluciona.
+
+---
+
+# RELACIÓN CON OTROS ADR
+
+Este ADR desarrolla:
+
+ADR-007
+El expediente como Base de Conocimiento.
+
+ADR-008
+Todo aprendizaje debe incorporarse al Micelio.
+
+ADR-009 elimina definitivamente la cultura del "copiar y pegar" dentro del CORPUS.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+El CORPUS JURIS ORTIZ abandona de manera definitiva el paradigma de los formatos reutilizables.
+
+A partir de esta decisión, todo documento institucional será una creación original, construida específicamente para el caso concreto mediante la reutilización exclusiva del conocimiento previamente validado, estructurado y almacenado en el Micelio Jurídico Ortiz.
+
+Los escritos dejarán de constituir modelos para futuros asuntos y pasarán a ser únicamente la manifestación documental de una arquitectura de conocimiento que evoluciona permanentemente.
+
+Esta decisión adquiere carácter transversal, permanente y obligatorio para toda la arquitectura presente y futura del CORPUS JURIS ORTIZ y sólo podrá modificarse mediante un nuevo Architecture Decision Record aprobado conforme al procedimiento institucional.

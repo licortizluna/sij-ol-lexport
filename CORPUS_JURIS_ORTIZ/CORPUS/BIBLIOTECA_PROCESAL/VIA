@@ -1,0 +1,289 @@
+# BP-006 – VÍA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para determinar y justificar la vía procesal procedente.
+
+Todo documento generado por el SIJ-OL deberá obtener de este módulo el capítulo relativo a la procedencia de la vía.
+
+La determinación de la vía constituye una decisión jurídica estratégica y deberá realizarse antes de elaborar cualquier demanda.
+
+---
+
+# Concepto
+
+La vía procesal es el procedimiento legalmente previsto para conocer y resolver una controversia determinada.
+
+Su selección dependerá de:
+
+- naturaleza de la acción;
+- prestaciones reclamadas;
+- legislación aplicable;
+- competencia;
+- jurisprudencia vigente.
+
+Nunca deberá seleccionarse únicamente por conveniencia.
+
+---
+
+# Vías desarrolladas
+
+V-001
+
+Juicio Ordinario Civil.
+
+---
+
+V-002
+
+Juicio Oral Civil.
+
+---
+
+V-003
+
+Juicio Ejecutivo Mercantil.
+
+---
+
+V-004
+
+Juicio Oral Mercantil.
+
+---
+
+V-005
+
+Jurisdicción Voluntaria.
+
+---
+
+V-006
+
+Procedimiento Especial.
+
+---
+
+V-007
+
+Incidentes.
+
+---
+
+V-008
+
+Amparo Indirecto.
+
+---
+
+V-009
+
+Amparo Directo.
+
+---
+
+V-010
+
+Recursos.
+
+---
+
+# Modelo V-001
+## Juicio Ordinario Civil
+
+La vía ordinaria civil resulta procedente por tratarse de una controversia de naturaleza civil respecto de la cual la legislación aplicable no prevé un procedimiento especial diverso.
+
+Las prestaciones reclamadas y la acción ejercitada actualizan plenamente los supuestos legales para su tramitación en dicha vía.
+
+---
+
+# Modelo V-002
+## Juicio Oral Civil
+
+La vía oral civil resulta procedente atendiendo a la naturaleza de la controversia y, en su caso, a la cuantía prevista por la legislación procesal vigente.
+
+---
+
+# Modelo V-003
+## Juicio Ejecutivo Mercantil
+
+La vía ejecutiva mercantil resulta procedente al fundarse la acción en un documento que trae aparejada ejecución conforme al Código de Comercio.
+
+---
+
+# Modelo V-004
+## Juicio Oral Mercantil
+
+La vía oral mercantil resulta procedente por derivar la controversia de actos de comercio cuya cuantía permite su tramitación mediante dicho procedimiento.
+
+---
+
+# Modelo V-005
+## Jurisdicción Voluntaria
+
+La vía de jurisdicción voluntaria resulta procedente al no existir controversia entre partes y perseguirse únicamente la declaración, autorización o constatación judicial de un hecho o acto jurídico.
+
+---
+
+# Modelo V-006
+## Acción Declarativa
+
+La vía elegida resulta procedente por ejercitarse una acción meramente declarativa encaminada a obtener certeza jurídica respecto de la existencia, inexistencia, modificación o extinción de una relación jurídica.
+
+---
+
+# Modelo V-007
+## Prescripción Negativa
+
+La vía ordinaria civil resulta procedente al ejercitarse una acción declarativa de prescripción extintiva derivada de un contrato de crédito con garantía hipotecaria, solicitándose además las consecuencias jurídicas inherentes a dicha declaración.
+
+---
+
+# Modelo V-008
+## Cancelación de Hipoteca
+
+La vía ordinaria civil resulta procedente cuando la cancelación del gravamen constituye consecuencia de la extinción, prescripción, pago, nulidad o cualquier otra causa legal que afecte la obligación principal.
+
+---
+
+# Modelo V-009
+## Acción Pro Forma
+
+La vía ordinaria civil resulta procedente tratándose de la acción de otorgamiento y firma de escritura definitiva derivada del incumplimiento de la obligación contractual de formalizar un acto jurídico.
+
+---
+
+# Modelo V-010
+## Prescripción Adquisitiva
+
+La vía ordinaria civil resulta procedente para obtener la declaración judicial de adquisición de la propiedad por prescripción positiva y la inscripción correspondiente en el Registro Público de la Propiedad.
+
+---
+
+# Modelo V-011
+## Inmatriculación
+
+La vía prevista por la legislación especial resulta procedente para obtener la primera inscripción registral del inmueble acreditando previamente todos los requisitos legales.
+
+---
+
+# Modelo V-012
+## Divorcio Voluntario
+
+La vía especial familiar resulta procedente al existir acuerdo de voluntades para disolver el vínculo matrimonial.
+
+---
+
+# Modelo V-013
+## Divorcio Incausado
+
+La vía especial familiar resulta procedente por ejercitarse el derecho unilateral a solicitar la disolución del matrimonio.
+
+---
+
+# Modelo V-014
+## Sucesiones
+
+La vía sucesoria resulta procedente para obtener la transmisión judicial del patrimonio de una persona fallecida conforme a la legislación civil aplicable.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Toda vía deberá sustentarse en:
+
+- legislación;
+- jurisprudencia;
+- naturaleza de la acción;
+- prestaciones;
+- competencia.
+
+---
+
+## Regla 2
+
+El sistema deberá advertir cuando exista duda razonable sobre la vía procedente.
+
+Nunca deberá asumir automáticamente una vía si existen criterios relevantes en sentido diverso.
+
+---
+
+## Regla 3
+
+Cuando exista jurisprudencia obligatoria relativa a la vía deberá incorporarse automáticamente.
+
+---
+
+## Regla 4
+
+En asuntos promovidos contra INFONAVIT el sistema deberá justificar expresamente la elección de la vía civil cuando la acción derive del contrato de crédito o de la garantía hipotecaria.
+
+---
+
+## Regla 5
+
+Cuando existan criterios jurisprudenciales contradictorios el sistema deberá:
+
+- identificarlos;
+- explicar el criterio institucional adoptado;
+- advertir el riesgo procesal correspondiente.
+
+---
+
+# Validaciones del SIJ-OL
+
+Antes de generar cualquier demanda deberá verificarse:
+
+□ Acción correctamente identificada.
+
+□ Prestaciones congruentes.
+
+□ Competencia definida.
+
+□ Vía legalmente procedente.
+
+□ Legislación vigente.
+
+□ Jurisprudencia revisada.
+
+□ Riesgos advertidos.
+
+---
+
+# Variables Institucionales
+
+TIPO_ACCION
+
+TIPO_PRESTACION
+
+VIA_PROCEDENTE
+
+FUNDAMENTO_LEGAL
+
+JURISPRUDENCIA_APLICABLE
+
+RIESGO_PROCESAL
+
+---
+
+# Uso por el SIJ-OL
+
+El motor de decisión consultará este módulo inmediatamente después de identificar la acción ejercitada.
+
+La vía seleccionada condicionará la generación del resto del documento y las validaciones posteriores del expediente.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de procedencia de la vía.

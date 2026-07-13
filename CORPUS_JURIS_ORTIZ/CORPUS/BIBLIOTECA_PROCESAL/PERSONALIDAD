@@ -1,0 +1,196 @@
+# BP-002 – PERSONALIDAD
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente oficial para acreditar personalidad, representación, capacidad procesal y legitimación para comparecer dentro de cualquier procedimiento judicial o administrativo.
+
+Todo Activo Sustantivo y Activo Procesal deberá reutilizar este documento.
+
+---
+
+# Principios Institucionales
+
+Toda personalidad deberá analizarse verificando:
+
+- Existencia jurídica.
+- Capacidad de ejercicio.
+- Capacidad procesal.
+- Interés jurídico.
+- Legitimación.
+- Representación suficiente.
+- Facultades legales.
+
+---
+
+# Modelo P-001
+## Persona física por propio derecho
+
+______________________________________, mexicano(a), mayor de edad, por mi propio derecho, comparezco respetuosamente para exponer:
+
+---
+
+# Modelo P-002
+## Personalidad previamente reconocida
+
+Promoviendo con la personalidad que tengo debidamente acreditada y reconocida en autos, comparezco respetuosamente para exponer:
+
+---
+
+# Modelo P-003
+## Apoderado legal
+
+______________________________________, en mi carácter de apoderado legal de ______________________________________, personalidad acreditada mediante el instrumento correspondiente, comparezco para exponer:
+
+---
+
+# Modelo P-004
+## Albacea
+
+______________________________________, en mi carácter de Albacea Definitivo de la Sucesión a bienes de ______________________________________, personalidad reconocida en autos, comparezco para exponer:
+
+---
+
+# Modelo P-005
+## Tutor
+
+______________________________________, en mi carácter de tutor legal de ______________________________________, personalidad acreditada conforme a la resolución judicial correspondiente, comparezco para exponer:
+
+---
+
+# Modelo P-006
+## Persona moral
+
+______________________________________, en representación legal de ______________________________________, personalidad acreditada mediante ______________________________________, comparezco para exponer:
+
+---
+
+# Modelo P-007
+## Heredero
+
+______________________________________, en mi carácter de heredero reconocido dentro del expediente sucesorio correspondiente, comparezco para exponer:
+
+---
+
+# Modelo P-008
+## Legatario
+
+______________________________________, en mi carácter de legatario reconocido judicialmente, comparezco para exponer:
+
+---
+
+# Modelo P-009
+## Representación derivada de resolución judicial
+
+______________________________________, personalidad que deriva de resolución emitida por ______________________________________, comparezco para exponer:
+
+---
+
+# Modelo P-010
+## Juicio de Amparo
+
+______________________________________, por mi propio derecho (o con la personalidad acreditada), comparezco promoviendo juicio de amparo y solicito el acceso al expediente electrónico mediante el usuario:
+
+LICORTIZLUNA
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Cuando la personalidad ya se encuentre reconocida en autos deberá utilizarse preferentemente la siguiente fórmula:
+
+> "Promoviendo con la personalidad que tengo debidamente acreditada y reconocida en autos..."
+
+---
+
+## Regla 2
+
+No volverá a exhibirse documentación que ya obre agregada al expediente, salvo prevención judicial.
+
+---
+
+## Regla 3
+
+Cuando exista representación mediante poder deberá verificarse:
+
+- vigencia;
+- facultades;
+- revocación;
+- limitaciones;
+- identidad del otorgante;
+- identidad del apoderado.
+
+---
+
+## Regla 4
+
+Cuando la representación derive de un procedimiento sucesorio deberá verificarse:
+
+- nombramiento;
+- aceptación;
+- discernimiento del cargo;
+- vigencia.
+
+---
+
+## Regla 5
+
+Cuando comparezca una persona moral deberá verificarse:
+
+- constitución;
+- representación;
+- facultades;
+- vigencia del cargo.
+
+---
+
+## Regla 6
+
+Antes de elaborar cualquier documento el sistema deberá validar:
+
+□ Personalidad.
+
+□ Capacidad procesal.
+
+□ Legitimación.
+
+□ Interés jurídico.
+
+□ Representación.
+
+---
+
+# Variables Institucionales
+
+TIPO_DE_PERSONALIDAD
+
+DOCUMENTO_BASE
+
+REPRESENTANTE
+
+FACULTADES
+
+INTERES_JURIDICO
+
+LEGITIMACION
+
+---
+
+# Uso por el SIJ-OL
+
+El motor jurídico deberá consultar este módulo antes de generar cualquier documento que implique comparecencia judicial.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de personalidad y representación procesal.

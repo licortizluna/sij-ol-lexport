@@ -1,0 +1,236 @@
+# ADR-002
+# ARCHITECTURE DECISION RECORD
+## Ninguna Norma Jurídica Podrá Utilizarse sin Verificación Integral
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+Uno de los errores más frecuentes en la práctica jurídica consiste en citar artículos de memoria, copiar fundamentos de escritos anteriores o reproducir referencias doctrinales sin verificar su contenido, vigencia y aplicabilidad.
+
+Estas prácticas generan errores de diversa gravedad:
+
+• Citas de artículos derogados.
+
+• Aplicación de normas transitorias incorrectas.
+
+• Interpretaciones fuera de contexto.
+
+• Fundamentaciones incompatibles con los hechos.
+
+• Pérdida de credibilidad técnica.
+
+• Debilitamiento de la teoría del caso.
+
+El análisis institucional concluyó que la precisión normativa constituye un requisito indispensable para la calidad jurídica del CORPUS.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla permanente que:
+
+**Ningún artículo, disposición normativa, reglamento, contrato, tratado internacional o disposición administrativa podrá utilizarse sin una verificación integral previa.**
+
+La verificación comprenderá, como mínimo:
+
+Existencia.
+
+Texto íntegro.
+
+Vigencia.
+
+Reformas.
+
+Jerarquía normativa.
+
+Ámbito material.
+
+Ámbito temporal.
+
+Ámbito territorial.
+
+Supuesto jurídico.
+
+Aplicabilidad al caso concreto.
+
+---
+
+# FUNDAMENTO
+
+Una norma únicamente produce valor cuando:
+
+Existe.
+
+Se encuentra vigente.
+
+Regula exactamente el supuesto jurídico.
+
+Es interpretada conforme a su contexto.
+
+Es compatible con el resto del sistema jurídico.
+
+---
+
+# ALCANCE
+
+Esta decisión comprende:
+
+Constitución.
+
+Tratados internacionales.
+
+Leyes generales.
+
+Leyes federales.
+
+Leyes estatales.
+
+Códigos.
+
+Reglamentos.
+
+Normas oficiales.
+
+Reglas administrativas.
+
+Contratos.
+
+Estatutos.
+
+Reglamentos internos.
+
+Cualquier otra fuente formal del Derecho.
+
+---
+
+# REGLAS DERIVADAS
+
+Queda prohibido:
+
+Citar artículos de memoria.
+
+Utilizar formatos antiguos sin auditoría.
+
+Copiar fundamentos de otros escritos sin revisión.
+
+Inferir el contenido de una norma.
+
+Utilizar normas cuya vigencia no haya sido comprobada.
+
+Fundamentar por analogía cuando exista disposición específica aplicable.
+
+---
+
+# CONSECUENCIAS
+
+Toda disposición utilizada deberá poder responder:
+
+¿Por qué regula este caso?
+
+¿Por qué continúa vigente?
+
+¿Por qué resulta preferente frente a otras normas?
+
+¿Por qué su interpretación es correcta?
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Mayor precisión técnica.
+
+Menor número de errores.
+
+Mayor credibilidad institucional.
+
+Mayor solidez argumentativa.
+
+Mayor calidad metodológica.
+
+Mejor resistencia frente a recursos y amparos.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+MOAJ.
+
+PR-011.
+
+PR-013.
+
+PR-015.
+
+PR-016.
+
+PR-018.
+
+PR-019.
+
+Todos los documentos institucionales.
+
+---
+
+# RIESGOS
+
+Incremento del tiempo de investigación.
+
+Disminución de velocidad inicial.
+
+No obstante, el beneficio institucional supera ampliamente dicho costo.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría verificará:
+
+□ La norma existe.
+
+□ El texto coincide exactamente.
+
+□ Se verificó su vigencia.
+
+□ Se verificó su aplicabilidad.
+
+□ Se verificó su jerarquía.
+
+□ Se verificó su interpretación.
+
+□ La fundamentación corresponde exactamente al supuesto jurídico.
+
+---
+
+# AXIOMA
+
+No existe fundamentación correcta cuando la norma no ha sido previamente auditada.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+La verificación normativa constituye un requisito obligatorio e irrenunciable para toda producción jurídica del CORPUS JURIS ORTIZ.
+
+Ningún documento podrá certificarse mientras subsista una sola disposición normativa cuya existencia, vigencia, contenido o aplicabilidad no haya sido plenamente comprobada.
+
+Esta decisión adquiere carácter permanente y únicamente podrá modificarse mediante un nuevo Architecture Decision Record expresamente aprobado por el CORPUS JURIS ORTIZ.

@@ -1,0 +1,323 @@
+# AJ-000 – ESTÁNDAR DE ACTIVOS JURÍDICOS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este documento establece la estructura oficial que deberán seguir todos los Activos Jurídicos (AJ) del CORPUS JURIS ORTIZ.
+
+Su finalidad es garantizar uniformidad, reutilización, mantenibilidad y escalabilidad en toda la base de conocimiento del SIJ-OL.
+
+Ningún Activo Jurídico podrá incorporarse al CORPUS si no cumple con esta especificación.
+
+---
+
+# Filosofía Institucional
+
+Un Activo Jurídico no es una plantilla.
+
+No es un formulario.
+
+No es una demanda.
+
+Es la representación estructurada del conocimiento jurídico especializado del despacho sobre una institución jurídica determinada.
+
+---
+
+# Definición
+
+Todo Activo Jurídico deberá contener el conocimiento necesario para que el SIJ-OL pueda:
+
+- analizar;
+
+- diagnosticar;
+
+- planear;
+
+- documentar;
+
+- ejecutar;
+
+- controlar;
+
+un procedimiento completo relacionado con una institución jurídica específica.
+
+---
+
+# Estructura Obligatoria
+
+Todo Activo Jurídico deberá contener, como mínimo, los siguientes capítulos.
+
+---
+
+## 1. Objetivo
+
+Describe la finalidad del Activo.
+
+---
+
+## 2. Alcance
+
+Define los supuestos en los que resulta aplicable.
+
+---
+
+## 3. Objetivo Procesal
+
+Describe el resultado jurídico esperado.
+
+---
+
+## 4. Marco Jurídico
+
+Identifica:
+
+- Constitución;
+
+- Tratados;
+
+- Legislación;
+
+- Reglamentos;
+
+- Contratos;
+
+- Jurisprudencia;
+
+- Doctrina relevante.
+
+---
+
+## 5. Elementos Jurídicos
+
+Lista todos los elementos cuya existencia deberá verificar el sistema.
+
+---
+
+## 6. Prestaciones Base
+
+Catálogo institucional de prestaciones.
+
+---
+
+## 7. Hechos Base
+
+Catálogo de hechos normalmente presentes.
+
+---
+
+## 8. Documentación Base
+
+Documentos normalmente requeridos.
+
+---
+
+## 9. Matriz Cronológica
+
+Eventos jurídicamente relevantes.
+
+---
+
+## 10. Reglas Especiales
+
+Reglas específicas de la institución.
+
+---
+
+## 11. Riesgos Procesales
+
+Lista de riesgos identificados.
+
+---
+
+## 12. Estrategia Institucional
+
+Metodología del despacho.
+
+---
+
+## 13. Productos Generados
+
+Documentos que podrá generar automáticamente.
+
+---
+
+## 14. Validaciones
+
+Lista de verificaciones obligatorias.
+
+---
+
+## 15. Variables
+
+Variables consumidas por el Motor Jurídico.
+
+---
+
+## 16. Dependencias
+
+Relación con otros módulos.
+
+---
+
+## 17. Flujo Procesal
+
+Representación del procedimiento.
+
+---
+
+## 18. Estados del Expediente
+
+Estados que recorrerá el expediente.
+
+---
+
+## 19. Criterios Institucionales
+
+Conocimiento propio del despacho.
+
+---
+
+## 20. Observaciones Técnicas
+
+Notas para el desarrollo del SIJ-OL.
+
+---
+
+# Matriz General
+
+Todo Activo deberá generar automáticamente:
+
+| Prestación | Hecho | Prueba | Fundamento | Riesgo | Documento |
+
+---
+
+# Flujo General
+
+DIAGNÓSTICO
+
+↓
+
+ANÁLISIS
+
+↓
+
+ESTRATEGIA
+
+↓
+
+DOCUMENTACIÓN
+
+↓
+
+TRÁMITE
+
+↓
+
+SENTENCIA
+
+↓
+
+EJECUCIÓN
+
+↓
+
+CIERRE
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Todo Activo deberá poder ejecutarse completamente sin depender de otro Activo.
+
+---
+
+## Regla 2
+
+Los Activos podrán reutilizar módulos comunes, pero nunca duplicarlos.
+
+---
+
+## Regla 3
+
+Todo Activo deberá identificar:
+
+- entradas;
+
+- procesos;
+
+- salidas.
+
+---
+
+## Regla 4
+
+Todo Activo deberá documentar los riesgos jurídicos.
+
+---
+
+## Regla 5
+
+Toda regla institucional deberá diferenciarse claramente de:
+
+- legislación;
+
+- jurisprudencia;
+
+- doctrina.
+
+---
+
+## Regla 6
+
+Todo Activo deberá identificar expresamente qué conocimiento pertenece exclusivamente al despacho.
+
+---
+
+## Regla 7
+
+Todo Activo deberá indicar el nivel de automatización alcanzado:
+
+MANUAL
+
+SEMIAUTOMÁTICO
+
+AUTOMÁTICO
+
+---
+
+# Dependencias
+
+Los Activos podrán depender de:
+
+BP
+
+MJ
+
+TR
+
+Otros AJ
+
+Nunca directamente de documentos Word.
+
+---
+
+# Uso por el SIJ-OL
+
+El Motor Jurídico utilizará este estándar para validar automáticamente que cualquier nuevo Activo Jurídico conserve la estructura institucional del CORPUS.
+
+Ningún Activo será incorporado a producción si incumple alguno de los apartados obligatorios definidos en este estándar.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del estándar institucional para el diseño de Activos Jurídicos del CORPUS JURIS ORTIZ.

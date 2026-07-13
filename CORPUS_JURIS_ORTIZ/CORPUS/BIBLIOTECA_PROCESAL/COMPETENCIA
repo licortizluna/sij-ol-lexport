@@ -1,0 +1,282 @@
+# BP-005 – COMPETENCIA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para determinar y redactar el capítulo de competencia jurisdiccional.
+
+Todo documento elaborado por el SIJ-OL deberá obtener de este módulo el análisis de competencia correspondiente.
+
+Ningún Activo Sustantivo deberá desarrollar nuevamente este capítulo, salvo para incorporar hechos específicos del asunto.
+
+---
+
+# Concepto
+
+La competencia constituye el presupuesto procesal que determina qué órgano jurisdiccional puede conocer válidamente de una controversia.
+
+Su análisis deberá realizarse antes de:
+
+- determinar la vía;
+- elaborar la demanda;
+- redactar excepciones;
+- preparar recursos;
+- promover amparo.
+
+---
+
+# Factores de Competencia
+
+## C-001
+
+Materia.
+
+---
+
+## C-002
+
+Territorio.
+
+---
+
+## C-003
+
+Cuantía.
+
+---
+
+## C-004
+
+Grado.
+
+---
+
+## C-005
+
+Función.
+
+---
+
+## C-006
+
+Turno.
+
+---
+
+## C-007
+
+Competencia concurrente.
+
+---
+
+## C-008
+
+Competencia federal.
+
+---
+
+## C-009
+
+Competencia local.
+
+---
+
+# Modelo C-001
+## Competencia Civil
+
+Ese H. Juzgado resulta competente para conocer del presente asunto por tratarse de una controversia de naturaleza civil cuya resolución corresponde a los órganos jurisdiccionales del fuero común conforme a la legislación procesal vigente.
+
+---
+
+# Modelo C-002
+## Competencia Familiar
+
+Ese órgano jurisdiccional resulta competente al versar la controversia sobre derechos derivados del estado civil y de las relaciones familiares.
+
+---
+
+# Modelo C-003
+## Competencia Mercantil
+
+La competencia deriva de la naturaleza mercantil de la controversia y de las disposiciones contenidas en el Código de Comercio.
+
+---
+
+# Modelo C-004
+## Competencia por ubicación del inmueble
+
+Tratándose de acciones reales o de controversias directamente vinculadas con un inmueble, resulta competente el órgano jurisdiccional correspondiente al lugar donde éste se encuentra ubicado.
+
+---
+
+# Modelo C-005
+## Competencia por domicilio del demandado
+
+La competencia territorial deriva del domicilio del demandado, ubicado dentro de la jurisdicción de ese órgano jurisdiccional.
+
+---
+
+# Modelo C-006
+## Competencia derivada del contrato
+
+La competencia deriva de la relación contractual existente entre las partes y de los efectos jurídicos cuya declaración o cumplimiento se reclama.
+
+---
+
+# Modelo C-007
+## Competencia en materia hipotecaria
+
+Ese órgano jurisdiccional resulta competente por tratarse de una controversia derivada de un contrato de crédito con garantía hipotecaria respecto de un inmueble ubicado dentro de su jurisdicción.
+
+---
+
+# Modelo C-008
+## Competencia en acciones declarativas
+
+La competencia se actualiza al ejercitarse una acción declarativa cuyo objeto consiste en obtener certeza jurídica respecto de una relación jurídica existente.
+
+---
+
+# Modelo C-009
+## Competencia en cancelación de hipoteca
+
+La competencia corresponde al órgano jurisdiccional que ejerce jurisdicción sobre el lugar donde se encuentra inscrito el inmueble respecto del cual se pretende la cancelación del gravamen.
+
+---
+
+# Modelo C-010
+## Competencia en Acción Pro Forma
+
+La competencia deriva de la naturaleza civil de la acción de otorgamiento y firma de escritura y de la ubicación del inmueble o del cumplimiento contractual, según corresponda conforme a la legislación aplicable.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Todo análisis deberá responder:
+
+- ¿Qué órgano es competente?
+
+- ¿Por qué lo es?
+
+- ¿Qué norma lo establece?
+
+---
+
+## Regla 2
+
+Siempre deberán verificarse:
+
+□ Materia.
+
+□ Territorio.
+
+□ Cuantía.
+
+□ Función.
+
+□ Grado.
+
+---
+
+## Regla 3
+
+Cuando exista cláusula contractual de sumisión deberá analizarse:
+
+- su validez;
+- su eficacia;
+- sus límites.
+
+---
+
+## Regla 4
+
+Cuando intervenga un inmueble deberán verificarse:
+
+- ubicación;
+- municipio;
+- distrito judicial;
+- inscripción registral.
+
+---
+
+## Regla 5
+
+En asuntos contra INFONAVIT el sistema deberá analizar expresamente:
+
+- naturaleza civil de la acción;
+- competencia local o federal;
+- ubicación del inmueble;
+- domicilio del Instituto;
+- jurisprudencia sobre competencia aplicable.
+
+---
+
+## Regla 6
+
+Toda conclusión deberá estar respaldada por:
+
+- legislación vigente;
+- jurisprudencia obligatoria;
+- hechos acreditados.
+
+---
+
+# Validaciones del SIJ-OL
+
+Antes de generar cualquier documento el sistema deberá confirmar:
+
+□ Órgano competente.
+
+□ Competencia territorial.
+
+□ Competencia material.
+
+□ Competencia funcional.
+
+□ Congruencia con la vía.
+
+□ Congruencia con las prestaciones.
+
+□ Congruencia con la acción.
+
+---
+
+# Variables Institucionales
+
+ORGANO_JURISDICCIONAL
+
+MATERIA
+
+DISTRITO_JUDICIAL
+
+CUANTIA
+
+DOMICILIO_DEMANDADO
+
+UBICACION_INMUEBLE
+
+FUNDAMENTO_COMPETENCIA
+
+---
+
+# Uso por el SIJ-OL
+
+El motor jurídico deberá consultar este módulo antes de permitir la generación de cualquier demanda o promoción inicial.
+
+Si detecta posibles conflictos de competencia deberá advertirlos al usuario y solicitar confirmación antes de continuar.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de competencia jurisdiccional.

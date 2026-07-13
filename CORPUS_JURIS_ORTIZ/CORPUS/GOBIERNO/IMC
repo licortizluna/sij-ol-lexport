@@ -1,0 +1,88 @@
+# ÍNDICE MAESTRO DEL CORPUS
+## IMC
+
+Versión: 1.0.0
+
+Estado: VIGENTE
+
+---
+
+# Objeto
+
+El Índice Maestro del CORPUS (IMC) constituye el inventario oficial de todos los componentes que integran el CORPUS JURIS ORTIZ.
+
+Su finalidad es facilitar la localización, administración y control de dichos componentes.
+
+El IMC no contiene conocimiento jurídico.
+
+Únicamente registra dónde se encuentra.
+
+---
+
+# Documento Maestro
+
+| Documento | Estado |
+|-----------|--------|
+| CORPUS.md | VIGENTE |
+
+---
+
+# Conocimiento Común
+
+Ruta:
+
+```
+corpus/conocimiento/comun/
+```
+
+Estado:
+
+Sin componentes registrados.
+
+---
+
+# Activos de Conocimiento
+
+Ruta:
+
+```
+corpus/conocimiento/activos/
+```
+
+Activos registrados:
+
+Ninguno.
+
+---
+
+# Backlog
+
+Documento:
+
+```
+BACKLOG.md
+```
+
+---
+
+# Regla de actualización
+
+Todo componente nuevo deberá registrarse inmediatamente en este índice.
+
+Todo componente eliminado deberá retirarse del índice.
+
+---
+
+# Última actualización
+
+Versión:
+
+1.0.0
+
+Fecha:
+
+(PENDIENTE)
+
+Responsable:
+
+CORPUS JURIS ORTIZ

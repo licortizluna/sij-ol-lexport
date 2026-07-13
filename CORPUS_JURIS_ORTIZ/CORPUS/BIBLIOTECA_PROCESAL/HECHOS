@@ -1,0 +1,438 @@
+# BP-009 – HECHOS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para la elaboración del capítulo de hechos de cualquier demanda, contestación, reconvención, incidente, recurso o escrito procesal generado por el SIJ-OL.
+
+Los hechos deberán construirse conforme a una metodología jurídica uniforme, verificable y cronológica.
+
+Nunca deberán redactarse como una simple narración.
+
+Cada hecho deberá servir para demostrar uno o más elementos de la acción ejercitada.
+
+---
+
+# Principios rectores
+
+Todo hecho deberá cumplir simultáneamente con los siguientes principios:
+
+• Veracidad.
+
+• Congruencia.
+
+• Relevancia jurídica.
+
+• Cronología.
+
+• Claridad.
+
+• Precisión.
+
+• Comprobabilidad.
+
+• Vinculación probatoria.
+
+• Vinculación normativa.
+
+---
+
+# Regla fundamental
+
+Cada hecho deberá responder, expresa o implícitamente, las siguientes preguntas:
+
+¿Qué ocurrió?
+
+¿Quién intervino?
+
+¿Cuándo ocurrió?
+
+¿Dónde ocurrió?
+
+¿Cómo ocurrió?
+
+¿Por qué es jurídicamente relevante?
+
+¿Qué prueba lo acredita?
+
+¿Qué prestación pretende demostrar?
+
+---
+
+# Estructura institucional
+
+Cada hecho se compondrá de cinco bloques:
+
+I. Contexto.
+
+II. Acontecimiento.
+
+III. Consecuencia jurídica.
+
+IV. Relación con la acción.
+
+V. Relación con la prueba.
+
+---
+
+# Modelo institucional
+
+HECHO
+
+↓
+
+CONSECUENCIA JURÍDICA
+
+↓
+
+PRESTACIÓN
+
+↓
+
+PRUEBA
+
+↓
+
+FUNDAMENTO
+
+---
+
+# Orden cronológico
+
+Como regla general los hechos deberán seguir el siguiente orden:
+
+1. Antecedentes.
+
+2. Nacimiento de la relación jurídica.
+
+3. Modificaciones.
+
+4. Incumplimientos.
+
+5. Actos posteriores.
+
+6. Situación actual.
+
+7. Necesidad de intervención judicial.
+
+---
+
+# Reglas de redacción
+
+## Regla 1
+
+Cada hecho deberá contener una sola idea principal.
+
+---
+
+## Regla 2
+
+No deberán mezclarse hechos con argumentos jurídicos.
+
+El derecho corresponde al capítulo de fundamentos.
+
+---
+
+## Regla 3
+
+Las conclusiones jurídicas deberán reservarse para:
+
+• prestaciones;
+
+• derecho;
+
+• alegatos.
+
+---
+
+## Regla 4
+
+Cuando un hecho derive de un documento deberá indicarse internamente:
+
+DOCUMENTO_BASE
+
+aunque esta referencia no necesariamente aparecerá en la demanda.
+
+---
+
+## Regla 5
+
+Todo hecho deberá tener al menos una prueba asociada.
+
+---
+
+# Tipos de hechos
+
+HF-001
+
+Antecedente.
+
+HF-002
+
+Nacimiento de relación jurídica.
+
+HF-003
+
+Cumplimiento.
+
+HF-004
+
+Incumplimiento.
+
+HF-005
+
+Modificación contractual.
+
+HF-006
+
+Acto administrativo.
+
+HF-007
+
+Acto registral.
+
+HF-008
+
+Acto judicial.
+
+HF-009
+
+Posesión.
+
+HF-010
+
+Daño.
+
+HF-011
+
+Pago.
+
+HF-012
+
+Omisión.
+
+HF-013
+
+Fallecimiento.
+
+HF-014
+
+Incapacidad.
+
+HF-015
+
+Prescripción.
+
+HF-016
+
+Hecho negativo.
+
+---
+
+# Hechos negativos
+
+Cuando el hecho consista en una negativa, el sistema deberá recordar que:
+
+Los hechos negativos generalmente no requieren prueba directa.
+
+La carga probatoria corresponderá a quien afirme el hecho positivo contrario, salvo disposición legal distinta.
+
+---
+
+# Modelo para contratos
+
+Con fecha:
+
+____________________
+
+la parte actora y la parte demandada celebraron:
+
+____________________
+
+acto jurídico del cual nacieron los derechos y obligaciones materia del presente juicio.
+
+---
+
+# Modelo para créditos hipotecarios
+
+Con fecha:
+
+____________________
+
+INFONAVIT y la parte actora celebraron contrato de apertura de crédito con garantía hipotecaria contenido en la escritura pública número:
+
+____________________
+
+mediante el cual se otorgó el crédito identificado con el número:
+
+____________________
+
+---
+
+# Modelo para prescripción negativa
+
+Desde la fecha en que la obligación pudo ser legalmente exigida ha transcurrido en exceso el plazo previsto por la legislación aplicable sin que la parte demandada ejerciera eficazmente su derecho de acción, motivo por el cual ha operado la prescripción extintiva.
+
+---
+
+# Modelo para prescripción adquisitiva
+
+La parte actora ha poseído el inmueble de manera:
+
+• pública;
+
+• pacífica;
+
+• continua;
+
+• en concepto de propietario;
+
+durante el plazo legal correspondiente.
+
+---
+
+# Modelo para acción pro forma
+
+Las partes celebraron contrato de compraventa respecto del inmueble descrito en la demanda, obligándose la parte demandada a otorgar la escritura pública definitiva, obligación que hasta la fecha ha incumplido.
+
+---
+
+# Modelo para sucesiones
+
+Con fecha:
+
+____________________
+
+falleció:
+
+____________________
+
+abriéndose la sucesión correspondiente respecto de sus bienes, derechos y obligaciones.
+
+---
+
+# Modelo para divorcio
+
+Las partes contrajeron matrimonio con fecha:
+
+____________________
+
+bajo el régimen de:
+
+____________________
+
+circunstancia acreditada con el acta correspondiente.
+
+---
+
+# Modelo para concubinato
+
+Las partes iniciaron vida en común aproximadamente en el año:
+
+____________________
+
+manteniendo una relación pública, constante y permanente durante el tiempo previsto por la ley.
+
+---
+
+# Modelo para interdictos
+
+La parte actora detentaba la posesión del inmueble objeto del presente procedimiento cuando ocurrieron los actos de perturbación o despojo que se describen a continuación.
+
+---
+
+# Reglas especiales SIJ-OL
+
+## Regla 1
+
+Antes de redactar hechos deberán estar terminadas las prestaciones.
+
+---
+
+## Regla 2
+
+Cada hecho deberá enlazarse con:
+
+• una prestación;
+
+• una prueba;
+
+• un fundamento.
+
+---
+
+## Regla 3
+
+El sistema deberá advertir:
+
+□ hechos duplicados;
+
+□ hechos innecesarios;
+
+□ hechos sin prueba;
+
+□ hechos sin consecuencia jurídica.
+
+---
+
+## Regla 4
+
+El sistema deberá detectar contradicciones cronológicas.
+
+---
+
+## Regla 5
+
+Cuando exista información documental suficiente el sistema privilegiará los hechos verificables sobre afirmaciones genéricas.
+
+---
+
+# Matriz institucional
+
+Cada hecho deberá quedar relacionado con:
+
+| Hecho | Prestación | Prueba | Fundamento |
+|---------|------------|---------|-------------|
+
+Esta matriz será utilizada posteriormente para validar la congruencia integral del documento.
+
+---
+
+# Variables institucionales
+
+HECHO_ID
+
+TIPO_HECHO
+
+FECHA
+
+DOCUMENTO_BASE
+
+PRUEBA
+
+PRESTACION
+
+FUNDAMENTO
+
+CONSECUENCIA_JURIDICA
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será consultado inmediatamente después de construirse la matriz de prestaciones.
+
+El sistema no permitirá generar el capítulo de derecho mientras existan hechos sin soporte probatorio o sin relación con una prestación.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional para la construcción de hechos jurídicamente relevantes.

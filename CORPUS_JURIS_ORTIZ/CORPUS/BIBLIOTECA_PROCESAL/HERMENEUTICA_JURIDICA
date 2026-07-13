@@ -1,0 +1,372 @@
+# MJ-003 – HERMENÉUTICA JURÍDICA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la metodología institucional para resolver problemas de interpretación compleja dentro del SIJ-OL.
+
+Mientras el módulo de Interpretación Jurídica establece cómo interpretar una norma, el presente módulo determina cómo resolver conflictos entre normas, principios, jurisprudencia, contratos y hechos.
+
+El objetivo consiste en construir razonamientos jurídicos coherentes cuando existan múltiples soluciones posibles.
+
+---
+
+# Filosofía Institucional
+
+El Derecho rara vez presenta una única respuesta.
+
+La función del SIJ-OL no consiste en escoger arbitrariamente una solución.
+
+Consiste en identificar todas las soluciones jurídicamente viables y justificar por qué una de ellas resulta preferible.
+
+---
+
+# Principios Rectores
+
+Toda labor hermenéutica deberá observar:
+
+- Unidad del sistema jurídico.
+- Coherencia normativa.
+- Integridad.
+- Especialidad.
+- Proporcionalidad.
+- Razonabilidad.
+- Pro persona.
+- Conservación de los actos jurídicos.
+- Tutela judicial efectiva.
+- Seguridad jurídica.
+
+---
+
+# Orden Obligatorio
+
+Toda interpretación compleja seguirá el siguiente flujo:
+
+PROBLEMA JURÍDICO
+
+↓
+
+HECHOS
+
+↓
+
+NORMAS APLICABLES
+
+↓
+
+CONFLICTOS
+
+↓
+
+CRITERIOS DE SOLUCIÓN
+
+↓
+
+JURISPRUDENCIA
+
+↓
+
+CONSECUENCIA
+
+↓
+
+RECOMENDACIÓN
+
+---
+
+# Clasificación
+
+HJ-001
+
+Conflicto entre normas.
+
+---
+
+HJ-002
+
+Conflicto entre principios.
+
+---
+
+HJ-003
+
+Conflicto entre jurisprudencias.
+
+---
+
+HJ-004
+
+Conflicto entre contrato y ley.
+
+---
+
+HJ-005
+
+Conflicto entre derechos fundamentales.
+
+---
+
+HJ-006
+
+Laguna normativa.
+
+---
+
+HJ-007
+
+Antinomia.
+
+---
+
+HJ-008
+
+Norma especial.
+
+---
+
+HJ-009
+
+Norma posterior.
+
+---
+
+HJ-010
+
+Norma superior.
+
+---
+
+# Criterios Hermenéuticos
+
+El sistema aplicará, según corresponda:
+
+• Especialidad.
+
+• Jerarquía.
+
+• Temporalidad.
+
+• Integración.
+
+• Analogía.
+
+• Interpretación conforme.
+
+• Principio pro persona.
+
+• Ponderación.
+
+• Máxima eficacia.
+
+---
+
+# Antinomias
+
+Cuando existan normas incompatibles el sistema analizará:
+
+1.
+
+¿Existe jerarquía?
+
+↓
+
+2.
+
+¿Existe especialidad?
+
+↓
+
+3.
+
+¿Existe norma posterior?
+
+↓
+
+4.
+
+¿Existe interpretación conforme?
+
+↓
+
+5.
+
+¿Existe jurisprudencia obligatoria?
+
+↓
+
+6.
+
+Conclusión.
+
+---
+
+# Lagunas
+
+Cuando no exista disposición expresa el sistema analizará:
+
+- principios generales;
+
+- analogía;
+
+- jurisprudencia;
+
+- doctrina;
+
+- interpretación sistemática.
+
+Nunca generará una respuesta sin justificar el método utilizado.
+
+---
+
+# Conflicto entre Derechos
+
+Cuando colisionen dos derechos fundamentales el sistema aplicará:
+
+- ponderación;
+
+- proporcionalidad;
+
+- idoneidad;
+
+- necesidad;
+
+- mínima restricción.
+
+---
+
+# Interpretación Contractual
+
+Cuando exista conflicto entre contrato y ley el sistema verificará:
+
+□ Norma imperativa.
+
+□ Autonomía de la voluntad.
+
+□ Buena fe.
+
+□ Conservación del contrato.
+
+□ Cláusulas abusivas.
+
+---
+
+# Jurisprudencia
+
+Cuando existan criterios distintos el sistema deberá:
+
+- identificar el obligatorio;
+
+- identificar el orientador;
+
+- explicar las diferencias;
+
+- justificar el criterio adoptado.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Toda solución deberá ser explicada.
+
+Nunca asumida.
+
+---
+
+## Regla 2
+
+No se permitirá seleccionar una interpretación únicamente porque favorezca a la parte representada.
+
+---
+
+## Regla 3
+
+El sistema deberá registrar todas las alternativas razonables identificadas.
+
+---
+
+## Regla 4
+
+Cuando exista incertidumbre jurídica deberá advertirse expresamente.
+
+---
+
+## Regla 5
+
+Toda interpretación deberá indicar su nivel de solidez.
+
+---
+
+# Matriz Hermenéutica
+
+Cada problema deberá documentarse mediante:
+
+| Problema | Norma | Conflicto | Método | Resultado | Riesgo |
+
+---
+
+# Validaciones SIJ-OL
+
+□ Problema identificado.
+
+□ Normas analizadas.
+
+□ Conflictos detectados.
+
+□ Método seleccionado.
+
+□ Jurisprudencia revisada.
+
+□ Riesgo documentado.
+
+□ Conclusión motivada.
+
+---
+
+# Variables
+
+PROBLEMA
+
+NORMA
+
+CONFLICTO
+
+METODO
+
+JURISPRUDENCIA
+
+RIESGO
+
+CONCLUSION
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será consultado cuando el Motor Jurídico detecte:
+
+- conflicto normativo;
+
+- múltiples interpretaciones posibles;
+
+- ausencia de regulación expresa;
+
+- contradicción jurisprudencial;
+
+- colisión de derechos.
+
+Su función será generar un informe hermenéutico que fundamente la solución jurídica propuesta y documente las alternativas descartadas.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de Hermenéutica Jurídica.

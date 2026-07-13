@@ -1,0 +1,296 @@
+# BP-015 – MEDIDAS CAUTELARES
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para el análisis, preparación, solicitud, modificación, sustitución, ampliación, ejecución y levantamiento de medidas cautelares.
+
+Toda medida cautelar deberá perseguir exclusivamente la conservación de la materia del litigio y la eficacia práctica de la sentencia.
+
+---
+
+# Principios Rectores
+
+Toda medida cautelar deberá observar:
+
+- Apariencia del buen derecho.
+- Peligro en la demora.
+- Proporcionalidad.
+- Idoneidad.
+- Necesidad.
+- Temporalidad.
+- Instrumentalidad.
+- Reversibilidad.
+- Mínima afectación.
+
+---
+
+# Finalidad
+
+Las medidas cautelares tienen por objeto:
+
+- conservar bienes;
+- preservar derechos;
+- evitar daños irreparables;
+- impedir simulaciones;
+- asegurar la ejecución futura;
+- mantener el estado de las cosas.
+
+---
+
+# Clasificación Institucional
+
+MC-001
+
+Embargo precautorio.
+
+---
+
+MC-002
+
+Anotación preventiva.
+
+---
+
+MC-003
+
+Prohibición de enajenar.
+
+---
+
+MC-004
+
+Intervención judicial.
+
+---
+
+MC-005
+
+Depósito judicial.
+
+---
+
+MC-006
+
+Suspensión de actos.
+
+---
+
+MC-007
+
+Aseguramiento de bienes.
+
+---
+
+MC-008
+
+Conservación de pruebas.
+
+---
+
+MC-009
+
+Medidas familiares.
+
+---
+
+MC-010
+
+Cualquier otra prevista por la legislación aplicable.
+
+---
+
+# Requisitos
+
+Antes de solicitar una medida cautelar el sistema verificará:
+
+□ Competencia.
+
+□ Acción principal.
+
+□ Apariencia del buen derecho.
+
+□ Riesgo procesal.
+
+□ Peligro en la demora.
+
+□ Proporcionalidad.
+
+□ Garantía cuando proceda.
+
+---
+
+# Modelo MC-001
+
+## Solicitud General
+
+Se solicita el otorgamiento de la medida cautelar consistente en:
+
+_________________________________________
+
+por resultar necesaria para garantizar la eficacia de la sentencia definitiva.
+
+---
+
+# Modelo MC-002
+
+## Conservación del litigio
+
+La medida solicitada resulta indispensable para evitar que durante la sustanciación del procedimiento desaparezca la materia del litigio.
+
+---
+
+# Modelo MC-003
+
+## Riesgo
+
+Existe riesgo objetivo de que:
+
+_________________________________________
+
+circunstancia que justifica el otorgamiento inmediato de la medida.
+
+---
+
+# Embargo
+
+Cuando proceda embargo precautorio el sistema identificará:
+
+- bienes;
+- propietario;
+- ubicación;
+- autoridad ejecutora;
+- monto garantizado.
+
+---
+
+# Anotaciones
+
+Cuando proceda anotación preventiva el sistema generará automáticamente:
+
+- proyecto de oficio;
+- datos registrales;
+- autoridad destinataria.
+
+---
+
+# Medidas Familiares
+
+El sistema distinguirá:
+
+- alimentos provisionales;
+- guarda y custodia;
+- convivencia;
+- protección de menores;
+- protección de personas incapaces;
+- protección patrimonial.
+
+---
+
+# Medidas sobre Inmuebles
+
+Podrán comprender:
+
+- inmovilización registral;
+- anotación preventiva;
+- prohibición de disponer;
+- aseguramiento.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Toda medida deberá estar vinculada con una prestación principal.
+
+---
+
+## Regla 2
+
+No deberán solicitarse medidas cautelares imposibles de ejecutar.
+
+---
+
+## Regla 3
+
+La medida deberá ser la menos restrictiva que permita alcanzar el fin perseguido.
+
+---
+
+## Regla 4
+
+Cuando la legislación exija garantía, el sistema deberá advertirlo expresamente.
+
+---
+
+## Regla 5
+
+Toda medida deberá tener un mecanismo de levantamiento.
+
+---
+
+# Levantamiento
+
+Cuando desaparezcan las causas que motivaron la medida, el sistema preparará automáticamente:
+
+- solicitud;
+- oficio;
+- cancelación registral;
+- devolución de garantía;
+- archivo.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Existe acción principal.
+
+□ Existe urgencia.
+
+□ Existe peligro en la demora.
+
+□ Existe apariencia del buen derecho.
+
+□ La medida es proporcional.
+
+□ La autoridad puede ejecutarla.
+
+□ Existe mecanismo de seguimiento.
+
+---
+
+# Variables
+
+TIPO_MEDIDA
+
+RIESGO
+
+PELIGRO_EN_LA_DEMORA
+
+APARIENCIA_BUEN_DERECHO
+
+GARANTIA
+
+AUTORIDAD
+
+SEGUIMIENTO
+
+---
+
+# Uso por el SIJ-OL
+
+El Motor Jurídico utilizará este módulo para construir el capítulo de medidas cautelares, generar los oficios correspondientes, controlar su cumplimiento y registrar su vigencia dentro del expediente.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de medidas cautelares.

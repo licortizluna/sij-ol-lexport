@@ -1,0 +1,300 @@
+# ADR-004
+# ARCHITECTURE DECISION RECORD
+## Los Estados de Cuenta Constituyen Documentos Unilaterales y No Demuestran por Sí Solos las Operaciones que Contienen
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+En la práctica litigiosa, particularmente en asuntos relacionados con créditos hipotecarios, instituciones financieras, organismos públicos descentralizados y entidades con funciones recaudatorias, es frecuente que la contraparte pretenda acreditar la totalidad de su pretensión mediante la sola exhibición de estados de cuenta, historiales de movimientos, reportes internos, consultas de sistemas, auxiliares contables o impresiones provenientes de sus bases de datos.
+
+Especialmente en litigios contra el INFONAVIT, el CORPUS ha identificado reiteradamente que:
+
+• Existen movimientos cuya documentación fuente no aparece.
+
+• Se registran cargos cuya causa jurídica no puede identificarse.
+
+• Se modifican saldos sin soporte documental.
+
+• Se alteran cronologías de pago.
+
+• Se incorporan operaciones administrativas no explicadas.
+
+• Existen reestructuras no acreditadas.
+
+• Se reflejan pagos, intereses, actualizaciones o capitalizaciones cuya existencia jurídica no puede verificarse.
+
+La experiencia institucional demuestra que la existencia de un asiento contable no equivale a la existencia del acto jurídico que pretende representar.
+
+---
+
+# PROBLEMA
+
+Durante muchos años diversos operadores jurídicos han otorgado a los estados de cuenta un valor demostrativo superior al que realmente poseen.
+
+Ello provoca una inversión indebida de la carga argumentativa, obligando al demandado a desvirtuar operaciones cuya existencia nunca fue jurídicamente acreditada por quien las afirma.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Todo estado de cuenta constituye un documento unilateral y, por sí solo, únicamente acredita la existencia del propio documento y de las manifestaciones contenidas en él.**
+
+No acredita automáticamente:
+
+La existencia del acto jurídico.
+
+La realidad de cada operación.
+
+La causa del movimiento.
+
+La exigibilidad del crédito.
+
+La correcta aplicación de pagos.
+
+La autenticidad de todos los registros.
+
+La legalidad de las capitalizaciones.
+
+La procedencia de intereses.
+
+La existencia de reestructuras.
+
+La existencia de convenios modificatorios.
+
+---
+
+# FUNDAMENTO JURÍDICO
+
+Esta decisión se sustenta en principios generales del Derecho probatorio y en la doctrina jurisprudencial que distingue entre:
+
+• Valor demostrativo del documento.
+
+• Veracidad del contenido.
+
+• Eficacia probatoria.
+
+• Fuerza convictiva.
+
+El documento unilateral carece, por regla general, de eficacia plena para demostrar hechos que únicamente benefician a quien lo elaboró cuando éstos son expresamente controvertidos y requieren soporte documental adicional.
+
+Asimismo, la valoración de la prueba debe realizarse conforme a las reglas de la sana crítica, la lógica y la experiencia, sin atribuir eficacia automática a registros internos cuya correspondencia con los actos jurídicos subyacentes no haya sido demostrada.
+
+---
+
+# REGLAS DERIVADAS
+
+Cuando una institución funde su pretensión en estados de cuenta, el CORPUS deberá verificar, entre otros aspectos:
+
+Existencia del contrato que origina la operación.
+
+Documento fuente de cada movimiento controvertido.
+
+Recibos.
+
+Pólizas.
+
+Órdenes de aplicación.
+
+Autorizaciones.
+
+Convenios.
+
+Reestructuras.
+
+Notificaciones.
+
+Sistemas de cálculo.
+
+Metodología financiera.
+
+Cronología.
+
+Correspondencia matemática.
+
+Correspondencia jurídica.
+
+---
+
+# IMPUGNACIÓN
+
+Cuando existan inconsistencias objetivas deberá:
+
+Objetarse el documento.
+
+Impugnarse su contenido.
+
+Controvertirse su eficacia probatoria.
+
+Solicitarse la exhibición de los documentos fuente.
+
+Exigirse la demostración individualizada de cada operación relevante.
+
+Solicitar, cuando resulte procedente, prueba pericial contable, financiera o informática.
+
+---
+
+# DISTRIBUCIÓN DE LA CARGA PROBATORIA
+
+El CORPUS sostiene como criterio institucional que:
+
+Quien afirma la existencia de una operación jurídica tiene la carga de acreditar:
+
+Su celebración.
+
+Su contenido.
+
+Su cuantificación.
+
+Su ejecución.
+
+Su reflejo contable.
+
+No basta exhibir el resultado final contenido en un sistema administrativo.
+
+Debe acreditarse el proceso jurídico que produjo dicho resultado.
+
+---
+
+# APLICACIÓN ESPECIAL EN LITIGIOS CONTRA INFONAVIT
+
+En asuntos relacionados con créditos del INFONAVIT deberán auditarse especialmente:
+
+Aplicación de descuentos patronales.
+
+Amortizaciones.
+
+Intereses ordinarios.
+
+Intereses moratorios.
+
+Actualizaciones.
+
+Capitalizaciones.
+
+Seguros.
+
+Comisiones.
+
+Reestructuras.
+
+Convenios.
+
+Condonaciones.
+
+Subsidios.
+
+Movimientos extraordinarios.
+
+Liberaciones.
+
+Cancelaciones.
+
+Correcciones administrativas.
+
+Movimientos posteriores al vencimiento.
+
+Todo movimiento cuya causa jurídica no pueda identificarse expresamente deberá considerarse controvertible.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Evitar inversiones indebidas de la carga de la prueba.
+
+Incrementar el rigor probatorio.
+
+Obligar a la contraparte a demostrar la realidad de sus operaciones.
+
+Fortalecer la objeción documental.
+
+Incrementar la calidad de la auditoría financiera.
+
+Reducir el riesgo de aceptar registros administrativos incorrectos.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+PR-007.
+
+PR-008.
+
+PR-009.
+
+PR-010.
+
+PR-015.
+
+PR-016.
+
+PR-018.
+
+PR-019.
+
+Todos los CIJ relacionados con INFONAVIT.
+
+Todos los manuales de litigación hipotecaria.
+
+Toda auditoría documental institucional.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ El estado de cuenta fue identificado como documento unilateral.
+
+□ Se revisó cada operación relevante.
+
+□ Se identificaron los documentos fuente.
+
+□ Se verificó la correspondencia jurídica de cada movimiento.
+
+□ Se analizó la distribución de la carga probatoria.
+
+□ Se formularon objeciones cuando resultaron procedentes.
+
+□ Se diseñó la estrategia de contraprueba.
+
+□ Se evitó atribuir eficacia demostrativa automática al documento.
+
+---
+
+# AXIOMA
+
+Un asiento contable demuestra que alguien registró una operación.
+
+No demuestra, por sí mismo, que la operación realmente ocurrió conforme a Derecho.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+El CORPUS JURIS ORTIZ adopta como política permanente que ningún estado de cuenta, historial de movimientos, reporte de sistema o registro administrativo será considerado prueba plena de las operaciones que contiene por el solo hecho de haber sido emitido por una institución pública o privada.
+
+Cuando dichas operaciones sean controvertidas y existan elementos objetivos que cuestionen su autenticidad, integridad, causa jurídica o correspondencia documental, el CORPUS exigirá la exhibición de los documentos fuente que las sustenten y promoverá las objeciones, impugnaciones y medios de prueba necesarios para que la valoración judicial se realice conforme a las reglas de la sana crítica, la distribución legal de la carga probatoria y los criterios jurisprudenciales aplicables.
+
+Esta decisión adquiere carácter permanente y obligatorio para toda la producción jurídica del CORPUS JURIS ORTIZ y sólo podrá modificarse mediante un nuevo Architecture Decision Record que expresamente la sustituya.

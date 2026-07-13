@@ -1,0 +1,395 @@
+# ON-001
+# ONTOLOGÍA JURÍDICA DEL CORPUS JURIS ORTIZ
+## PERSONAS JURÍDICAS Y SUJETOS DE DERECHO
+
+Versión 1.0
+
+Clasificación:
+Documento Ontológico
+
+Jerarquía:
+Superior
+
+Estado:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# PREÁMBULO
+
+Todo razonamiento jurídico parte de la correcta identificación de los sujetos que intervienen en una relación jurídica.
+
+La presente Ontología establece la naturaleza, atributos, capacidades y relaciones de las personas jurídicas dentro del CORPUS JURIS ORTIZ.
+
+Su finalidad consiste en evitar errores de identidad, legitimación, representación, capacidad, personalidad jurídica y titularidad de derechos.
+
+---
+
+# TÍTULO PRIMERO
+## DEFINICIÓN
+
+### Artículo 1
+
+Persona jurídica es todo ente reconocido por el orden jurídico como titular de derechos, obligaciones, facultades o cargas procesales.
+
+---
+
+### Artículo 2
+
+Las personas jurídicas constituyen Nodos Primarios del Micelio Jurídico Ortiz.
+
+Toda relación jurídica deberá vincularse al menos con un sujeto jurídicamente identificado.
+
+---
+
+# TÍTULO SEGUNDO
+## CLASIFICACIÓN
+
+### Artículo 3
+
+Las personas jurídicas se clasifican en:
+
+Persona física.
+
+Persona moral.
+
+Patrimonio autónomo.
+
+Sucesión.
+
+Sociedad.
+
+Asociación.
+
+Organismo público.
+
+Órgano constitucional.
+
+Entidad paraestatal.
+
+Fideicomiso cuando la ley le reconozca efectos jurídicos relevantes.
+
+---
+
+### Artículo 4
+
+Cada categoría posee reglas propias de:
+
+Capacidad.
+
+Representación.
+
+Responsabilidad.
+
+Legitimación.
+
+Patrimonio.
+
+Extinción.
+
+---
+
+# TÍTULO TERCERO
+## ATRIBUTOS
+
+### Artículo 5
+
+Toda persona jurídica deberá describirse mediante los siguientes atributos:
+
+Identidad.
+
+Nombre o denominación.
+
+Capacidad.
+
+Estado jurídico.
+
+Nacionalidad.
+
+Domicilio.
+
+Patrimonio.
+
+Representación.
+
+Relaciones jurídicas.
+
+Historial.
+
+---
+
+### Artículo 6
+
+Todo atributo deberá encontrarse respaldado documentalmente cuando resulte relevante para el litigio.
+
+---
+
+# TÍTULO CUARTO
+## CAPACIDAD
+
+### Artículo 7
+
+La capacidad constituye un atributo independiente de la personalidad.
+
+---
+
+### Artículo 8
+
+El CORPUS distinguirá entre:
+
+Capacidad de goce.
+
+Capacidad de ejercicio.
+
+Representación.
+
+Legitimación.
+
+Interés jurídico.
+
+Interés legítimo cuando proceda.
+
+Nunca deberán confundirse estos conceptos.
+
+---
+
+# TÍTULO QUINTO
+## REPRESENTACIÓN
+
+### Artículo 9
+
+Toda actuación realizada por representante deberá analizar:
+
+Fuente de representación.
+
+Alcance.
+
+Vigencia.
+
+Limitaciones.
+
+Facultades.
+
+---
+
+### Artículo 10
+
+La representación constituye una relación jurídica distinta de la personalidad.
+
+---
+
+# TÍTULO SEXTO
+## LEGITIMACIÓN
+
+### Artículo 11
+
+Toda acción requerirá analizar:
+
+Legitimación activa.
+
+Legitimación pasiva.
+
+Legitimación extraordinaria cuando proceda.
+
+---
+
+### Artículo 12
+
+La legitimación deberá derivar del derecho material discutido.
+
+Nunca únicamente de la comparecencia procesal.
+
+---
+
+# TÍTULO SÉPTIMO
+## IDENTIDAD
+
+### Artículo 13
+
+Toda identidad deberá verificarse mediante:
+
+Nombre.
+
+CURP cuando exista.
+
+RFC cuando proceda.
+
+Fecha de nacimiento.
+
+Estado civil.
+
+Documentos oficiales.
+
+Cadena documental.
+
+---
+
+### Artículo 14
+
+La coincidencia parcial de nombres nunca será suficiente para asumir identidad.
+
+---
+
+# TÍTULO OCTAVO
+## SUCESIONES
+
+### Artículo 15
+
+La sucesión constituye un sujeto jurídico autónomo para efectos procesales mientras subsista la indivisión hereditaria.
+
+---
+
+### Artículo 16
+
+Toda sucesión deberá relacionarse con:
+
+Autor de la herencia.
+
+Albacea.
+
+Herederos.
+
+Legatarios.
+
+Expediente sucesorio.
+
+Bienes.
+
+Obligaciones.
+
+---
+
+# TÍTULO NOVENO
+## ORGANISMOS PÚBLICOS
+
+### Artículo 17
+
+Los organismos públicos podrán intervenir simultáneamente en relaciones:
+
+Administrativas.
+
+Fiscales.
+
+Contractuales.
+
+Patrimoniales.
+
+Procesales.
+
+El CORPUS deberá identificar la naturaleza concreta de cada relación jurídica.
+
+---
+
+### Artículo 18
+
+La personalidad pública no modifica por sí sola la naturaleza de la obligación discutida.
+
+---
+
+# TÍTULO DÉCIMO
+## RELACIONES ONTOLÓGICAS
+
+### Artículo 19
+
+Toda persona jurídica podrá relacionarse con:
+
+Derechos.
+
+Obligaciones.
+
+Contratos.
+
+Procesos.
+
+Bienes.
+
+Pruebas.
+
+Sentencias.
+
+Gravámenes.
+
+Registros.
+
+Autoridades.
+
+---
+
+### Artículo 20
+
+Estas relaciones constituyen parte del Micelio Jurídico Ortiz.
+
+---
+
+# TÍTULO DÉCIMO PRIMERO
+## VALIDACIÓN
+
+### Artículo 21
+
+Antes de iniciar cualquier litigio verificar:
+
+□ Identidad.
+
+□ Personalidad.
+
+□ Capacidad.
+
+□ Representación.
+
+□ Legitimación.
+
+□ Interés jurídico.
+
+□ Domicilio.
+
+□ Documentación soporte.
+
+---
+
+### Artículo 22
+
+Todo defecto detectado deberá analizarse antes de formular la acción.
+
+---
+
+# TÍTULO DÉCIMO SEGUNDO
+## PRINCIPIOS ONTOLÓGICOS
+
+### Artículo 23
+
+La persona constituye el origen de toda relación jurídica.
+
+---
+
+### Artículo 24
+
+Ningún derecho existe sin un titular.
+
+Ninguna obligación existe sin un obligado.
+
+Ningún proceso existe sin sujetos procesales.
+
+---
+
+### Artículo 25
+
+Toda modificación de la personalidad jurídica deberá propagarse a todos los nodos relacionados dentro del Micelio Jurídico Ortiz.
+
+---
+
+# AXIOMA ONTOLÓGICO
+
+Toda relación jurídica comienza identificando correctamente quién puede ejercer un derecho, quién debe cumplir una obligación y quién posee legitimación para acudir ante el órgano jurisdiccional.
+
+---
+
+# CLÁUSULA ONTOLÓGICA
+
+El CORPUS JURIS ORTIZ reconoce que la correcta identificación de las personas jurídicas constituye el primer requisito para cualquier razonamiento válido.
+
+Toda estrategia, acción, defensa, excepción, prestación y ejecución dependerá de la adecuada determinación de la personalidad, capacidad, representación y legitimación de los sujetos que integran la relación jurídica.
+
+Ningún análisis jurídico podrá desarrollarse sin haber agotado previamente la ontología de los sujetos involucrados.

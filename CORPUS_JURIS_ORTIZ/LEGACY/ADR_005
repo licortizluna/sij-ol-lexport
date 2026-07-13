@@ -1,0 +1,368 @@
+# ADR-005
+# ARCHITECTURE DECISION RECORD
+## Toda Estrategia Jurídica Deberá Diseñarse Comenzando por la Ejecución de la Sentencia
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La práctica jurídica tradicional concentra la mayor parte de sus esfuerzos en obtener una sentencia favorable.
+
+Sin embargo, la experiencia institucional del CORPUS JURIS ORTIZ demuestra que un porcentaje considerable de litigios exitosos fracasan materialmente durante la etapa de ejecución.
+
+Las causas más frecuentes son:
+
+• Prestaciones incompletas.
+
+• Sentencias declarativas sin efectos prácticos.
+
+• Omisión de cancelaciones registrales.
+
+• Omisión de efectos administrativos.
+
+• Omisión de órdenes dirigidas a terceros.
+
+• Omisión de prestaciones accesorias.
+
+• Imposibilidad material de ejecutar el fallo.
+
+• Ambigüedad en las condenas.
+
+• Falta de individualización de obligaciones.
+
+En consecuencia, una sentencia favorable no garantiza por sí misma la satisfacción del derecho del cliente.
+
+---
+
+# PROBLEMA
+
+El modelo tradicional diseña el litigio siguiendo la siguiente secuencia:
+
+Hechos.
+
+↓
+
+Pruebas.
+
+↓
+
+Fundamentos.
+
+↓
+
+Prestaciones.
+
+↓
+
+Sentencia.
+
+↓
+
+Ejecución.
+
+El análisis desarrollado durante el Método Ortiz demostró que este modelo produce litigios técnicamente correctos pero materialmente ineficaces.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Toda estrategia jurídica deberá diseñarse comenzando por la forma en que la sentencia será ejecutada.**
+
+Antes de redactar cualquier documento procesal deberá responderse obligatoriamente:
+
+¿Qué deberá ocurrir exactamente el día en que la sentencia cause estado?
+
+---
+
+# SECUENCIA OBLIGATORIA
+
+A partir de este ADR toda construcción jurídica seguirá el siguiente orden lógico:
+
+Resultado material esperado.
+
+↓
+
+Actos necesarios para ejecutarlo.
+
+↓
+
+Prestaciones necesarias.
+
+↓
+
+Sujetos obligados.
+
+↓
+
+Autoridades que deberán intervenir.
+
+↓
+
+Consecuencias administrativas.
+
+↓
+
+Consecuencias registrales.
+
+↓
+
+Hechos necesarios.
+
+↓
+
+Pruebas necesarias.
+
+↓
+
+Normas.
+
+↓
+
+Jurisprudencia.
+
+↓
+
+Documento procesal.
+
+---
+
+# FUNDAMENTO
+
+La finalidad constitucional del proceso jurisdiccional consiste en brindar tutela judicial efectiva.
+
+La tutela únicamente existe cuando:
+
+El derecho es reconocido.
+
+El derecho puede ejecutarse.
+
+El derecho efectivamente se cumple.
+
+Una sentencia imposible de ejecutar representa una tutela jurisdiccional incompleta.
+
+---
+
+# REGLAS DERIVADAS
+
+Antes de incorporar cualquier prestación deberá verificarse:
+
+¿Quién la cumplirá?
+
+¿En qué plazo?
+
+¿Qué autoridad intervendrá?
+
+¿Qué documentos deberán emitirse?
+
+¿Qué registros deberán modificarse?
+
+¿Qué sistemas administrativos deberán actualizarse?
+
+¿Qué consecuencias fiscales podrían existir?
+
+¿Qué medidas de apremio serán necesarias si existe incumplimiento?
+
+---
+
+# EFECTOS REGISTRALES
+
+Toda sentencia potencial deberá analizarse respecto de sus efectos sobre:
+
+Registro Público de la Propiedad.
+
+Registro Civil.
+
+Catastro.
+
+INFONAVIT.
+
+Instituciones financieras.
+
+Autoridades fiscales.
+
+Dependencias administrativas.
+
+Organismos descentralizados.
+
+Registros especializados.
+
+---
+
+# EFECTOS ADMINISTRATIVOS
+
+Deberá verificarse si la sentencia exige:
+
+Cancelaciones.
+
+Inscripciones.
+
+Rectificaciones.
+
+Actualizaciones de sistemas.
+
+Bajas.
+
+Altas.
+
+Correcciones administrativas.
+
+Liberaciones.
+
+Reconocimientos.
+
+Expedición de documentos.
+
+---
+
+# EFECTOS CONTRACTUALES
+
+El CORPUS analizará si la sentencia produce:
+
+Extinción de obligaciones.
+
+Nacimiento de obligaciones.
+
+Modificación contractual.
+
+Subrogaciones.
+
+Novaciones.
+
+Cancelaciones.
+
+Liberación de garantías.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Sentencias plenamente ejecutables.
+
+Prestaciones completas.
+
+Disminución de incidentes de ejecución.
+
+Mayor satisfacción del cliente.
+
+Reducción de litigios posteriores.
+
+Mayor eficiencia institucional.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+MOAJ-009.
+
+MOAJ-010.
+
+PR-006.
+
+PR-015.
+
+PR-016.
+
+PR-017.
+
+PR-018.
+
+PR-019.
+
+PR-020.
+
+Todos los Manuales de Litigación.
+
+Todos los CIJ.
+
+Toda Ingeniería de Prestaciones.
+
+---
+
+# RIESGOS
+
+El diseño inicial del litigio requerirá mayor tiempo de análisis.
+
+Sin embargo:
+
+Se reducirá significativamente el riesgo de obtener resoluciones inútiles o parcialmente ejecutables.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ La ejecución fue diseñada antes de la demanda.
+
+□ Todas las prestaciones son ejecutables.
+
+□ Se identificaron los sujetos obligados.
+
+□ Se identificaron los actos administrativos derivados.
+
+□ Se identificaron los efectos registrales.
+
+□ Se previeron medidas de ejecución forzosa.
+
+□ La sentencia esperada resuelve integralmente el problema jurídico del cliente.
+
+---
+
+# RELACIÓN CON OTROS ADR
+
+Este ADR desarrolla y complementa:
+
+ADR-001
+Las prestaciones constituyen el punto de partida del litigio.
+
+ADR-002
+Toda norma debe verificarse.
+
+ADR-003
+Toda jurisprudencia debe auditarse.
+
+ADR-004
+Los estados de cuenta no acreditan por sí solos las operaciones registradas.
+
+En conjunto establecen la arquitectura estratégica fundamental del CORPUS JURIS ORTIZ.
+
+---
+
+# AXIOMA
+
+El mejor litigio no es el que obtiene una sentencia.
+
+Es el que transforma efectivamente la realidad jurídica del cliente.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+El CORPUS JURIS ORTIZ adopta como política permanente que toda estrategia jurídica deberá construirse desde el resultado material que se pretende obtener y no desde el documento procesal que habrá de presentarse.
+
+En consecuencia, toda demanda, contestación, incidente, recurso, juicio de amparo o cualquier otra actuación institucional deberá diseñarse retroactivamente a partir de su ejecución, identificando previamente todos los actos jurisdiccionales, registrales, administrativos, contractuales y materiales indispensables para convertir la sentencia en una solución efectiva.
+
+Ningún documento podrá certificarse mientras no exista un Plan Integral de Ejecución que garantice que el derecho reconocido judicialmente podrá traducirse en una realidad verificable para el cliente.
+
+Esta decisión adquiere carácter permanente, transversal y obligatorio para toda la arquitectura del CORPUS JURIS ORTIZ y sólo podrá modificarse mediante un nuevo Architecture Decision Record aprobado conforme al procedimiento institucional.

@@ -1,0 +1,127 @@
+# CORPUS JURIS ORTIZ
+
+Versión: 1.0.0
+
+Estado: VIGENTE
+
+---
+
+# 1. ¿Qué es el CORPUS?
+
+El CORPUS JURIS ORTIZ es el sistema institucional de conocimiento del despacho.
+
+Constituye la fuente oficial donde se conserva, organiza, desarrolla y mejora el conocimiento jurídico utilizado en la prestación de los servicios profesionales.
+
+El CORPUS no es una biblioteca.
+
+El CORPUS no es un gestor documental.
+
+El CORPUS no es una colección de formatos.
+
+Su finalidad consiste en preservar el conocimiento institucional y permitir que dicho conocimiento pueda ser utilizado de manera uniforme por todos los integrantes del despacho y por el Sistema Operativo Jurídico (SOJ).
+
+---
+
+# 2. Objetivos
+
+El CORPUS tiene los siguientes objetivos:
+
+I. Preservar el conocimiento institucional.
+
+II. Evitar la pérdida de experiencia profesional.
+
+III. Estandarizar la práctica jurídica del despacho.
+
+IV. Reducir la variabilidad en la elaboración de estrategias y documentos.
+
+V. Facilitar la reutilización del conocimiento.
+
+VI. Servir como única fuente de conocimiento para el Sistema Operativo Jurídico.
+
+---
+
+# 3. Principios
+
+Toda evolución del CORPUS deberá respetar los siguientes principios:
+
+• Simplicidad.
+
+• Coherencia.
+
+• Reutilización.
+
+• Trazabilidad.
+
+• Estabilidad.
+
+• Mejora continua.
+
+Cuando exista conflicto entre simplicidad y complejidad, prevalecerá la solución más simple que permita resolver correctamente el problema.
+
+---
+
+# 4. Organización
+
+El CORPUS se integra por tres componentes principales.
+
+## I. Documento Maestro
+
+Este documento.
+
+Define el funcionamiento general del sistema.
+
+---
+
+## II. Índice Maestro
+
+Permite localizar todos los componentes del conocimiento.
+
+---
+
+## III. Conocimiento
+
+Constituye el conjunto de problemas jurídicos desarrollados por el despacho.
+
+El conocimiento podrá clasificarse en:
+
+• Conocimiento común.
+
+• Activos especializados.
+
+---
+
+# 5. Regla de Unicidad
+
+Todo conocimiento institucional deberá existir una sola vez.
+
+Cuando un componente requiera utilizar conocimiento previamente desarrollado, deberá referenciarlo y nunca duplicarlo.
+
+---
+
+# 6. Regla de Estabilidad
+
+La arquitectura aprobada para la versión 1.0 permanecerá congelada.
+
+No se crearán nuevas familias documentales, nuevas capas ni nuevas categorías durante esta versión.
+
+Toda propuesta de evolución deberá registrarse en BACKLOG.md.
+
+---
+
+# 7. Relación con el SOJ
+
+El CORPUS contiene el conocimiento.
+
+El SOJ interpreta ese conocimiento.
+
+El conocimiento nunca dependerá del software.
+
+El software siempre dependerá del conocimiento.
+
+---
+
+# 8. Axioma
+
+El principal activo del despacho no es el software.
+
+Es el conocimiento institucional contenido en el CORPUS.

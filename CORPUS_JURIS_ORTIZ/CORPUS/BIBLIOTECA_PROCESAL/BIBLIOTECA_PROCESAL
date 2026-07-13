@@ -1,0 +1,124 @@
+# BIBLIOTECA PROCESAL
+
+Versión: 1.0.0
+
+---
+
+# Objetivo
+
+La Biblioteca Procesal contiene todos los componentes reutilizables utilizados por los Activos Sustantivos y los Activos Procesales.
+
+Su finalidad es evitar duplicidad de texto, mantener uniformidad institucional y facilitar la actualización del CORPUS.
+
+Todo componente contenido en esta biblioteca podrá ser utilizado por cualquier activo.
+
+---
+
+# Principios
+
+La Biblioteca Procesal deberá cumplir los siguientes principios:
+
+- Reutilización.
+- Uniformidad.
+- Modularidad.
+- Compatibilidad.
+- Actualización centralizada.
+- Independencia de expedientes.
+
+---
+
+# Regla Fundamental
+
+Ningún Activo Sustantivo ni Activo Procesal deberá duplicar un componente que exista en la Biblioteca Procesal.
+
+Si un componente ya existe aquí, deberá reutilizarse.
+
+---
+
+# Contenido
+
+La Biblioteca Procesal estará integrada por los siguientes módulos:
+
+BP-001_PROEMIOS
+
+BP-002_PERSONALIDAD
+
+BP-003_DOMICILIOS
+
+BP-004_AUTORIZACIONES
+
+BP-005_COMPETENCIA
+
+BP-006_VIA
+
+BP-007_LEGITIMACION
+
+BP-008_PRESTACIONES
+
+BP-009_HECHOS
+
+BP-010_DERECHO
+
+BP-011_PRUEBAS
+
+BP-012_PUNTOS_PETITORIOS
+
+BP-013_OFICIOS
+
+BP-014_REQUERIMIENTOS
+
+BP-015_NOTIFICACIONES
+
+BP-016_EJECUCION
+
+BP-017_FIRMAS
+
+BP-018_CERTIFICACIONES
+
+BP-019_EXPEDIENTE_ELECTRONICO
+
+---
+
+# Contenido de cada módulo
+
+Cada módulo deberá contener:
+
+README.md
+
+VERSION.md
+
+PLANTILLAS.md
+
+NOTAS.md
+
+LECCIONES_APRENDIDAS.md
+
+---
+
+# Uso
+
+Los módulos deberán utilizarse como bloques reutilizables.
+
+Nunca deberán modificarse dentro de un expediente particular.
+
+Las mejoras institucionales deberán incorporarse directamente al módulo correspondiente.
+
+---
+
+# Compatibilidad
+
+Todos los Activos Sustantivos y Procesales deberán ser compatibles con esta Biblioteca.
+
+---
+
+# Actualización
+
+Toda modificación deberá reflejarse en:
+
+CORPUS/00_GOBIERNO_DEL_SISTEMA/VERSIONES.md
+
+---
+
+# Estado
+
+La Biblioteca Procesal constituye la fuente oficial de componentes reutilizables del CORPUS JURIS ORTIZ.

@@ -1,0 +1,386 @@
+# BP-013 – EJECUCIÓN DE SENTENCIAS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para la ejecución de sentencias definitivas, interlocutorias, convenios aprobados judicialmente y demás resoluciones que hayan adquirido fuerza ejecutoria.
+
+Su finalidad es garantizar que la sentencia no sólo sea favorable, sino que produzca el cumplimiento material e íntegro de todas sus consecuencias jurídicas.
+
+Para el SIJ-OL, el expediente no concluye con la sentencia.
+
+El expediente concluye únicamente cuando la sentencia ha sido ejecutada totalmente.
+
+---
+
+# Principios Rectores
+
+Toda ejecución deberá cumplir:
+
+- Tutela judicial efectiva.
+- Cumplimiento íntegro.
+- Economía procesal.
+- Congruencia.
+- Exhaustividad.
+- Máxima eficacia.
+- No indefensión.
+- Seguridad jurídica.
+
+---
+
+# Regla Fundamental
+
+El sistema deberá responder siempre:
+
+¿Qué ordenó la sentencia?
+
+↓
+
+¿Quién debe cumplir?
+
+↓
+
+¿Qué actos concretos deben realizarse?
+
+↓
+
+¿Qué autoridad debe intervenir?
+
+↓
+
+¿Cómo se acreditará el cumplimiento?
+
+↓
+
+¿Cuándo podrá archivarse definitivamente el expediente?
+
+---
+
+# Clasificación Institucional
+
+EJ-001
+
+Sentencias declarativas.
+
+---
+
+EJ-002
+
+Sentencias constitutivas.
+
+---
+
+EJ-003
+
+Sentencias de condena.
+
+---
+
+EJ-004
+
+Convenios judiciales.
+
+---
+
+EJ-005
+
+Cancelaciones registrales.
+
+---
+
+EJ-006
+
+Cumplimiento administrativo.
+
+---
+
+EJ-007
+
+Entrega de bienes.
+
+---
+
+EJ-008
+
+Pago de cantidades.
+
+---
+
+EJ-009
+
+Firma judicial en rebeldía.
+
+---
+
+EJ-010
+
+Cumplimiento por autoridad.
+
+---
+
+# Flujo Institucional
+
+Toda ejecución seguirá el siguiente orden:
+
+1. Verificar firmeza.
+
+2. Verificar ejecutoria.
+
+3. Identificar obligaciones.
+
+4. Identificar autoridades.
+
+5. Elaborar plan de ejecución.
+
+6. Solicitar medidas de cumplimiento.
+
+7. Supervisar cumplimiento.
+
+8. Documentar cumplimiento.
+
+9. Cerrar expediente.
+
+---
+
+# Matriz de Ejecución
+
+Cada sentencia deberá convertirse en una matriz.
+
+| Resolutivo | Obligado | Acto | Autoridad | Evidencia | Estado |
+
+---
+
+# Ejecución Registral
+
+Cuando la sentencia implique:
+
+- cancelación;
+- inscripción;
+- rectificación;
+- anotación;
+
+el sistema generará automáticamente:
+
+• oficio;
+
+• proyecto de oficio;
+
+• control de envío;
+
+• control de recepción;
+
+• seguimiento.
+
+---
+
+# Ejecución Administrativa
+
+Cuando exista obligación de actualizar registros administrativos, el sistema identificará:
+
+Autoridad.
+
+Sistema.
+
+Documento.
+
+Fecha límite.
+
+Constancia de cumplimiento.
+
+---
+
+# Regla Especial INFONAVIT
+
+En demandas contra INFONAVIT la ejecución no concluirá hasta verificar:
+
+□ Cancelación registral.
+
+□ Cierre del crédito.
+
+□ Baja en sistemas administrativos.
+
+□ Baja en sistemas contables.
+
+□ Baja en sistemas informáticos.
+
+□ Baja en sistemas de cobranza.
+
+□ Baja en recuperación.
+
+□ Baja en fiscalización.
+
+□ Eliminación de restricciones para nuevo crédito.
+
+□ Expedición de constancia.
+
+□ Cumplimiento integral.
+
+---
+
+# Oficios
+
+El sistema deberá generar automáticamente:
+
+Registro Público.
+
+INFONAVIT.
+
+Juzgados.
+
+Notarios.
+
+Dependencias administrativas.
+
+Autoridades auxiliares.
+
+---
+
+# Evidencia del Cumplimiento
+
+Toda actuación deberá documentarse mediante:
+
+- constancias;
+- acuses;
+- certificaciones;
+- oficios;
+- inscripciones;
+- fotografías cuando proceda;
+- documentos electrónicos;
+- resoluciones.
+
+---
+
+# Incumplimiento
+
+Cuando exista incumplimiento el sistema propondrá:
+
+• requerimiento;
+
+• apercibimiento;
+
+• medidas de apremio;
+
+• ejecución forzosa;
+
+• incidente;
+
+• vista;
+
+• denuncia cuando proceda.
+
+---
+
+# Cierre del Expediente
+
+El expediente únicamente podrá marcarse como:
+
+"CUMPLIDO"
+
+cuando todas las obligaciones se encuentren verificadas.
+
+No bastará la emisión de la sentencia.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Toda prestación deberá tener una estrategia de ejecución.
+
+---
+
+## Regla 2
+
+Toda sentencia deberá transformarse en tareas ejecutables.
+
+---
+
+## Regla 3
+
+El sistema nunca permitirá archivar un expediente con resolutivos pendientes.
+
+---
+
+## Regla 4
+
+Toda autoridad externa deberá tener seguimiento.
+
+---
+
+## Regla 5
+
+Toda actuación deberá generar evidencia.
+
+---
+
+## Regla 6
+
+Cuando exista cumplimiento parcial el expediente permanecerá abierto.
+
+---
+
+# Validaciones SIJ-OL
+
+Antes de cerrar un expediente:
+
+□ Sentencia ejecutoriada.
+
+□ Resolutivos identificados.
+
+□ Todos los oficios enviados.
+
+□ Todos los oficios cumplidos.
+
+□ Autoridades verificadas.
+
+□ Sistemas administrativos actualizados.
+
+□ Evidencia archivada.
+
+□ Cliente informado.
+
+□ Expediente listo para archivo.
+
+---
+
+# Variables Institucionales
+
+RESOLUTIVO
+
+OBLIGADO
+
+AUTORIDAD
+
+OFICIO
+
+EVIDENCIA
+
+ESTADO
+
+FECHA_CUMPLIMIENTO
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será ejecutado inmediatamente después de que el expediente cambie al estado:
+
+**SENTENCIA FIRME**
+
+El Motor Jurídico construirá automáticamente un **Plan Integral de Ejecución**, descomponiendo cada resolutivo en acciones concretas, responsables, documentos requeridos, plazos y mecanismos de verificación.
+
+El expediente no podrá cambiar al estado **CONCLUIDO** hasta que el Plan Integral de Ejecución alcance un cumplimiento del 100%.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional para la ejecución integral de sentencias.

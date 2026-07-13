@@ -1,0 +1,143 @@
+# ACTIVOS JURÍDICOS
+
+Versión: 1.0
+
+---
+
+# Objetivo
+
+Los Activos Jurídicos constituyen el núcleo operativo del CORPUS JURIS ORTIZ.
+
+Cada activo representa una institución jurídica o una acción procesal completamente desarrollada y reutilizable.
+
+Su finalidad es evitar volver a construir conocimiento jurídico para asuntos similares.
+
+---
+
+# Clasificación
+
+Los activos se clasifican en:
+
+- Activos Sustantivos.
+- Activos Procesales.
+
+---
+
+# Activos Sustantivos
+
+Representan instituciones jurídicas completas.
+
+Ejemplos:
+
+- Prescripción Negativa.
+- Liberación por Defunción.
+- Liberación por Incapacidad Total Permanente.
+- Cancelación de Hipoteca.
+- Prescripción Adquisitiva.
+- Inmatriculación.
+- Acción Pro Forma.
+- Sucesiones.
+- Divorcios.
+- Concubinato.
+
+---
+
+# Activos Procesales
+
+Representan herramientas aplicables a cualquier procedimiento.
+
+Ejemplos:
+
+- Demanda.
+- Contestación.
+- Alegatos.
+- Incidentes.
+- Apelación.
+- Amparo.
+- Ejecución.
+- Medios de Apremio.
+- Tercerías.
+
+---
+
+# Estructura obligatoria
+
+Todo activo deberá contener, como mínimo, la siguiente estructura:
+
+ACTIVO/
+
+README.md
+
+ACTIVO.md
+
+VERSION.md
+
+CONOCIMIENTO/
+
+DOCUMENTOS/
+
+PLANTILLAS/
+
+CASOS/
+
+CHECKLIST/
+
+REFERENCIAS.md
+
+LECCIONES_APRENDIDAS.md
+
+---
+
+# Principios
+
+Cada activo deberá cumplir las siguientes reglas:
+
+1. Ser autosuficiente.
+
+2. Ser reutilizable.
+
+3. Ser verificable.
+
+4. Mantener congruencia jurídica.
+
+5. Utilizar únicamente legislación vigente.
+
+6. Utilizar únicamente jurisprudencia previamente verificada.
+
+7. No contener datos particulares de un expediente.
+
+8. No almacenar documentos de clientes.
+
+---
+
+# Expedientes
+
+Los expedientes particulares nunca formarán parte del activo.
+
+Los expedientes deberán almacenarse exclusivamente en:
+
+CORPUS/07_CASOS/
+
+---
+
+# Actualización
+
+Las mejoras derivadas de un caso concreto deberán incorporarse al activo correspondiente únicamente después de ser validadas.
+
+Toda actualización deberá reflejarse en:
+
+VERSIONES.md
+
+---
+
+# Compatibilidad
+
+Todos los activos deberán respetar las reglas contenidas en:
+
+CORPUS/00_GOBIERNO_DEL_SISTEMA/REGLAS_INSTITUCIONALES.md
+
+---
+
+# Objetivo institucional
+
+Cada activo deberá ser capaz de producir, por sí mismo, documentos jurídicos técnicamente correctos y consistentes, reduciendo el tiempo de elaboración y estandarizando la calidad del trabajo del despacho.

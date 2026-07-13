@@ -1,0 +1,377 @@
+# AJ-003 – PRESCRIPCIÓN ADQUISITIVA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este Activo Jurídico constituye la metodología institucional para el análisis, preparación, tramitación, obtención y ejecución de acciones de prescripción adquisitiva de bienes inmuebles.
+
+Su finalidad consiste en obtener una sentencia que reconozca la adquisición originaria de la propiedad mediante la posesión ejercida durante el plazo legal y permita la inscripción definitiva del inmueble en el Registro Público de la Propiedad.
+
+---
+
+# Alcance
+
+Será aplicable cuando la adquisición del dominio derive de:
+
+- Prescripción adquisitiva de buena fe.
+- Prescripción adquisitiva de mala fe.
+- Prescripción privilegiada, cuando la legislación local la contemple.
+- Conversión de posesión derivada en posesión originaria, cuando legalmente proceda.
+- Demás supuestos previstos por la legislación aplicable.
+
+---
+
+# Objetivo Procesal
+
+Obtener sentencia que:
+
+- Declare adquirido el dominio.
+- Reconozca la calidad de propietario.
+- Sirva como título de propiedad.
+- Ordene la inscripción registral.
+- Cancele, cuando proceda, antecedentes incompatibles.
+- Produzca plena oponibilidad frente a terceros.
+
+---
+
+# Marco Jurídico
+
+El sistema analizará:
+
+- Constitución Política de los Estados Unidos Mexicanos.
+- Tratados Internacionales.
+- Código Civil aplicable.
+- Código Procesal correspondiente.
+- Legislación Registral.
+- Jurisprudencia obligatoria.
+- Tesis orientadoras.
+- Criterios institucionales.
+
+---
+
+# Elementos Jurídicos
+
+El sistema verificará:
+
+□ Naturaleza del inmueble.
+
+□ Tipo de posesión.
+
+□ Fecha de inicio.
+
+□ Causa generadora.
+
+□ Continuidad.
+
+□ Publicidad.
+
+□ Pacificidad.
+
+□ Concepto de propietario.
+
+□ Buena o mala fe.
+
+□ Plazo legal.
+
+□ Interrupciones.
+
+□ Suspensiones.
+
+□ Identidad del inmueble.
+
+□ Identidad del poseedor.
+
+□ Situación registral.
+
+---
+
+# Prestaciones Base
+
+P-001
+
+Declaración judicial de prescripción adquisitiva.
+
+---
+
+P-002
+
+Reconocimiento del derecho de propiedad.
+
+---
+
+P-003
+
+Inscripción de la sentencia.
+
+---
+
+P-004
+
+Expedición de oficios al Registro Público.
+
+---
+
+P-005
+
+Cancelación de inscripciones incompatibles cuando legalmente proceda.
+
+---
+
+P-006
+
+Entrega de testimonios.
+
+---
+
+# Hechos Base
+
+Como regla general deberán acreditarse:
+
+- Inicio de la posesión.
+- Forma de adquisición.
+- Actos de dominio.
+- Publicidad.
+- Continuidad.
+- Pacificidad.
+- Transcurso del plazo.
+- Ausencia de interrupciones eficaces.
+- Identidad física y jurídica del inmueble.
+
+---
+
+# Documentación Base
+
+El sistema analizará, según el caso:
+
+- Certificado de Información Registral vigente.
+- Plano o croquis.
+- Constancias catastrales.
+- Recibos de pago.
+- Contratos.
+- Fotografías.
+- Dictámenes periciales.
+- Documentación municipal.
+- Copias certificadas de expedientes relacionados.
+
+---
+
+# Matriz Cronológica
+
+| Evento | Fecha | Consecuencia Jurídica | Documento Soporte |
+
+---
+
+# Reglas Especiales
+
+## Regla 1
+
+El sistema distinguirá expresamente entre posesión originaria y posesión derivada.
+
+---
+
+## Regla 2
+
+La buena fe nunca se presumirá cuando la legislación exija prueba específica.
+
+---
+
+## Regla 3
+
+La causa generadora deberá quedar plenamente identificada.
+
+---
+
+## Regla 4
+
+La identidad física del inmueble deberá verificarse antes de presentar la demanda.
+
+---
+
+## Regla 5
+
+Cuando exista discrepancia entre medidas, superficie o colindancias, el sistema propondrá las acciones complementarias necesarias.
+
+---
+
+# Riesgos Procesales
+
+El sistema analizará:
+
+- Interrupción de la posesión.
+- Reconocimiento de dominio ajeno.
+- Ocupación clandestina.
+- Violencia.
+- Tolerancia.
+- Falta de identidad del inmueble.
+- Conflictos registrales.
+- Superposición de predios.
+- Deficiencia probatoria.
+- Inexistencia de causa generadora.
+
+---
+
+# Estrategia Institucional
+
+El Motor Jurídico elaborará:
+
+1. Diagnóstico de posesión.
+
+2. Diagnóstico registral.
+
+3. Diagnóstico probatorio.
+
+4. Línea del tiempo.
+
+5. Riesgos.
+
+6. Estrategia recomendada.
+
+7. Probanzas prioritarias.
+
+---
+
+# Productos Generados
+
+Este Activo permitirá generar:
+
+- Demanda.
+- Contestación.
+- Réplica.
+- Alegatos.
+- Recursos.
+- Escrito de ejecución.
+- Oficios registrales.
+- Interrogatorios.
+- Pliegos de posiciones.
+- Cuestionarios periciales.
+- Matriz probatoria.
+- Cronología.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Competencia correcta.
+
+□ Vía correcta.
+
+□ Plazo legal cumplido.
+
+□ Posesión acreditada.
+
+□ Identidad del inmueble verificada.
+
+□ Documentación suficiente.
+
+□ Estrategia validada.
+
+□ Riesgos documentados.
+
+---
+
+# Variables
+
+TIPO_POSESION
+
+BUENA_FE
+
+MALA_FE
+
+CAUSA_GENERADORA
+
+PLAZO
+
+INTERRUPCIONES
+
+IDENTIDAD_INMUEBLE
+
+RIESGO
+
+ESTRATEGIA
+
+---
+
+# Dependencias
+
+Este Activo depende de:
+
+- AJ-000 Estándar de Activos Jurídicos.
+- Biblioteca Procesal (BP).
+- Metodología Jurídica (MJ).
+- Biblioteca Legislativa.
+- Biblioteca Jurisprudencial.
+
+---
+
+# Criterios Institucionales
+
+Como criterio propio del despacho:
+
+- La causa generadora constituye uno de los elementos centrales del análisis.
+- La identidad física y jurídica del inmueble deberá quedar plenamente acreditada antes de promover la acción.
+- La estrategia privilegiará prueba documental y pericial sobre prueba testimonial cuando ello fortalezca la acción.
+- Cuando la legislación local contemple prescripción privilegiada, el sistema deberá analizarla automáticamente como alternativa estratégica.
+- Cuando resulte procedente, el sistema analizará la conveniencia de acumular o complementar la acción con procedimientos registrales compatibles.
+
+---
+
+# Flujo Procesal
+
+DIAGNÓSTICO
+
+↓
+
+ANÁLISIS REGISTRAL
+
+↓
+
+ANÁLISIS DE POSESIÓN
+
+↓
+
+MATRIZ PROBATORIA
+
+↓
+
+DEMANDA
+
+↓
+
+ETAPA PROBATORIA
+
+↓
+
+SENTENCIA
+
+↓
+
+INSCRIPCIÓN REGISTRAL
+
+↓
+
+EJECUCIÓN
+
+↓
+
+ARCHIVO
+
+---
+
+# Uso por el SIJ-OL
+
+Este Activo constituye el modelo institucional para todos los asuntos de prescripción adquisitiva.
+
+El sistema no permitirá generar la demanda mientras no se hayan validado la identidad del inmueble, la naturaleza de la posesión, el cumplimiento del plazo legal y la estrategia probatoria correspondiente.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del Activo Jurídico institucional para acciones de prescripción adquisitiva.

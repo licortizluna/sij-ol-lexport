@@ -1,0 +1,295 @@
+# MJ-001 – INTERPRETACIÓN JURÍDICA
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la metodología institucional para interpretar normas jurídicas dentro del SIJ-OL.
+
+Su finalidad consiste en impedir que el sistema aplique artículos de manera aislada o mecánica.
+
+Toda norma deberá interpretarse conforme al sistema jurídico completo y al caso concreto.
+
+---
+
+# Principios Rectores
+
+Toda interpretación deberá observar:
+
+- Legalidad.
+- Seguridad jurídica.
+- Interpretación sistemática.
+- Interpretación conforme.
+- Pro persona.
+- Buena fe.
+- Coherencia.
+- Razonabilidad.
+- Máxima eficacia.
+- Tutela judicial efectiva.
+
+---
+
+# Filosofía Institucional
+
+Las normas no se leen.
+
+Las normas se interpretan.
+
+El SIJ-OL nunca fundamentará una conclusión únicamente porque un artículo así lo dice.
+
+Toda interpretación deberá justificarse.
+
+---
+
+# Orden Obligatorio
+
+Toda interpretación seguirá el siguiente flujo:
+
+HECHO
+
+↓
+
+PROBLEMA JURÍDICO
+
+↓
+
+NORMA
+
+↓
+
+INTERPRETACIÓN
+
+↓
+
+JURISPRUDENCIA
+
+↓
+
+APLICACIÓN
+
+↓
+
+CONCLUSIÓN
+
+---
+
+# Métodos de Interpretación
+
+## IJ-001
+
+Literal.
+
+---
+
+## IJ-002
+
+Gramatical.
+
+---
+
+## IJ-003
+
+Sistemática.
+
+---
+
+## IJ-004
+
+Funcional.
+
+---
+
+## IJ-005
+
+Teleológica.
+
+---
+
+## IJ-006
+
+Histórica.
+
+---
+
+## IJ-007
+
+Evolutiva.
+
+---
+
+## IJ-008
+
+Conforme a la Constitución.
+
+---
+
+## IJ-009
+
+Conforme a los Tratados Internacionales.
+
+---
+
+## IJ-010
+
+Pro Persona.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+La interpretación literal nunca será suficiente cuando conduzca a resultados incompatibles con el sistema jurídico.
+
+---
+
+## Regla 2
+
+Siempre deberá privilegiarse la interpretación sistemática.
+
+---
+
+## Regla 3
+
+Cuando exista conflicto entre normas deberá analizarse:
+
+- jerarquía;
+- especialidad;
+- temporalidad;
+- competencia;
+- constitucionalidad.
+
+---
+
+## Regla 4
+
+Cuando exista jurisprudencia obligatoria ésta prevalecerá sobre interpretaciones doctrinales.
+
+---
+
+## Regla 5
+
+La interpretación deberá ser consistente con:
+
+- hechos;
+- pruebas;
+- prestaciones;
+- finalidad de la acción.
+
+---
+
+# Interpretación Contractual
+
+Cuando exista contrato el sistema analizará:
+
+- voluntad de las partes;
+
+- cláusulas;
+
+- contexto;
+
+- finalidad;
+
+- equilibrio contractual;
+
+- normas imperativas.
+
+---
+
+# Interpretación Registral
+
+El sistema interpretará conjuntamente:
+
+- asiento registral;
+
+- escritura;
+
+- certificados;
+
+- antecedentes registrales;
+
+- legislación hipotecaria.
+
+---
+
+# Interpretación Constitucional
+
+Toda interpretación deberá verificar:
+
+□ Derechos fundamentales.
+
+□ Debido proceso.
+
+□ Acceso a la justicia.
+
+□ Seguridad jurídica.
+
+□ Igualdad.
+
+□ No discriminación.
+
+---
+
+# Interpretación Convencional
+
+Cuando resulte aplicable el sistema verificará:
+
+- Convención Americana.
+
+- Pacto Internacional de Derechos Civiles y Políticos.
+
+- demás tratados obligatorios.
+
+---
+
+# Matriz de Interpretación
+
+| Norma | Método | Jurisprudencia | Resultado |
+
+---
+
+# Validaciones SIJ-OL
+
+□ Norma vigente.
+
+□ Método seleccionado.
+
+□ Jurisprudencia revisada.
+
+□ Aplicación razonada.
+
+□ Congruencia con el expediente.
+
+---
+
+# Variables
+
+NORMA
+
+METODO
+
+JURISPRUDENCIA
+
+INTERPRETACION
+
+CONCLUSION
+
+---
+
+# Uso por el SIJ-OL
+
+Este módulo será utilizado por todos los componentes del sistema antes de aplicar cualquier disposición jurídica.
+
+No permitirá conclusiones basadas exclusivamente en la lectura literal de una norma.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de interpretación jurídica.

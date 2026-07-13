@@ -1,0 +1,362 @@
+# AJ-004 – ACCIÓN PRO FORMA (OTORGAMIENTO Y FIRMA DE ESCRITURA)
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este Activo Jurídico constituye la metodología institucional para el análisis, preparación, tramitación, obtención y ejecución de acciones de otorgamiento y firma de escritura pública (Acción Pro Forma).
+
+Su finalidad consiste en obtener una sentencia que sustituya la voluntad del obligado incumplido y permita la formalización e inscripción del acto jurídico correspondiente.
+
+---
+
+# Alcance
+
+Será aplicable, entre otros, a:
+
+- Compraventa de inmuebles.
+- Donaciones.
+- Permutas.
+- Adjudicaciones.
+- Cesiones de derechos.
+- Daciones en pago.
+- Convenios con obligación de escriturar.
+- Cumplimiento forzoso de contratos traslativos de dominio.
+
+---
+
+# Objetivo Procesal
+
+Obtener sentencia que:
+
+- Declare procedente la acción.
+- Condene al demandado a otorgar y firmar la escritura pública.
+- Autorice al Juez para firmar en rebeldía cuando proceda.
+- Permita la protocolización e inscripción registral.
+- Produzca todos los efectos traslativos del acto jurídico.
+
+---
+
+# Marco Jurídico
+
+El sistema analizará:
+
+- Constitución Política.
+- Tratados Internacionales.
+- Código Civil aplicable.
+- Código Procesal.
+- Legislación Registral.
+- Ley del Notariado.
+- Jurisprudencia obligatoria.
+- Tesis orientadoras.
+- Criterios institucionales.
+
+---
+
+# Elementos Jurídicos
+
+El sistema verificará:
+
+□ Existencia del contrato.
+
+□ Consentimiento.
+
+□ Objeto.
+
+□ Capacidad.
+
+□ Forma.
+
+□ Precio o contraprestación.
+
+□ Cumplimiento de obligaciones del actor.
+
+□ Incumplimiento del demandado.
+
+□ Identidad del inmueble.
+
+□ Identidad de las partes.
+
+□ Situación registral.
+
+□ Posibilidad jurídica de escrituración.
+
+---
+
+# Prestaciones Base
+
+P-001
+
+Declaración de procedencia de la acción.
+
+---
+
+P-002
+
+Condena al otorgamiento de escritura.
+
+---
+
+P-003
+
+Firma judicial en rebeldía.
+
+---
+
+P-004
+
+Protocolización.
+
+---
+
+P-005
+
+Inscripción en el Registro Público.
+
+---
+
+P-006
+
+Entrega de testimonios.
+
+---
+
+# Hechos Base
+
+El sistema verificará:
+
+- Celebración del contrato.
+- Obligaciones asumidas.
+- Cumplimiento del actor.
+- Incumplimiento del demandado.
+- Requerimientos previos cuando procedan.
+- Negativa de escrituración.
+- Situación actual del inmueble.
+
+---
+
+# Documentación Base
+
+Como regla general se analizarán:
+
+- Contrato privado.
+- Recibos de pago.
+- Escrituras relacionadas.
+- Certificado de Información Registral.
+- Avalúos cuando procedan.
+- Planos.
+- Identificaciones.
+- Constancias fiscales cuando sean necesarias.
+
+---
+
+# Matriz Cronológica
+
+| Evento | Fecha | Consecuencia Jurídica | Documento |
+
+---
+
+# Reglas Especiales
+
+## Regla 1
+
+El sistema verificará que el actor haya cumplido o esté en posibilidad jurídica de cumplir las obligaciones a su cargo.
+
+---
+
+## Regla 2
+
+Cuando el contrato requiera interpretación, se aplicarán los módulos MJ correspondientes antes de formular la estrategia.
+
+---
+
+## Regla 3
+
+Si existen gravámenes o limitaciones al dominio, deberán analizarse previamente sus efectos sobre la procedencia de la acción.
+
+---
+
+## Regla 4
+
+El sistema verificará si procede acumular otras acciones compatibles.
+
+---
+
+# Riesgos Procesales
+
+El sistema analizará:
+
+- Nulidad del contrato.
+- Simulación.
+- Falta de pago.
+- Incumplimiento recíproco.
+- Falta de capacidad.
+- Defectos de forma.
+- Imposibilidad jurídica de escriturar.
+- Gravámenes posteriores.
+- Embargos.
+- Conflictos registrales.
+
+---
+
+# Estrategia Institucional
+
+El Motor Jurídico elaborará:
+
+1. Diagnóstico contractual.
+
+2. Diagnóstico registral.
+
+3. Diagnóstico probatorio.
+
+4. Riesgos procesales.
+
+5. Estrategia de cumplimiento.
+
+6. Estrategia de ejecución.
+
+---
+
+# Productos Generados
+
+Este Activo permitirá generar:
+
+- Demanda.
+- Contestación.
+- Reconvención.
+- Alegatos.
+- Recursos.
+- Escrito de ejecución.
+- Oficios al Registro Público.
+- Oficios a Notaría.
+- Proyecto de escritura.
+- Matriz contractual.
+- Cronología.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Contrato válido.
+
+□ Actor legitimado.
+
+□ Demandado obligado.
+
+□ Incumplimiento acreditado.
+
+□ Inmueble identificado.
+
+□ Prestaciones congruentes.
+
+□ Estrategia validada.
+
+□ Riesgos documentados.
+
+---
+
+# Variables
+
+TIPO_CONTRATO
+
+OBLIGACION_DE_ESCRITURAR
+
+CUMPLIMIENTO_ACTOR
+
+INCUMPLIMIENTO_DEMANDADO
+
+IDENTIDAD_INMUEBLE
+
+RIESGO
+
+ESTRATEGIA
+
+---
+
+# Dependencias
+
+Este Activo depende de:
+
+- AJ-000 Estándar de Activos Jurídicos.
+- Biblioteca Procesal (BP).
+- Metodología Jurídica (MJ).
+- Biblioteca Legislativa.
+- Biblioteca Jurisprudencial.
+
+---
+
+# Criterios Institucionales
+
+Como criterio propio del despacho:
+
+- La acción pro forma constituye una acción de cumplimiento específico y no una acción indemnizatoria.
+- La procedencia dependerá del cumplimiento o posibilidad jurídica de cumplimiento por parte del actor.
+- Siempre deberá verificarse la situación registral antes de promover la demanda.
+- La sentencia deberá prever expresamente la firma judicial en rebeldía cuando la legislación lo permita.
+- La estrategia deberá contemplar desde la demanda la etapa de protocolización e inscripción.
+
+---
+
+# Flujo Procesal
+
+DIAGNÓSTICO CONTRACTUAL
+
+↓
+
+ANÁLISIS REGISTRAL
+
+↓
+
+MATRIZ PROBATORIA
+
+↓
+
+DEMANDA
+
+↓
+
+ETAPA PROBATORIA
+
+↓
+
+SENTENCIA
+
+↓
+
+FIRMA DE ESCRITURA
+
+↓
+
+PROTOCOLIZACIÓN
+
+↓
+
+INSCRIPCIÓN REGISTRAL
+
+↓
+
+EJECUCIÓN
+
+↓
+
+ARCHIVO
+
+---
+
+# Uso por el SIJ-OL
+
+Este Activo constituye el modelo institucional para todos los procedimientos de otorgamiento y firma de escritura pública.
+
+El sistema no permitirá generar la demanda mientras no se hayan validado la existencia del contrato, el cumplimiento del actor, el incumplimiento del demandado, la viabilidad registral y la estrategia de ejecución de la sentencia.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del Activo Jurídico institucional para la Acción Pro Forma (Otorgamiento y Firma de Escritura Pública).

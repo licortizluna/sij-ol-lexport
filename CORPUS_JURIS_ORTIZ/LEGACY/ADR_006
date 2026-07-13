@@ -1,0 +1,308 @@
+# ADR-006
+# ARCHITECTURE DECISION RECORD
+## Todo Litigio Deberá Construirse Mediante Ingeniería Inversa
+
+Versión 1.0
+
+Estado:
+Aceptado
+
+Prioridad:
+Crítica
+
+Impacto:
+Global
+
+Fecha de adopción:
+Fundacional
+
+Autor:
+CORPUS JURIS ORTIZ
+
+---
+
+# CONTEXTO
+
+La enseñanza jurídica tradicional aborda el litigio como un proceso lineal:
+
+Hechos.
+
+↓
+
+Normas.
+
+↓
+
+Demanda.
+
+↓
+
+Prueba.
+
+↓
+
+Sentencia.
+
+Este modelo supone que el razonamiento debe avanzar cronológicamente desde el origen del conflicto.
+
+La experiencia institucional del CORPUS JURIS ORTIZ demuestra que dicho enfoque produce:
+
+• Demandas extensas pero incompletas.
+
+• Prestaciones innecesarias.
+
+• Prueba irrelevante.
+
+• Hechos sin utilidad jurídica.
+
+• Argumentos redundantes.
+
+• Omisiones estratégicas.
+
+• Sentencias parcialmente útiles.
+
+---
+
+# PROBLEMA
+
+Cuando el razonamiento inicia con los hechos, el operador jurídico desconoce todavía:
+
+Qué necesita realmente obtener.
+
+Qué debe demostrar.
+
+Qué será verdaderamente discutido.
+
+Qué deberá ejecutar.
+
+Como consecuencia, gran parte del trabajo inicial termina siendo irrelevante.
+
+---
+
+# DECISIÓN
+
+El CORPUS JURIS ORTIZ adopta como regla institucional permanente que:
+
+**Todo litigio será construido mediante Ingeniería Jurídica Inversa.**
+
+La construcción comenzará siempre desde el resultado final deseado y retrocederá sistemáticamente hasta llegar a los hechos.
+
+---
+
+# MODELO OFICIAL
+
+Resultado material esperado.
+
+↓
+
+Sentencia necesaria.
+
+↓
+
+Prestaciones.
+
+↓
+
+Consecuencias registrales.
+
+↓
+
+Consecuencias administrativas.
+
+↓
+
+Consecuencias contractuales.
+
+↓
+
+Sujetos obligados.
+
+↓
+
+Prueba necesaria.
+
+↓
+
+Hechos indispensables.
+
+↓
+
+Normas.
+
+↓
+
+Jurisprudencia.
+
+↓
+
+Documento procesal.
+
+---
+
+# FUNDAMENTO
+
+El proceso judicial constituye un sistema orientado a objetivos.
+
+Por ello:
+
+No todo hecho merece ser litigado.
+
+No toda prueba merece ofrecerse.
+
+No toda norma merece citarse.
+
+No toda jurisprudencia fortalece el caso.
+
+Únicamente deberán incorporarse aquellos elementos indispensables para producir el resultado jurídico previamente definido.
+
+---
+
+# PRINCIPIOS DERIVADOS
+
+Toda actuación deberá responder:
+
+¿Contribuye directamente al resultado final?
+
+Si la respuesta es negativa:
+
+El elemento deberá eliminarse.
+
+---
+
+# REGLAS OBLIGATORIAS
+
+Queda prohibido:
+
+Incorporar hechos decorativos.
+
+Narrar antecedentes irrelevantes.
+
+Ofrecer pruebas sin finalidad.
+
+Citar normas innecesarias.
+
+Agregar jurisprudencia por cantidad.
+
+Redactar argumentos que no produzcan consecuencias procesales.
+
+---
+
+# EFECTOS
+
+Toda construcción jurídica deberá minimizar:
+
+Complejidad.
+
+Redundancia.
+
+Tiempo.
+
+Costo.
+
+Carga probatoria.
+
+Riesgos.
+
+Y maximizar:
+
+Ejecutabilidad.
+
+Precisión.
+
+Coherencia.
+
+Persuasión.
+
+Utilidad práctica.
+
+---
+
+# BENEFICIOS ESPERADOS
+
+Demandas más breves.
+
+Mayor claridad.
+
+Mayor precisión.
+
+Mayor fuerza argumentativa.
+
+Menor litigiosidad innecesaria.
+
+Mayor calidad institucional.
+
+---
+
+# IMPACTO
+
+Este ADR modifica directamente:
+
+MOAJ-001 al MOAJ-010.
+
+PR-001 al PR-020.
+
+Todos los ST.
+
+Todos los CIJ.
+
+Todos los LGJ.
+
+Toda la arquitectura metodológica.
+
+---
+
+# RELACIÓN CON OTROS ADR
+
+Este ADR constituye la consecuencia lógica de:
+
+ADR-001
+Las prestaciones son el punto de partida.
+
+ADR-005
+La ejecución se diseña antes de la demanda.
+
+ADR-006 unifica ambas decisiones en un algoritmo general de construcción jurídica.
+
+---
+
+# RIESGOS
+
+Puede parecer contrario al método tradicional de enseñanza del Derecho.
+
+Sin embargo, incrementa significativamente la eficiencia estratégica del litigio.
+
+---
+
+# CUMPLIMIENTO
+
+Toda auditoría institucional verificará:
+
+□ El resultado final fue definido antes del análisis.
+
+□ Las prestaciones derivan del resultado.
+
+□ Los hechos fueron seleccionados por utilidad.
+
+□ Las pruebas responden únicamente a esos hechos.
+
+□ No existen elementos sin finalidad estratégica.
+
+□ El documento fue construido mediante ingeniería inversa.
+
+---
+
+# AXIOMA
+
+El litigio no debe avanzar desde el pasado hacia el futuro.
+
+Debe construirse desde el futuro hacia el pasado.
+
+---
+
+# DECISIÓN INSTITUCIONAL
+
+El CORPUS JURIS ORTIZ adopta la Ingeniería Jurídica Inversa como principio rector de toda su arquitectura metodológica.
+
+Todo documento institucional deberá construirse retrocediendo desde el resultado material perseguido hasta los hechos estrictamente indispensables para alcanzarlo, eliminando cualquier elemento que no contribuya directa y objetivamente al éxito y ejecución del litigio.
+
+Esta decisión constituye uno de los principios estructurales del CORPUS y deberá observarse en todos los protocolos, estándares, criterios institucionales, manuales y desarrollos futuros, salvo modificación expresa mediante un nuevo Architecture Decision Record.

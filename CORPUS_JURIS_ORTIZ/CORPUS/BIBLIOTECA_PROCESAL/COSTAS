@@ -1,0 +1,218 @@
+# BP-014 – COSTAS
+
+Versión: 1.0.0
+
+Estado: PRODUCCIÓN
+
+---
+
+# Objetivo
+
+Este módulo constituye la fuente institucional para el análisis, reclamación, imposición, liquidación y ejecución de los gastos y costas procesales.
+
+El SIJ-OL no asumirá automáticamente que procede la condena en costas.
+
+Su procedencia deberá analizarse conforme a la legislación aplicable, la conducta procesal de las partes y los criterios jurisprudenciales vigentes.
+
+---
+
+# Concepto
+
+Las costas procesales representan el conjunto de gastos legalmente recuperables derivados de un procedimiento judicial.
+
+Su finalidad consiste en resarcir a la parte vencedora de los gastos que legalmente debió realizar para obtener tutela jurisdiccional.
+
+---
+
+# Principios Rectores
+
+Toda condena en costas deberá observar:
+
+- Legalidad.
+- Congruencia.
+- Proporcionalidad.
+- Buena fe procesal.
+- Vencimiento.
+- Economía procesal.
+- Tutela judicial efectiva.
+
+---
+
+# Clasificación Institucional
+
+CO-001
+
+Costas por vencimiento.
+
+---
+
+CO-002
+
+Costas por temeridad.
+
+---
+
+CO-003
+
+Costas por mala fe.
+
+---
+
+CO-004
+
+Costas parciales.
+
+---
+
+CO-005
+
+Costas excluidas.
+
+---
+
+CO-006
+
+Liquidación de costas.
+
+---
+
+CO-007
+
+Ejecución de costas.
+
+---
+
+# Análisis previo
+
+Antes de solicitar costas el sistema verificará:
+
+□ Legislación aplicable.
+
+□ Jurisprudencia vigente.
+
+□ Tipo de procedimiento.
+
+□ Resultado del litigio.
+
+□ Conducta procesal.
+
+□ Excepciones legales.
+
+---
+
+# Modelo CO-001
+
+## Solicitud
+
+Se condene a la parte demandada al pago de gastos y costas del presente procedimiento, por actualizarse los supuestos previstos en la legislación aplicable.
+
+---
+
+# Modelo CO-002
+
+## Improcedencia
+
+No se solicita condena en costas por actualizarse los supuestos legales que excluyen su procedencia.
+
+---
+
+# Modelo CO-003
+
+## Reserva
+
+La cuantificación correspondiente se realizará en ejecución de sentencia mediante el incidente respectivo.
+
+---
+
+# Reglas Institucionales
+
+## Regla 1
+
+Nunca solicitar costas por costumbre.
+
+Siempre justificar.
+
+---
+
+## Regla 2
+
+El sistema identificará automáticamente los supuestos legales de procedencia.
+
+---
+
+## Regla 3
+
+Cuando exista jurisprudencia obligatoria deberá incorporarse automáticamente.
+
+---
+
+## Regla 4
+
+La cuantificación nunca formará parte de la demanda salvo disposición expresa.
+
+---
+
+## Regla 5
+
+Toda condena en costas deberá poder ejecutarse.
+
+---
+
+# Liquidación
+
+Cuando proceda la liquidación el sistema construirá:
+
+- relación de conceptos;
+- fundamento;
+- evidencia documental;
+- proyecto de liquidación;
+- incidente correspondiente.
+
+---
+
+# Validaciones SIJ-OL
+
+□ Procedencia legal.
+
+□ Jurisprudencia revisada.
+
+□ Petitorio congruente.
+
+□ Prestación relacionada.
+
+□ Ejecución posible.
+
+---
+
+# Variables
+
+PROCEDENCIA_COSTAS
+
+TIPO_COSTAS
+
+FUNDAMENTO
+
+JURISPRUDENCIA
+
+LIQUIDACION
+
+---
+
+# Uso por el SIJ-OL
+
+El Motor Jurídico decidirá automáticamente si procede:
+
+- solicitar costas;
+- omitirlas;
+- reservar su cuantificación;
+- preparar el incidente de liquidación.
+
+La decisión quedará registrada en la bitácora del expediente con la justificación correspondiente.
+
+---
+
+# Historial
+
+Versión 1.0.0
+
+Creación del módulo institucional de gastos y costas.
