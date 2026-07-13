@@ -154,6 +154,7 @@ activemq-data/
 uploads/
 node_modules/
 .npm-cache/
+private-import/
 .envrc
 .venv
 env/

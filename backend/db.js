@@ -32,6 +32,34 @@ CREATE TABLE IF NOT EXISTS auditoria (
 );
 `);
 
+function ensureColumn(table, column, definition) {
+  const columns = db.prepare(`PRAGMA table_info(${table})`).all().map(row => row.name);
+  if (!columns.includes(column)) db.exec(`ALTER TABLE ${table} ADD COLUMN ${column} ${definition}`);
+}
+
+for (const [column, definition] of Object.entries({
+  folio_interno: "TEXT",
+  cliente: "TEXT NOT NULL DEFAULT ''",
+  contraparte: "TEXT NOT NULL DEFAULT ''",
+  asunto: "TEXT NOT NULL DEFAULT ''",
+  materia: "TEXT NOT NULL DEFAULT ''",
+  tipo_procedimiento: "TEXT NOT NULL DEFAULT ''",
+  estado: "TEXT NOT NULL DEFAULT 'SONORA'",
+  riesgo: "TEXT NOT NULL DEFAULT ''",
+  fecha_inicio: "TEXT NOT NULL DEFAULT ''",
+  proximo_termino: "TEXT NOT NULL DEFAULT ''",
+  numero_credito: "TEXT NOT NULL DEFAULT ''",
+  abogado_responsable: "TEXT NOT NULL DEFAULT ''",
+  estado_expediente: "TEXT NOT NULL DEFAULT 'activo'",
+  probabilidad_exito: "TEXT NOT NULL DEFAULT 'no_determinada'",
+  monto_reclamado: "REAL NOT NULL DEFAULT 0",
+  ultima_actuacion: "TEXT NOT NULL DEFAULT ''",
+  calidad_datos: "TEXT NOT NULL DEFAULT 'captura_manual'",
+  campos_faltantes: "TEXT NOT NULL DEFAULT ''"
+})) ensureColumn("expedientes", column, definition);
+
+db.exec("CREATE UNIQUE INDEX IF NOT EXISTS idx_expedientes_folio_interno ON expedientes(folio_interno) WHERE folio_interno IS NOT NULL AND folio_interno <> ''");
+
 export function now() { return new Date().toISOString(); }
 export function audit(entidad, entidadId, accion, detalle) {
   db.prepare("INSERT INTO auditoria(entidad, entidad_id, accion, detalle, created_at) VALUES (?, ?, ?, ?, ?)")
