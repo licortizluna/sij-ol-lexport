@@ -4,6 +4,7 @@ let expedientes = [];
 let clientes = [];
 let agenda = [];
 let agendaFilter = "pendiente";
+let documentos = [];
 
 function toast(message, error = false) {
   const element = $("#toast");
@@ -54,6 +55,24 @@ async function loadAgenda() { agenda = await api("/api/agenda"); renderAgenda();
 document.querySelectorAll("[data-agenda-filter]").forEach(button => button.onclick = () => { agendaFilter = button.dataset.agendaFilter; document.querySelectorAll("[data-agenda-filter]").forEach(b => b.classList.toggle("active", b === button)); renderAgenda(); });
 $("#agenda-form").onsubmit = async event => { event.preventDefault(); const form=event.currentTarget; try { await api("/api/agenda",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(Object.fromEntries(new FormData(form)))}); form.reset(); toast("Evento agregado a la agenda"); await Promise.all([loadAgenda(),loadDashboard()]); } catch(error){ toast(error.message,true); } };
 
+function formatBytes(bytes) {
+  if (bytes < 1024) return `${bytes} B`;
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+  return `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+}
+function renderDocumentos() {
+  const expedienteId = Number($("#doc-filter").value || 0);
+  const rows = expedienteId ? documentos.filter(item => item.expediente_id === expedienteId) : documentos;
+  $("#doc-list").innerHTML = rows.map(item => `<div class="item"><span class="meta">${esc(item.tipo).toUpperCase()} · VERSIÓN ${item.version}</span><h3>${esc(item.titulo)}</h3><p><strong>Expediente:</strong> ${esc(item.expediente_numero)} · ${esc(item.archivo_nombre)} · ${formatBytes(item.tamano)}</p><span class="hash" title="${esc(item.sha256)}">SHA-256: ${esc(item.sha256)}</span><p>${esc(item.notas)}</p><div class="doc-actions"><a href="/api/documentos/${item.id}/descargar">Descargar</a><small>${esc(item.created_at)}</small></div></div>`).join("") || '<div class="item">No hay documentos para este expediente.</div>';
+}
+async function loadDocumentos() { documentos = await api("/api/documentos"); renderDocumentos(); }
+$("#doc-filter").onchange = renderDocumentos;
+$("#doc-form").onsubmit = async event => {
+  event.preventDefault(); const form = event.currentTarget; form.classList.add("loading");
+  try { const result = await api("/api/documentos", { method:"POST", body:new FormData(form) }); form.reset(); toast(`Documento incorporado · versión ${result.version}`); await loadDocumentos(); }
+  catch(error) { toast(error.message, true); } finally { form.classList.remove("loading"); }
+};
+
 function setExpMode(mode) {
   document.querySelectorAll("[data-mode]").forEach(button => button.classList.toggle("active", button.dataset.mode === mode));
   $("#exp-form").classList.toggle("hidden", mode !== "manual");
@@ -61,9 +80,14 @@ function setExpMode(mode) {
 }
 document.querySelectorAll("[data-mode]").forEach(button => button.onclick = () => setExpMode(button.dataset.mode));
 
+function matchesExpediente(item, normalized) {
+  return [item.numero, item.folio_interno, item.cliente, item.actor, item.demandado, item.contraparte, item.juzgado, item.asunto]
+    .some(value => String(value || "").toLocaleLowerCase("es").includes(normalized));
+}
+
 function renderExpedientes(query = "") {
   const normalized = query.trim().toLocaleLowerCase("es");
-  const filtered = normalized ? expedientes.filter(item => [item.numero, item.folio_interno, item.cliente, item.actor, item.demandado, item.juzgado, item.asunto].some(value => String(value || "").toLocaleLowerCase("es").includes(normalized))) : expedientes;
+  const filtered = normalized ? expedientes.filter(item => matchesExpediente(item, normalized)) : expedientes;
   const visible = filtered.slice(0, 40);
   $("#exp-count").textContent = expedientes.length.toLocaleString("es-MX");
   $("#exp-list").innerHTML = visible.map(item => `
@@ -79,11 +103,32 @@ function renderExpedientes(query = "") {
   document.querySelectorAll("[data-edit]").forEach(button => button.onclick = () => editExp(Number(button.dataset.edit)));
 }
 
+function renderExpSuggestions(query) {
+  const box = $("#exp-suggestions");
+  const normalized = query.trim().toLocaleLowerCase("es");
+  if (!normalized) { box.classList.add("hidden"); $("#exp-search").setAttribute("aria-expanded", "false"); return; }
+  const matches = expedientes.filter(item => matchesExpediente(item, normalized)).slice(0, 12);
+  box.innerHTML = matches.map(item => `<button type="button" role="option" data-exp-choice="${item.id}"><strong>${esc(item.numero)}</strong><span>${esc(item.actor || item.cliente || "Sin actor")} vs. ${esc(item.demandado || item.contraparte || "Sin demandado")}</span><small>${esc(item.juzgado || "Juzgado sin registrar")}</small></button>`).join("") || '<p class="no-suggestion">No se encontraron coincidencias.</p>';
+  box.classList.remove("hidden");
+  $("#exp-search").setAttribute("aria-expanded", "true");
+  document.querySelectorAll("[data-exp-choice]").forEach(button => button.onclick = () => {
+    const item = expedientes.find(row => row.id === Number(button.dataset.expChoice));
+    $("#exp-search").value = item.numero;
+    box.classList.add("hidden");
+    $("#exp-search").setAttribute("aria-expanded", "false");
+    renderExpedientes(item.numero);
+    $("#exp-list").scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
 async function loadExp() {
   expedientes = await api("/api/expedientes");
   renderExpedientes($("#exp-search").value);
-  $("#gen-exp").innerHTML = '<option value="">Seleccione…</option>' + expedientes.map(item => `<option value="${item.id}">${esc(item.numero)} — ${esc(item.cliente || item.actor)}</option>`).join("");
+  $("#gen-exp").innerHTML = '<option value="">Seleccione…</option><option value="__pendiente__">＋ Asunto nuevo — número pendiente</option>' + expedientes.map(item => `<option value="${item.id}">${esc(item.numero)} — ${esc(item.cliente || item.actor)}</option>`).join("");
   $("#agenda-exp").innerHTML = '<option value="">Sin vincular</option>' + expedientes.map(item => `<option value="${item.id}">${esc(item.numero)} — ${esc(item.cliente || item.actor)}</option>`).join("");
+  const docOptions = expedientes.map(item => `<option value="${item.id}">${esc(item.numero)} — ${esc(item.cliente || item.actor)}</option>`).join("");
+  $("#doc-exp").innerHTML = '<option value="">Seleccione…</option>' + docOptions;
+  $("#doc-filter").innerHTML = '<option value="">Todos los expedientes</option>' + docOptions;
 }
 
 function editExp(id) {
@@ -94,7 +139,13 @@ function editExp(id) {
   form.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-$("#exp-search").oninput = event => renderExpedientes(event.target.value);
+$("#exp-search").oninput = event => { renderExpSuggestions(event.target.value); renderExpedientes(event.target.value); };
+$("#exp-search").onfocus = event => renderExpSuggestions(event.target.value);
+$("#exp-search").onkeydown = event => {
+  if (event.key === "Escape") { $("#exp-suggestions").classList.add("hidden"); event.currentTarget.setAttribute("aria-expanded", "false"); }
+  if (event.key === "Enter") { const first = $("#exp-suggestions [data-exp-choice]"); if (first) { event.preventDefault(); first.click(); } }
+};
+document.addEventListener("click", event => { if (!event.target.closest(".smart-search")) { $("#exp-suggestions").classList.add("hidden"); $("#exp-search").setAttribute("aria-expanded", "false"); } });
 $("#nuevo").onclick = () => { $("#exp-form").reset(); setExpMode("manual"); $("#exp-form").scrollIntoView({ behavior: "smooth" }); };
 $("#exp-form").onsubmit = async event => {
   event.preventDefault();
@@ -153,8 +204,15 @@ $("#gen-form").onsubmit = async event => {
   try {
     const result = await api("/api/generaciones", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
     $("#resultado").textContent = result.resultado;
-    toast(`Borrador generado con ${result.modelo}; ${result.fuentes.length} fuentes recuperadas`);
+    const provisional = result.expediente?.pendiente_numero ? ` · expediente provisional ${result.expediente.numero} creado` : "";
+    toast(`Borrador generado con ${result.modelo}; ${result.fuentes.length} fuentes recuperadas${provisional}`);
+    if (result.expediente?.pendiente_numero) await Promise.all([loadExp(), loadClientes(), loadDashboard()]);
   } catch (error) { $("#resultado").textContent = "No fue posible generar el borrador."; toast(error.message, true); } finally { form.classList.remove("loading"); }
+};
+
+$("#gen-exp").onchange = event => {
+  const pendiente = event.target.value === "__pendiente__";
+  $("#gen-pendiente").classList.toggle("hidden", !pendiente);
 };
 
 async function loadAudit() {
@@ -165,5 +223,5 @@ async function loadAudit() {
 try {
   const health = await api("/api/health");
   $("#health").textContent = health.aiConfigured ? "Motor OpenAI listo" : "Motor sin configurar";
-  await Promise.all([loadExp(), loadTes(), loadClientes(), loadAgenda(), loadDashboard()]);
+  await Promise.all([loadExp(), loadTes(), loadClientes(), loadAgenda(), loadDashboard(), loadDocumentos()]);
 } catch (error) { toast(error.message, true); }
