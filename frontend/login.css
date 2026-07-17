@@ -1,0 +1,1 @@
+.login-page{min-height:100vh;background:#f4f0e7;display:grid;place-items:center}.login-shell{width:min(92vw,440px);margin:0}.login-shell h1{font-family:Georgia,serif;color:#142d43;margin:.2rem 0}.login-shell .card{padding:2rem}.login-shell #login-error{min-height:1.5em;color:#8b2635;font-weight:700}

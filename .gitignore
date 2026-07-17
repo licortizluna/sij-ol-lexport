@@ -150,11 +150,13 @@ activemq-data/
 # Environments
 .env
 .env.local
+.env.security
 .data/
 uploads/
 node_modules/
 .npm-cache/
 private-import/
+imports/privado/
 .envrc
 .venv
 env/

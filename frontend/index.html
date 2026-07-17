@@ -1,42 +1,403 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>SIJ-OL</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/modules.css"></head>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SIJ-OL</title>
+<link rel="stylesheet" href="/styles.css?v=0.26.0">
+<link rel="stylesheet" href="/modules.css?v=0.26.0">
+</head>
 <body>
-<header><div><small>DESPACHO ORTIZ LUNA</small><h1>SIJ-OL</h1><p>Sistema de Inteligencia Jurídica</p></div><span id="health">Verificando motor…</span></header>
-<nav><button data-view="inicio" class="active">Inicio</button><button data-view="expedientes">Expedientes</button><button data-view="clientes">Clientes y partes</button><button data-view="agenda">Agenda</button><button data-view="documentos">Documentos</button><button data-view="tesauro">Tesauro Jurídico</button><button data-view="generador">Generador IA</button><button data-view="auditoria">Trazabilidad</button></nav>
+<header>
+<div>
+<small>DESPACHO ORTIZ LUNA</small>
+<h1>SIJ-OL</h1>
+<p>Sistema de Inteligencia Jurídica</p>
+</div>
+<span id="health">Verificando motor…</span>
+</header>
+<nav>
+<button data-view="inicio" class="active">Inicio</button>
+<button data-view="expedientes">Expedientes</button>
+<button data-view="clientes">Clientes y partes</button>
+<button data-view="agenda">Agenda</button>
+<button data-view="tareas">Tareas</button>
+<button data-view="documentos">Documentos</button>
+<button data-view="acuerdos">Listas de acuerdos</button>
+<button data-view="tesauro">Tesauro Jurídico</button>
+<button data-view="generador">Generador IA</button>
+<button data-view="auditoria">Trazabilidad</button>
+<button data-view="respaldos">Respaldos</button>
+</nav>
 <main>
-<section id="inicio" class="view active"><div class="title"><div><h2>Panel de control</h2><p>Vista operativa de la cartera jurídica.</p></div></div><div id="metrics" class="metrics"></div><div class="grid dashboard-grid"><div><h3>Próximos términos y audiencias</h3><div id="dash-agenda" class="list"></div></div><div><h3>Estados procesales</h3><div id="dash-estados" class="card"></div></div></div></section>
+<section id="inicio" class="view active">
+<div class="title">
+<div>
+<h2>Panel de control</h2>
+<p>Vista operativa de la cartera jurídica.</p>
+</div>
+</div>
+<div id="metrics" class="metrics">
+</div>
+<div class="grid dashboard-grid">
+<div>
+<h3>Próximos términos y audiencias</h3>
+<div id="dash-agenda" class="list">
+</div>
+</div>
+<div>
+<h3>Estados procesales</h3>
+<div id="dash-estados" class="card">
+</div>
+</div>
+</div>
+<div class="review-header"><div><h3>Avisos de tareas</h3><p>Vencidas, de hoy y de mañana.</p></div><button type="button" data-open-tasks class="secondary">Abrir tareas</button></div><div id="dash-tareas" class="list"></div>
+</section>
 <section id="expedientes" class="view">
-  <div class="title"><div><h2>Expedientes</h2><p><span id="exp-count">0</span> registros · Correcciones con trazabilidad.</p></div><button id="nuevo">Nuevo expediente</button></div>
+  <div class="title">
+<div>
+<h2>Expedientes</h2>
+<p>
+<span id="exp-count">0</span> registros · Correcciones con trazabilidad.</p>
+</div>
+<button id="nuevo">Nuevo expediente</button>
+</div>
+  <details class="card duplicate-tool">
+    <summary><strong>Revisar expedientes duplicados</strong> <span class="muted">Conserva documentos y archiva registros repetidos</span></summary>
+    <p>La coincidencia exige el mismo número normalizado y el mismo órgano judicial. Primero se presenta una vista previa; ningún expediente se modifica durante el análisis.</p>
+    <div class="query-actions"><button id="analyze-duplicates" type="button" class="secondary">Analizar duplicados</button><button id="consolidate-duplicates" type="button" class="hidden">Consolidar seleccionados</button></div>
+    <div id="duplicate-results" class="list compact-list"></div>
+  </details>
   <div class="exp-layout">
     <aside class="exp-editor">
-      <div class="mode-tabs"><button type="button" data-mode="manual" class="active">Captura y edición</button><button type="button" data-mode="ia">Crear con IA</button></div>
+      <div class="mode-tabs">
+<button type="button" data-mode="manual" class="active">Captura y edición</button>
+<button type="button" data-mode="ia">Crear con IA</button>
+</div>
       <form id="exp-form" class="card form-stack">
         <input type="hidden" name="id">
-        <label>Número de expediente<input name="numero" required autocomplete="off"></label>
-        <label>Tipo de juicio<input name="tipo_juicio"></label>
-        <label>Actor<input name="actor"></label>
-        <label>Demandado<input name="demandado"></label>
-        <label>Juzgado<input name="juzgado"></label>
-        <div class="two-cols"><label>Distrito judicial<input name="distrito_judicial"></label><label>Ciudad<input name="ciudad"></label></div>
-        <label>Estado procesal<input name="estado_procesal"></label>
-        <label>Notas<textarea name="notas" rows="4"></textarea></label>
+        <label>Número de expediente<input name="numero" required autocomplete="off">
+</label>
+        <label>Tipo de juicio<input name="tipo_juicio">
+</label>
+        <label>Actor<input name="actor">
+</label>
+        <label>Demandado<input name="demandado">
+</label>
+        <label>Juzgado<input name="juzgado">
+</label>
+        <div class="two-cols">
+<label>Distrito judicial<input name="distrito_judicial">
+</label>
+<label>Ciudad<input name="ciudad">
+</label>
+</div>
+        <label>Estado procesal<input name="estado_procesal">
+</label>
+        <label>Situación del expediente<select name="estado_expediente"><option value="activo">Activo</option><option value="suspendido">Suspendido</option><option value="concluido">Concluido</option><option value="archivado">Archivado</option><option value="pendiente_numero">Provisional · número pendiente</option></select>
+</label>
+        <label>Próxima etapa o actuación<input name="etapa_proxima" placeholder="Ejemplo: ofrecer pruebas o desahogar vista">
+</label>
+        <label>Fecha objetivo de la próxima etapa<input name="proximo_termino" type="date">
+</label>
+        <label>Notas<textarea name="notas" rows="4">
+</textarea>
+</label>
         <button>Guardar expediente</button>
       </form>
       <form id="exp-ai-form" class="card form-stack hidden">
         <h3>Crear expediente con IA</h3>
         <p>Pegue la información disponible. La IA llenará una propuesta sin guardarla automáticamente.</p>
-        <label>Narración o datos del asunto<textarea name="narrativa" rows="12" required placeholder="Ejemplo: Expediente 123/2026, actor..., demandado..., Juzgado..."></textarea></label>
+        <label>Narración o datos del asunto<textarea name="narrativa" rows="12" required placeholder="Ejemplo: Expediente 123/2026, actor..., demandado..., Juzgado...">
+</textarea>
+</label>
         <button>Analizar y proponer campos</button>
         <small>Revise la propuesta antes de guardar. Los datos ausentes permanecerán vacíos.</small>
       </form>
     </aside>
-    <div class="exp-cartera"><div class="smart-search"><label for="exp-search">Localizar expediente</label><input id="exp-search" class="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="exp-suggestions" autocomplete="off" placeholder="Escriba número, juzgado, actor o demandado"><div id="exp-suggestions" class="suggestions hidden" role="listbox"></div></div><div id="exp-list" class="list"></div><p id="exp-limit" class="muted"></p></div>
+    <div class="exp-cartera">
+<div class="smart-search">
+<label for="exp-search">Localizar expediente</label>
+<input id="exp-search" class="search" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="exp-suggestions" autocomplete="off" placeholder="Escriba número, juzgado, actor o demandado">
+<div id="exp-suggestions" class="suggestions hidden" role="listbox">
+</div>
+</div>
+<div id="exp-list" class="list">
+</div>
+<p id="exp-limit" class="muted">
+</p>
+</div>
   </div>
 </section>
-<section id="clientes" class="view"><div class="title"><div><h2>Clientes y partes</h2><p>Directorio construido desde la cartera de expedientes.</p></div></div><input id="client-search" class="search" placeholder="Buscar cliente, contraparte o expediente"><div id="client-list" class="list"></div></section>
-<section id="agenda" class="view"><div class="title"><div><h2>Agenda de términos</h2><p>Control de vencimientos, audiencias y tareas vinculadas a expedientes.</p></div></div><div class="grid"><form id="agenda-form" class="card"><label>Expediente<select name="expediente_id" id="agenda-exp"><option value="">Sin vincular</option></select></label><label>Título<input name="titulo" required placeholder="Vence término para contestar vista"></label><div class="two-cols"><label>Fecha<input name="fecha" type="date" required></label><label>Hora<input name="hora" type="time"></label></div><label>Tipo<select name="tipo"><option value="termino">Término</option><option value="audiencia">Audiencia</option><option value="tarea">Tarea</option><option value="cita">Cita</option></select></label><label>Notas<textarea name="notas" rows="4"></textarea></label><button>Agregar a la agenda</button></form><div><div class="agenda-filters"><button type="button" data-agenda-filter="pendiente" class="active">Pendientes</button><button type="button" data-agenda-filter="todos">Todos</button></div><div id="agenda-list" class="list"></div></div></div></section>
-<section id="documentos" class="view"><div class="title"><div><h2>Documentos del expediente</h2><p>Repositorio con versionado, huella digital y trazabilidad.</p></div></div><div class="grid"><form id="doc-form" class="card" enctype="multipart/form-data"><label>Expediente<select name="expediente_id" id="doc-exp" required><option value="">Seleccione…</option></select></label><label>Título documental<input name="titulo" required placeholder="Demanda inicial"></label><label>Tipo<select name="tipo"><option value="promocion">Promoción</option><option value="acuerdo">Acuerdo</option><option value="sentencia">Sentencia</option><option value="prueba">Prueba</option><option value="notificacion">Notificación</option><option value="contrato">Contrato</option><option value="otro">Otro</option></select></label><label>Archivo<input name="archivo" type="file" required></label><label>Notas<textarea name="notas" rows="3"></textarea></label><button>Incorporar documento</button><small>El sistema impedirá registrar dos veces exactamente el mismo archivo.</small></form><div><label>Filtrar por expediente<select id="doc-filter"><option value="">Todos los expedientes</option></select></label><div id="doc-list" class="list document-list"></div></div></div></section>
-<section id="tesauro" class="view"><div class="title"><div><h2>Tesauro Jurídico</h2><p>Sentencias, convenios con cosa juzgada y resoluciones de amparo.</p></div></div><div class="grid"><form id="tes-form" class="card" enctype="multipart/form-data"><label>Título<input name="titulo" required></label><label>Clase<select name="clase"><option value="sentencia_primera_instancia">Sentencia de primera instancia</option><option value="convenio_cosa_juzgada">Convenio con cosa juzgada</option><option value="sentencia_apelacion">Sentencia de apelación</option><option value="amparo_directo">Amparo directo</option><option value="amparo_indirecto">Amparo indirecto</option><option value="revision_amparo">Revisión de amparo</option><option value="otro">Otro</option></select></label><label>Órgano<input name="organo"></label><label>Expediente de origen<input name="expediente_origen"></label><label>Fecha de resolución<input name="fecha_resolucion" type="date"></label><label>Archivo PDF, DOCX, TXT o MD<input name="archivo" type="file" required accept=".pdf,.docx,.txt,.md"></label><button>Incorporar al Tesauro</button></form><div><input id="tes-search" placeholder="Buscar razonamiento, materia o tribunal"><div id="tes-list" class="list"></div></div></div></section>
-<section id="generador" class="view"><div class="title"><div><h2>Generador de escritos</h2><p>Elabora borradores con expediente existente o con un asunto nuevo aún sin número judicial.</p></div></div><form id="gen-form" class="card wide"><label>Expediente o asunto<select name="expediente_id" id="gen-exp"><option value="">Seleccione…</option></select></label><div id="gen-pendiente" class="pending-case hidden"><h3>Asunto en espera de número de expediente</h3><p>Al generarse correctamente el escrito se abrirá un expediente provisional. Después podrá sustituir la referencia provisional por el número asignado por el juzgado.</p><div class="two-cols"><label>Actor o promovente<input name="actor_pendiente"></label><label>Demandado o contraparte<input name="demandado_pendiente"></label></div><label>Asunto<input name="asunto_pendiente"></label><label>Juzgado, si se conoce<input name="juzgado_pendiente"></label></div><label>Tipo de escrito<select name="tipo_escrito"><option>Demanda</option><option>Contestación de demanda</option><option>Desahogo de vista</option><option>Agravios de apelación</option><option>Amparo directo</option><option>Amparo indirecto</option><option>Recurso de revisión</option><option>Ofrecimiento de pruebas</option><option>Escrito de trámite</option></select></label><label>Temas para localizar en el Tesauro<input name="terminos" placeholder="prescripción hipoteca Infonavit"></label><label>Instrucciones<textarea name="instrucciones" rows="7" required></textarea></label><button>Generar borrador</button></form><article id="resultado" class="document">Aquí aparecerá el borrador.</article></section>
-<section id="auditoria" class="view"><div class="title"><div><h2>Trazabilidad</h2><p>Registro de altas, correcciones, incorporación de conocimiento y generaciones.</p></div></div><div id="audit-list" class="list"></div></section>
-</main><div id="toast"></div><script type="module" src="/app.js"></script></body></html>
+<section id="expediente-detalle" class="view"><div class="title"><div><p class="meta">FICHA INDIVIDUAL</p><h2 id="detail-title">Expediente</h2><p id="detail-subtitle"></p></div><button id="detail-back" type="button" class="secondary">← Volver</button></div><div class="mode-tabs detail-tabs"><button type="button" data-detail-tab="general" class="active">Datos generales</button><button type="button" data-detail-tab="etapas">Etapas y avance</button><button type="button" data-detail-tab="acuerdos">Histórico de listas</button><button type="button" data-detail-tab="documentos">Documentos</button><button type="button" data-detail-tab="tareas">Tareas</button></div><div id="detail-general" class="detail-panel card"></div><div id="detail-etapas" class="detail-panel hidden"><div class="stage-summary card"><div><strong id="stage-progress-label">0% completado</strong><progress id="stage-progress" max="100" value="0"></progress></div><button id="new-stage" type="button">Agregar etapa</button></div><form id="stage-form" class="card form-stack hidden"><input type="hidden" name="id"><h3 id="stage-form-title">Nueva etapa</h3><label>Nombre de la etapa<input name="titulo" required placeholder="Ejemplo: Periodo probatorio"></label><div class="two-cols"><label>Fecha objetivo<input name="fecha_objetivo" type="date"></label><label>Estado<select name="estado"><option value="pendiente">Pendiente</option><option value="en_curso">En curso</option><option value="completada">Completada</option></select></label></div><label>Notas<textarea name="notas" rows="3"></textarea></label><div class="task-form-actions"><button>Guardar etapa</button><button id="cancel-stage" type="button" class="secondary">Cancelar</button></div></form><div id="stage-list" class="stage-timeline"></div></div><div id="detail-acuerdos" class="detail-panel hidden"><div class="card form-stack"><div class="review-header"><div><h3>Resumen procesal</h3><p id="detail-agreement-count"></p></div><div><button id="detail-summarize" type="button">Actualizar resumen con IA</button> <a id="detail-agreement-download" class="download" href="#">Descargar CSV</a></div></div><p id="detail-summary" class="document-summary"></p></div><div id="detail-agreement-list" class="list detail-list"></div></div><div id="detail-documentos" class="detail-panel hidden"><div id="detail-document-list" class="list detail-list"></div></div><div id="detail-tareas" class="detail-panel hidden"><div id="detail-task-list" class="list detail-list"></div></div></section>
+<section id="clientes" class="view">
+<div class="title">
+<div>
+<h2>Clientes y partes</h2>
+<p>Directorio construido desde la cartera de expedientes.</p>
+</div>
+</div>
+<input id="client-search" class="search" placeholder="Buscar cliente, contraparte o expediente">
+<div id="client-list" class="list">
+</div>
+</section>
+<section id="agenda" class="view">
+<div class="title">
+<div>
+<h2>Agenda de términos</h2>
+<p>Control de vencimientos, audiencias y tareas vinculadas a expedientes.</p>
+</div>
+</div>
+<div class="grid">
+<form id="agenda-form" class="card">
+<label>Expediente<select name="expediente_id" id="agenda-exp">
+<option value="">Sin vincular</option>
+</select>
+</label>
+<label>Título<input name="titulo" required placeholder="Vence término para contestar vista">
+</label>
+<div class="two-cols">
+<label>Fecha<input name="fecha" type="date" required>
+</label>
+<label>Hora<input name="hora" type="time">
+</label>
+</div>
+<label>Tipo<select name="tipo">
+<option value="termino">Término</option>
+<option value="audiencia">Audiencia</option>
+<option value="tarea">Tarea</option>
+<option value="cita">Cita</option>
+</select>
+</label>
+<label>Notas<textarea name="notas" rows="4">
+</textarea>
+</label>
+<button>Agregar a la agenda</button>
+</form>
+<div>
+<div class="agenda-filters">
+<button type="button" data-agenda-filter="pendiente" class="active">Pendientes</button>
+<button type="button" data-agenda-filter="todos">Todos</button>
+</div>
+<div id="agenda-list" class="list">
+</div>
+</div>
+</div>
+</section>
+<section id="tareas" class="view"><div class="title"><div><h2>Tareas</h2><p>Control automático de pendientes con semáforo y avisos de hoy y mañana.</p></div></div><div class="card calendar-integration"><div><h3>Calendarios y recordatorios</h3><p id="calendar-status" class="muted">Comprobando Google Calendar…</p><small>La sincronización usa datos mínimos. Recordatorios de iPhone se incorpora mediante el Atajo «SIJ-OL Recordatorio».</small></div><div class="task-row-actions"><button id="connect-google" type="button">Conectar Google Calendar</button><button id="sync-google" type="button" class="secondary hidden">Sincronizar pendientes</button><button id="disconnect-google" type="button" class="secondary hidden">Desconectar</button><button id="iphone-help" type="button" class="secondary">Configurar Recordatorios de iPhone</button></div></div><div id="iphone-setup" class="card form-stack hidden"><h3>Atajo «SIJ-OL Recordatorio»</h3><p>En el iPhone, cree una vez un Atajo que reciba texto, obtenga del JSON los valores <strong>titulo</strong>, <strong>fecha</strong>, <strong>hora</strong> y <strong>notas</strong>, y ejecute «Añadir nuevo recordatorio».</p><ol><li>Abra Atajos y pulse +.</li><li>Nombre el atajo <strong>SIJ-OL Recordatorio</strong>.</li><li>Active «Recibir texto» y agregue «Obtener diccionario de la entrada».</li><li>Agregue «Añadir nuevo recordatorio» usando los campos del diccionario.</li></ol><p>Después, use «Enviar a iPhone» en cualquier tarea.</p></div><div class="task-layout"><form id="task-form" class="card form-stack task-editor"><input type="hidden" name="id"><h3 id="task-form-title">Nueva tarea</h3><label>Expediente<select name="expediente_id" id="task-exp"><option value="">Sin vincular</option></select></label><label>Título<input name="titulo" required></label><div class="two-cols"><label>Fecha límite<input name="fecha_vencimiento" type="date"></label><label>Hora<input name="hora" type="time"></label></div><label>Prioridad<select name="prioridad"><option value="normal">Normal</option><option value="alta">Alta</option><option value="urgente">Urgente</option></select></label><label>Notas<textarea name="notas" rows="4"></textarea></label><div class="task-form-actions"><button id="task-save">Agregar tarea</button><button id="task-cancel-edit" type="button" class="secondary hidden">Cancelar edición</button></div></form><div class="task-browser"><div class="task-toolbar"><div class="agenda-filters"><button type="button" data-task-filter="pendiente" class="active">Pendientes</button><button type="button" data-task-filter="todos">Todas</button></div><label>Buscar tarea<input id="task-search" type="search" placeholder="Título, expediente, juzgado o notas"></label></div><p id="task-count" class="muted"></p><div class="semaphore-legend"><span class="light red"></span> Vencida/hoy <span class="light yellow"></span> Mañana <span class="light green"></span> Posterior</div><div id="task-list" class="list"></div></div></div></section>
+<section id="documentos" class="view">
+<div class="title">
+<div>
+<h2>Documentos del expediente</h2>
+<p>Repositorio con versionado, huella digital y trazabilidad.</p>
+</div>
+</div>
+<div class="grid">
+<form id="doc-form" class="card" enctype="multipart/form-data">
+<label>Expediente<select name="expediente_id" id="doc-exp" required>
+<option value="">Seleccione…</option>
+</select>
+</label>
+<label>Título documental<input name="titulo" required placeholder="Demanda inicial">
+</label>
+<label>Tipo<select name="tipo">
+<option value="promocion">Promoción</option>
+<option value="acuerdo">Acuerdo</option>
+<option value="sentencia">Sentencia</option>
+<option value="prueba">Prueba</option>
+<option value="notificacion">Notificación</option>
+<option value="contrato">Contrato</option>
+<option value="otro">Otro</option>
+</select>
+</label>
+<label>Archivo<input name="archivo" type="file" required>
+</label>
+<label>Notas<textarea name="notas" rows="3">
+</textarea>
+</label>
+<button>Incorporar documento</button>
+<small>El sistema impedirá registrar dos veces exactamente el mismo archivo.</small>
+</form>
+<div>
+<label>Filtrar por expediente<select id="doc-filter">
+<option value="">Todos los expedientes</option>
+</select>
+</label>
+<div id="doc-list" class="list document-list">
+</div>
+</div>
+</div>
+</section>
+<section id="tesauro" class="view">
+<div class="title">
+<div>
+<h2>Tesauro Jurídico</h2>
+<p>Sentencias, convenios con cosa juzgada y resoluciones de amparo.</p>
+</div>
+</div>
+<div class="grid">
+<form id="tes-form" class="card" enctype="multipart/form-data">
+<label>Título<input name="titulo" required>
+</label>
+<label>Clase<select name="clase">
+<option value="sentencia_primera_instancia">Sentencia de primera instancia</option>
+<option value="convenio_cosa_juzgada">Convenio con cosa juzgada</option>
+<option value="sentencia_apelacion">Sentencia de apelación</option>
+<option value="amparo_directo">Amparo directo</option>
+<option value="amparo_indirecto">Amparo indirecto</option>
+<option value="revision_amparo">Revisión de amparo</option>
+<option value="otro">Otro</option>
+</select>
+</label>
+<label>Órgano<input name="organo">
+</label>
+<label>Expediente de origen<input name="expediente_origen">
+</label>
+<label>Fecha de resolución<input name="fecha_resolucion" type="date">
+</label>
+<label>Archivo PDF, DOCX, TXT o MD<input name="archivo" type="file" required accept=".pdf,.docx,.txt,.md">
+</label>
+<button>Incorporar al Tesauro</button>
+</form>
+<div>
+<input id="tes-search" placeholder="Buscar razonamiento, materia o tribunal">
+<div id="tes-list" class="list">
+</div>
+</div>
+</div>
+</section>
+<section id="generador" class="view">
+<div class="title">
+<div>
+<h2>Generador de escritos</h2>
+<p>Elabora, revisa y autoriza documentos procesales exportables.</p>
+</div>
+</div>
+<form id="gen-form" class="card wide" enctype="multipart/form-data">
+<label>Expediente o asunto<select name="expediente_id" id="gen-exp">
+<option value="">Seleccione…</option>
+</select>
+</label>
+<div id="gen-pendiente" class="pending-case hidden">
+<h3>Asunto en espera de número de expediente</h3>
+<p>Al generarse correctamente el escrito se abrirá un expediente provisional.</p>
+<div class="two-cols">
+<label>Actor o promovente<input name="actor_pendiente">
+</label>
+<label>Demandado o contraparte<input name="demandado_pendiente">
+</label>
+</div>
+<label>Asunto<input name="asunto_pendiente">
+</label>
+<label>Juzgado, si se conoce<input name="juzgado_pendiente">
+</label>
+</div>
+<div class="source-upload">
+<h3>Documentos fuente</h3>
+<p>Adjunte la escritura, certificado registral, estado de cuenta u otros documentos. SIJ-OL extraerá automáticamente el nombre de la actora y los datos del crédito, escritura, inmueble y registro.</p>
+<label>Seleccionar documentos<input name="anexos" type="file" multiple accept=".pdf,.docx,.txt,.md">
+</label>
+<small>Los PDF con texto se leen localmente. Solo los escaneados requieren OCR.</small>
+<button type="button" id="analyze-docs">Analizar y extraer datos</button>
+<div id="analysis-progress" class="analysis-progress hidden"><div class="progress-track"><i id="analysis-bar"></i></div><p id="analysis-status">Preparando análisis…</p><button type="button" id="cancel-analysis" class="secondary">Cancelar análisis</button></div>
+</div>
+<input type="hidden" name="analisis_id">
+<details id="extracted-panel" class="extracted-panel hidden" open>
+<summary>Datos extraídos — confirme o corrija antes de generar</summary>
+<div class="detail-body form-stack">
+<label>Nombre de la actora<input name="nombre_actor"></label>
+<div class="two-cols"><label>Número de crédito<input name="numero_credito"></label><label>Número de escritura<input name="escritura_numero"></label></div>
+<div class="two-cols"><label>Volumen<input name="volumen"></label><label>Fecha de escritura<input name="fecha_escritura"></label></div>
+<label>Notario<input name="notario"></label>
+<label>Descripción completa del inmueble<textarea name="descripcion_inmueble" rows="5"></textarea></label>
+<div class="two-cols"><label>Clave catastral<input name="clave_catastral"></label><label>Folio real<input name="folio_real"></label></div>
+<div class="two-cols"><label>Inscripción<input name="inscripcion"></label><label>Libro<input name="libro"></label></div>
+<div class="two-cols"><label>Sección<input name="seccion"></label><label>Fecha registral<input name="fecha_registro"></label></div>
+<label>Último pago localizado<input name="ultimo_pago"></label>
+<label>Otros datos extraídos<textarea name="otros_datos" rows="3"></textarea></label>
+</div>
+</details>
+<details>
+<summary>Proemio institucional precargado y ajustes opcionales</summary>
+<div class="detail-body profile-summary">
+<p><strong>Domicilio procesal:</strong> Náinari 1518 Poniente, entre Aguascalientes y Bacatete, colonia Cuauhtémoc, Ciudad Obregón, Sonora.</p>
+<p><strong>Correo:</strong> notificacionesjudicialesjaol@gmail.com</p>
+<p><strong>Abogados patronos:</strong> José Alonso Ortiz Luna, cédula 4951089, RUETYCP/3584; Jorge Alberto Vargas Juárez, cédula 12891857.</p>
+<p><strong>Personas autorizadas:</strong> Aldo Gerson Rascón Iribarren; María del Rosario Campoy Díaz; Karla Fabiola Gálvez Higuera.</p>
+<label>Agregar personas o instrucciones especiales para este asunto<textarea name="personas_adicionales" rows="3">
+</textarea>
+</label>
+</div>
+</details>
+<label>Tipo de escrito<select name="tipo_escrito">
+<option>Demanda</option>
+<option>Contestación de demanda</option>
+<option>Desahogo de vista</option>
+<option>Agravios de apelación</option>
+<option>Amparo directo</option>
+<option>Amparo indirecto</option>
+<option>Recurso de revisión</option>
+<option>Ofrecimiento de pruebas</option>
+<option>Escrito de trámite</option>
+</select>
+</label>
+<label>Temas para localizar en el Tesauro<input name="terminos" placeholder="prescripción hipoteca Infonavit">
+</label>
+<label>Instrucciones<textarea name="instrucciones" rows="5" required>
+</textarea>
+</label>
+<button id="generate-draft">Generar borrador editable</button>
+<div id="generation-progress" class="analysis-progress generation-progress hidden"><div class="progress-track"><i id="generation-bar"></i></div><p id="generation-status">Preparando generación…</p><button type="button" id="cancel-generation" class="stop-button">Detener generación</button></div>
+</form>
+<div id="gen-review" class="review-panel hidden">
+<div class="review-header">
+<div>
+<h3>Vista previa editable</h3>
+<p>Solo el contenido de este editor será exportado.</p>
+</div>
+<span id="approval-status">Pendiente de autorización</span>
+</div>
+<textarea id="resultado-editor" class="document-editor" spellcheck="true">
+</textarea>
+<details class="quality-panel">
+<summary>Control interno de calidad — no se exporta</summary>
+<pre id="control-calidad">
+</pre>
+</details>
+<div class="approval">
+<button id="save-draft" type="button" class="secondary">Guardar cambios</button>
+<label>Autorizado por<input id="aprobado-por" placeholder="Nombre del abogado responsable">
+</label>
+<button id="aprobar-final" type="button">Autorizar versión final</button>
+<a id="download-word" class="download disabled" href="#">Descargar Word</a>
+<a id="download-pdf" class="download disabled" href="#">Descargar PDF</a>
+</div>
+</div>
+<section class="draft-history">
+<div class="review-header"><div><h3>Borradores recientes</h3><p>Puede reabrirlos sin generar nuevamente.</p></div><button id="refresh-drafts" type="button" class="secondary">Actualizar</button></div>
+<div id="draft-list" class="list"></div>
+</section>
+<article id="resultado" class="document hidden">
+</article>
+</section>
+<section id="acuerdos" class="view"><div class="title"><div><h2>Listas de acuerdos</h2><p>Consulta de toda la cartera, concentrado general e histórico dentro de cada expediente.</p></div><a class="download" href="https://stjsonora.gob.mx/Publicaciones/ListaAcuerdos" target="_blank" rel="noreferrer">Abrir fuente oficial</a></div><div class="card portfolio-query"><div><h3>Consulta automática de cartera</h3><p class="muted">Recorre los expedientes activos, incorpora únicamente publicaciones nuevas y conserva las anteriores.</p></div><div class="query-actions"><button id="query-portfolio" type="button">Consultar toda la cartera</button><button id="stop-portfolio" type="button" class="secondary hidden">Detener consulta</button><a id="download-portfolio" class="download disabled" href="#">Descargar concentrado CSV</a></div><progress id="portfolio-progress" max="100" value="0"></progress><p id="portfolio-status" class="muted">Todavía no se ha ejecutado una consulta general.</p><div id="portfolio-results" class="list compact-list"></div></div><label class="card">Abrir expediente<select id="acuerdo-exp"><option value="">Seleccione…</option></select></label><div id="acuerdo-workspace" class="hidden"><div class="mode-tabs agreement-tabs"><button type="button" data-agreement-tab="resumen" class="active">Resumen procesal</button><button type="button" data-agreement-tab="historico">Histórico de listas</button><button type="button" data-agreement-tab="incorporar">Incorporar manualmente</button></div><div id="agreement-resumen" class="agreement-panel card form-stack"><h3>Resumen del asunto</h3><p id="acuerdo-summary" class="document-summary">Seleccione un expediente.</p><button id="summarize-acuerdos" type="button">Analizar histórico y actualizar resumen</button><small>El resumen es auxiliar y debe revisarse contra las publicaciones oficiales.</small></div><div id="agreement-historico" class="agreement-panel hidden"><div class="review-header"><div><h3>Cronología de publicaciones</h3><p id="acuerdo-count"></p></div><div><a id="download-acuerdos" class="download" href="#">Descargar histórico CSV</a> <button id="refresh-acuerdos" type="button" class="secondary">Actualizar</button></div></div><div id="acuerdo-list" class="list"></div></div><form id="acuerdo-form" class="agreement-panel card form-stack hidden"><h3>Incorporar publicación que no aparezca en la consulta</h3><input type="hidden" name="expediente_id"><div class="two-cols"><label>Fecha de publicación<input name="fecha_publicacion" type="date"></label><label>Tipo de asunto<select name="tipo_asunto"><option>EXPEDIENTE</option><option>EXHORTO</option><option>AMPARO</option><option>TOCA</option><option>REQUISITORIA</option></select></label></div><label>Número del asunto<input name="numero_asunto"></label><label>Órgano jurisdiccional<input name="organo"></label><label>Archivo descargado de la lista<input name="archivo" type="file" accept=".pdf,.docx,.txt,.md"></label><label>O pegue el texto publicado<textarea name="texto" rows="7"></textarea></label><input type="hidden" name="fuente_url" value="https://stjsonora.gob.mx/Publicaciones/ListaAcuerdos"><button>Incorporar al histórico</button></form></div></section>
+<section id="auditoria" class="view">
+<div class="title">
+<div>
+<h2>Trazabilidad</h2>
+<p>Registro de altas, correcciones, incorporación de conocimiento y generaciones.</p>
+</div>
+</div>
+<div id="audit-list" class="list">
+</div>
+</section>
+<section id="respaldos" class="view"><div class="title"><div><h2>Respaldos cifrados</h2><p>Base de datos y documentos con verificación de integridad.</p></div></div><div class="grid"><form id="backup-form" class="card form-stack"><h3>Crear respaldo</h3><p class="muted">Use una contraseña distinta de la de acceso y guárdela en un lugar seguro.</p><label>Contraseña de cifrado<input name="password" type="password" minlength="14" required autocomplete="new-password"></label><button>Crear respaldo cifrado</button></form><form id="verify-backup-form" class="card form-stack"><h3>Verificar respaldo</h3><label>Archivo .sijolbak<input name="respaldo" type="file" accept=".sijolbak" required></label><label>Contraseña de cifrado<input name="password" type="password" minlength="14" required></label><button>Verificar contraseña e integridad</button></form></div><div class="review-header"><div><h3>Respaldos disponibles</h3><p>Descárguelos y consérvelos fuera del iMac.</p></div><button id="refresh-backups" type="button" class="secondary">Actualizar</button></div><div id="backup-list" class="list"></div></section>
+</main>
+<div id="toast">
+</div>
+<style>.portfolio-query{margin-bottom:18px}.query-actions{display:flex;gap:10px;flex-wrap:wrap}.portfolio-query progress{width:100%;height:18px}.compact-list .item{padding:12px}.agreement-tabs{margin-top:18px}.agreement-panel{border-radius:0 0 8px 8px}.agreement-panel .review-header{margin-top:0}.task-row{border-left:7px solid #4c8b57}.task-row.semaforo-rojo{border-left-color:#a62435}.task-row.semaforo-amarillo{border-left-color:#d5a62a}.task-row.semaforo-gris{border-left-color:#8b9298}.semaphore-legend{display:flex;align-items:center;gap:7px;margin:0 0 12px;color:#687078;font-size:13px}.light{display:inline-block;width:13px;height:13px;border-radius:50%;background:#4c8b57}.light.red{background:#a62435}.light.yellow{background:#d5a62a}.official-text{white-space:pre-wrap;padding:12px;background:#f7f7f4;border-left:3px solid var(--gold);line-height:1.5}</style>
+<style>.compact-list{max-height:430px;overflow:auto}.detail-tabs{position:sticky;top:0;z-index:5}.detail-panel{border-radius:0 0 8px 8px;min-height:260px}.detail-panel.card{display:block}.detail-list{margin-top:14px}.detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.detail-field{padding:12px;border:1px solid var(--line);border-radius:6px;background:#faf9f6}.detail-field strong{display:block;font-size:12px;color:#6b7075;margin-bottom:5px}@media(max-width:850px){.detail-grid{grid-template-columns:1fr}}</style>
+<script type="module" src="/app.js?v=0.27.0">
+</script>
+</body>
+</html>

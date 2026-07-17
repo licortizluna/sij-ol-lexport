@@ -1,19 +1,27 @@
 {
   "name": "sij-ol",
-  "version": "0.1.0",
+  "version": "0.27.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "node --env-file-if-exists=.env.local --watch backend/server.js",
-    "start": "node --env-file-if-exists=.env.local backend/server.js",
+    "prestart": "node scripts/importar-tareas.js --automatico",
+    "start": "node --env-file-if-exists=.env.local --env-file-if-exists=.env.security backend/server.js",
+    "import:tareas": "node scripts/importar-tareas.js",
+    "configurar:acceso": "node scripts/configurar-acceso.js",
+    "configurar:calendario": "node scripts/configurar-calendario.js",
+    "restaurar": "node scripts/restaurar-respaldo.js",
     "test": "node --test tests/*.test.js",
     "import:expedientes": "node scripts/import-expedientes.js"
   },
   "dependencies": {
+    "docx": "^9.5.1",
     "express": "^5.1.0",
     "mammoth": "^1.10.0",
     "multer": "^2.0.2",
     "openai": "^5.20.0",
-    "pdf-parse": "^1.1.1"
+    "pdf-lib": "^1.17.1",
+    "pdf-parse": "^1.1.1",
+    "pdfkit": "^0.17.2"
   }
 }
